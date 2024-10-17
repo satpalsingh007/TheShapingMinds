@@ -48,24 +48,7 @@ const ChooseUs = () => {
             websites.
           </div>
         </div>
-        <div className="why-cards">
-          <img className="why-img" src={easilyManagable} />
-          <h3>Easily manageable platforms</h3>
-          <div>
-            We build future-proof scalable websites. Our websites are
-            easily-manageable with some training. We also provide web
-            maintenance services for new and old websites.
-          </div>
-        </div>
-        <div className="why-cards">
-          <img className="why-img" src={dedication} />
-          <h3>Dedication to client’s success</h3>
-          <div>
-            We think of ourselves as a part of your team. We understand your
-            success means our success in the industry. Our focus is on making
-            long-term relations with every client.
-          </div>
-        </div>
+        
       </div>
     </div>
   );

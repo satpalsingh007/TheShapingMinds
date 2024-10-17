@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'La Gagliane'; /* Name of the font */
+  src: url('../src/LaGaglianePersonalUse-4BdBx.ttf') format('truetype'); /* Path to the font file */
+  font-weight: normal; /* Normal weight */
+  font-style: normal; /* Normal style */
+}
 .body{
     background-color: #045346;
    /* height: 100vh; */
@@ -7,14 +13,16 @@
    align-items: center;
    justify-content: center;
    text-align: center;
-   padding-top: 15%;
+   /* padding-top: 15%; */
    color: #fbf7f0;
 
 }
 .body h1{
-    font-size: 60px;
-    padding-top: 10px;
-    font-family: "Playwrite GB S", cursive;
+    font-size: 40px;
+    padding-top: 25vh;
+    /* font-family: "Playwrite GB S", cursive; */
+    font-family: "La Gagliane", cursive;
+    line-height: 100px;
     /* color: #045346; */
     color: #fbf7f0;
     
@@ -44,12 +52,13 @@
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
   }
   
   .why-cards {
     /* background-color: #212529;  */
-    width: 25vw;
+    text-align: center;
+    width: 20%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -62,13 +71,13 @@
     transform: scale(1.05);
   }
   .why-cards > h3 {
-    color: #76c893;
+    color: #045346;
     text-align: left;
   }
   .why-img {
     width: 20vw;
-    background-color: #76c893;
+    background-color: #fbf7f0;
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     margin-bottom: 10px;
   }

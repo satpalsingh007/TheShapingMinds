@@ -2,6 +2,7 @@ import logo from '../images/logo.png'
 import React, { useEffect, useState } from 'react';
 const Header = () => {
   const [isLightMode, setIsLightMode] = useState(false);
+ 
 
   const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -15,13 +16,15 @@ const Header = () => {
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   return (
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
+              
               <a href='\'>Home</a>
-              <div>About Us</div>
-              <div>Resources</div>
-              <div className= "header-top-contact dark">Contact Us</div>
+              <a href='#'>About Us</a>
+              <a href='#' >Services ▾</a>
+              <a href='#' className= "header-top-contact dark">Contact Us</a>
               <div className="header-social">
       <ul className="social-list">
         <li className="social-list-item">

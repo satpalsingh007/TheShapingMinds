@@ -7,6 +7,7 @@ import Body from "./components/Body";
 import {VortexDemo}  from "./components/Vortex";
 import MentalHealthBody from "./components/MentalHealthBody";
 import ChooseUs from "./components/ChooseUs";
+import DynamicQuotes from "./components/DynamicQuotes";
 const App = () => {
     return (
       <div>
@@ -14,6 +15,7 @@ const App = () => {
         {/* <Gap/> */}
         <Body/> 
         <ChooseUs/>
+        <DynamicQuotes/>
 
         {/* <VortexDemo/>     */}
         {/* <AuroraBackground/>   */}
