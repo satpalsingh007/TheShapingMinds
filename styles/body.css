@@ -1,0 +1,74 @@
+.body{
+    background-color: #045346;
+   /* height: 100vh; */
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 15%;
+   color: #fbf7f0;
+
+}
+.body h1{
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: "Playwrite GB S", cursive;
+    /* color: #045346; */
+    color: #fbf7f0;
+    
+}
+.gap-header{
+    height: 20vh;
+}
+
+.body img{
+    border-radius: 190px;
+    width: 60vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Why Choose Us */
+.why-choose-us {
+    /* background-color: white; */
+    /* color: #212529; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+  }
+  .why-card {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .why-cards {
+    /* background-color: #212529;  */
+    width: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: 0.5s ease all;
+  }
+  .why-cards:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .why-cards > h3 {
+    color: #76c893;
+    text-align: left;
+  }
+  .why-img {
+    width: 20vw;
+    background-color: #76c893;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+  }
