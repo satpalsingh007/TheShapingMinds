@@ -2,7 +2,16 @@ import logo from '../images/logo.png'
 import React, { useEffect, useState } from 'react';
 const Header = () => {
   const [isLightMode, setIsLightMode] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(1);
  
+  const toggleDropdown = () => {
+    setDropdownOpen((prev) => !prev);
+  };
+
+  const handleDropdownClick = (index) => {
+    setActiveDropdown(index === activeDropdown ? null : index);
+  };
 
   const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -21,9 +30,123 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <a href='\'>Home</a>
-              <a href='#'>About Us</a>
-              <a href='#' >Services ▾</a>
+              <a href='\' >Home</a>
+              <a href='#' >About Us</a>
+              <div className="drop-down">
+          <a href='#' onClick={toggleDropdown}>
+            Services ▾
+          </a>
+          <div
+            className={`drop-down-list ${dropdownOpen ? "visible" : "hidden"}`}
+          >
+            <div
+              className={`drop-down-list-item ${
+                activeDropdown === 1 ? "active" : ""
+              }`}
+              onClick={() => handleDropdownClick(1)}
+            >
+              <a href="#">Individuals
+              </a>
+              <div>{"→"}</div>
+            </div>
+            {activeDropdown === 1 && (
+              <div className="sub-drop-down-list-item">
+                <a href="#" className="sub-links">
+                Depression
+                </a>
+                <a href="#" className="sub-links">
+                Anxiety
+                </a>
+                <a href="#" className="sub-links">
+                Stress
+                </a>
+                <a href="#" className="sub-links">
+                Trauma
+                </a>
+                <a href="#" className="sub-links">
+                Personal growth
+                </a>
+               
+              </div>
+            )}
+            <div
+              className={`drop-down-list-item ${
+                activeDropdown === 2 ? "active" : ""
+              }`}
+              onClick={() => handleDropdownClick(2)}
+            >
+              <a href="#">Couple & Relationships</a>
+              <div>{"→"}</div>
+            </div>
+            {activeDropdown === 2 && (
+              <div className="sub-drop-down-list-item">
+                <a href="#" className="sub-links">
+                Premarital Counselling
+                </a>
+                <a href="#" className="sub-links">
+                Relationships Concerns
+                </a>
+                <a href="#" className="sub-links">
+                Marital Discords 
+                </a>
+                
+              </div>
+            )}
+            <div
+              className={`drop-down-list-item ${
+                activeDropdown === 3 ? "active" : ""
+              }`}
+              onClick={() => handleDropdownClick(3)}
+            >
+              <a href="#"> ⁠⁠Children & Adolescents</a>
+              <div>{"→"}</div>
+            </div>
+            {activeDropdown === 3 && (
+              <div className="sub-drop-down-list-item">
+                <a href="#" className="sub-links">
+                Emotional & Developmental Concerns
+                </a>
+                <a href="#" className="sub-links">
+                Learning Disabilities
+                </a>
+                <a href="#" className="sub-links">
+                 Autism
+                </a>
+                <a href="#" className="sub-links">
+                 ADHD
+                </a>
+                
+              </div>
+            )}
+            <div
+              className={`drop-down-list-item ${
+                activeDropdown === 4 ? "active" : ""
+              }`}
+              onClick={() => handleDropdownClick(4)}
+            >
+              <a href="#"> ⁠⁠Corporate and Educational Clients</a>
+              <div>{"→"}</div>
+            </div>
+            {activeDropdown === 4 && (
+              <div className="sub-drop-down-list-item">
+                <a href="#" className="sub-links">
+                Workplace Counsellings
+                </a>
+                <a href="#" className="sub-links">
+                Mental Wellness Programs
+                </a>
+                <a href="#" className="sub-links">
+                EAPs Employee Assistance Program
+                </a>
+                <a href="#" className="sub-links">
+                Executive Coaching
+                </a>
+              </div>
+            )}
+            
+            
+          </div>
+        </div>
               <a href='#' className= "header-top-contact dark">Contact Us</a>
               <div className="header-social">
       <ul className="social-list">
@@ -38,7 +161,7 @@ const Header = () => {
           ></path></svg></a>
         </li>
         <li className="social-list-item">
-          <a className="social-link" href=
+          <a className="social-link" href= 
           "https://www.instagram.com/helpguideorg/" target=
           "_blank" aria-label="Instagram"><svg className="icon"
           width="24" height="24" viewbox="0 0 24 24" fill="none"
@@ -103,3 +226,8 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
