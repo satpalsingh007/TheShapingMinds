@@ -4,6 +4,10 @@ const Header = () => {
   const [isLightMode, setIsLightMode] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(1);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+};
  
   const toggleDropdown = () => {
     setDropdownOpen((prev) => !prev);
@@ -30,10 +34,10 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <a href='\' >Home</a>
-              <a href='#' >About Us</a>
+              <a href='\' className='header-links'>Home</a>
+              <a href='#' className='header-links'>About Us</a>
               <div className="drop-down">
-          <a href='#' onClick={toggleDropdown}>
+          <a href='#' onClick={toggleDropdown} className='header-links'> 
             Services ▾
           </a>
           <div
@@ -147,9 +151,10 @@ const Header = () => {
             
           </div>
         </div>
-              <a href='#' className= "header-top-contact dark">Contact Us</a>
+              <a href='#' className= "header-top-contact dark header-links">Contact Us</a>
+             
               <div className="header-social">
-      <ul className="social-list">
+                <ul className="social-list">
         <li className="social-list-item">
           <a className="social-link" href=
           "https://www.pinterest.com/helpguide/" target="_blank"
@@ -207,9 +212,22 @@ const Header = () => {
           ></path></svg></a>
         </li>
       </ul>
+
     </div>
           </div>
+            {/* Full-Screen Menu */}
+            {menuOpen && (
+                <div className="full-screen-menu">
+                    <div className="menu-links">
+                        <div>Home</div>
+                        <div>About Us</div>
+                        <div>Individuals</div>
+                        <div>Contact Us</div>
+                    </div>
+                </div>
+            )}
           <div className="header-bottom">
+            
              
               <img className="header-logo logo" src={logo}/>
               <div className="header-links">
@@ -217,8 +235,14 @@ const Header = () => {
                   <div>Couples & Relationships</div>
                   <div>Children & Adolescents</div>
                   <div>Corporate & Educational Clients</div>
-                
               </div>
+               {/* Menu Button */}
+             <input type="checkbox" id="checkbox" className="menu-checkbox" onChange={toggleMenu} />
+                <label htmlFor="checkbox" className="toggle">
+                    <div className="bars" id="bar1"></div>
+                    <div className="bars" id="bar2"></div>
+                    <div className="bars" id="bar3"></div>
+                </label>
               
           </div>
       </div>
