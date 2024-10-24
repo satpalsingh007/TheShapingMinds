@@ -63,6 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     padding: 10px;
     transition: 0.5s ease all;
   }
@@ -73,6 +74,8 @@
   .why-cards > h3 {
     color: #045346;
     text-align: left;
+    font-size: 16px;
+    font-weight: 700;
   }
   .why-img {
     width: 20vw;

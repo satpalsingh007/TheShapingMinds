@@ -48,6 +48,10 @@ const styles = {
         backgroundColor: '#e5f0e6',
         border: '1px solid #033a35',
         borderRadius: '8px',
+        height: '20vh',
+        display: 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
     },
     quote: {
         fontSize: '1.5em',

@@ -1,5 +1,8 @@
 import logo from '../images/logo.png'
 import React, { useEffect, useState } from 'react';
+import About from './About';
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const [isLightMode, setIsLightMode] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -34,8 +37,8 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <a href='\' className='header-links'>Home</a>
-              <a href='#' className='header-links'>About Us</a>
+              <Link to={'/home'} className='header-links'>Home</Link>
+              <Link to={"/about-us"}  className='header-links'>About Us</Link>
               <div className="drop-down">
           <a href='#' onClick={toggleDropdown} className='header-links'> 
             Services ▾
@@ -250,8 +253,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
-
-

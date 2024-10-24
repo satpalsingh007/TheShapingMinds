@@ -8,13 +8,14 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     font-family: "Slabo", serif;
-    
-    
     font-weight: normal;
     font-size: 1.1rem;
     line-height: 160%;
   }
-  
+  body{
+    color: #232426;
+    
+  }
   /* For Webkit browsers (Chrome, Safari) */
   ::-webkit-scrollbar {
     width: 12px; /* Width of the scrollbar */
@@ -42,4 +43,18 @@
 
   h2{
     color: #d49f11;
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+    /* height: 60px; */
+   
+  }
+
+  .special-text{
+    width: 50vw;
+    font-size: 30px;
+    font-family:"Slabo", cursive;
+    letter-spacing: 2px;
+    line-height: 50px;
   }

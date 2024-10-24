@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #433636; */
+}
+.h4{
+    margin-left: 41%;
+    margin-top: 4%;
+    color: #ffffffd6;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height:800px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border:4px solid; */
+    margin-top:30px;
+    /* background-color: black; */
+    background: #3a4f4b;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    /* margin-left: 3%; */
+    margin-top: 2%;
+}
+
+.carousel-slide img {
+    width: 21%;
+    height:400px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin-left: 39%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    /* background: rgba(161, 102, 102, 0.5); */
+    background: #3a4f4b;
+    color: #fbf7f0;
+    text-shadow: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    transition: background 0.3s ease;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.p{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.01rem;
+    margin-bottom: 2.4rem;
+    color: #fbf7f0;
+    font-size: 2.9rem;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 6%;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .carousel {
+        height: 600px;
+    }
+    .p{
+        font-size: 1.3rem;
+        margin-top: 17%;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .carousel-slide img {
+        width: 50%;
+        margin-left: 24%;
+        margin-top: 6%;
+    }
+    .h4{
+        /* margin-left: 28%; */
+        margin-left: 0%;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .h4 {
+        /* margin-left: 10%;
+        font-size: 2rem; */
+        text-align: center;
+
+        margin-left: 0%;
+        font-size: 1.0rem;
+    }
+
+    .carousel {
+        height: 750px;
+        margin-top: 25px;
+
+    }
+
+    .carousel-slide img {
+        width: 60%; /* Adjust image width for tablets */
+        margin-left: 30%;
+        width: 41%;
+    }
+
+    .p {
+        font-size: 2rem;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 7%;
+    }
+
+    .carousel-control {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+
+/* Styles for desktops */
+@media (min-width: 1025px) {
+    .h4 {
+
+        margin-left: 0%;
+        text-align: center;
+
+        /* margin-left: 32%; */
+        font-size: 1.3rem;
+    }
+
+    .carousel {
+        height: 820px; /* Maintain original height for desktops */
+        margin-top: 30px;
+    }
+
+    .carousel-slide img {
+        width: 33%; /* Original width */
+        margin-left: 33%; /* Center image */
+    }
+
+    .p {
+        font-size: 2.3rem; /* Original font size */
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: 6%;
+    }
+
+    .carousel-control {
+        width: 40px; /* Original control size */
+        height: 40px;
+        font-size: 20px; /* Original font size */
+    }
+}
