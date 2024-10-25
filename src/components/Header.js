@@ -224,7 +224,7 @@ const Header = () => {
                     <div className="menu-links">
                         <div>Home</div>
                         <div>About Us</div>
-                        <div>Individuals</div>
+                        <div>BLogs</div>
                         <div>Contact Us</div>
                     </div>
                 </div>

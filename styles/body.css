@@ -15,17 +15,24 @@
    text-align: center;
    /* padding-top: 15%; */
    color: #fbf7f0;
-
 }
 .body h1{
-    font-size: 40px;
+    font-size: 25px;
     padding-top: 25vh;
+    font-weight: 600;
     /* font-family: "Playwrite GB S", cursive; */
     font-family: "La Gagliane", cursive;
     line-height: 100px;
+    word-spacing: 0.1px;
+    letter-spacing: 0.5px;
     /* color: #045346; */
-    color: #fbf7f0;
+    color:#fcd961 ;
     
+    
+}
+.body div{
+  color: #fbf7f0;
+  font-size: 22px;
 }
 .gap-header{
     height: 20vh;
@@ -37,50 +44,91 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 /* Why Choose Us */
 .why-choose-us {
-    /* background-color: white; */
-    /* color: #212529; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  gap: 30px;
+}
+
+.why-choose-us h2{
+  text-align: center;
+}
+
+.why-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.why-cards {
+  text-align: center;
+  width: 20%; /* Default width for larger screens */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  transition: 0.5s ease all;
+}
+
+.why-cards:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.why-cards > h3 {
+  color: #045346;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.why-img {
+  width: 100%;
+  background-color: #fbf7f0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .why-img{
+    width: 60vw;
   }
-  .why-card {
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    justify-content: center;
-    gap: 10px;
-  }
-  
   .why-cards {
-    /* background-color: #212529;  */
-    text-align: center;
-    width: 20%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    padding: 10px;
-    transition: 0.5s ease all;
+      width: 30%; /* Adjust width for tablets */
   }
-  .why-cards:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-  }
+
   .why-cards > h3 {
-    color: #045346;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 700;
+      font-size: 14px; /* Smaller font size for tablets */
   }
-  .why-img {
-    width: 20vw;
-    background-color: #fbf7f0;
-    width: 100%;
-    border-radius: 10px 10px 10px 10px;
-    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .why-cards {
+      width: 45%; /* Adjust width for smaller screens */
   }
+
+  .why-cards > h3 {
+      font-size: 16px; /* Reset font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .why-cards {
+      width: 90%; /* Full width for mobile screens */
+  }
+
+  .why-cards > h3 {
+      font-size: 14px; /* Further reduce font size for mobile */
+  }
+
+  .why-choose-us {
+      padding: 20px 0; /* Reduce padding on mobile */
+  }
+}

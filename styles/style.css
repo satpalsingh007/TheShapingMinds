@@ -52,9 +52,9 @@
   }
 
   .special-text{
-    width: 50vw;
-    font-size: 30px;
-    font-family:"Slabo", cursive;
-    letter-spacing: 2px;
-    line-height: 50px;
+    width: 60vw;
+    font-size: 25px;
+    /* font-family:"Slabo", cursive; */
+    letter-spacing: 1px;
+    /* line-height: 50px; */
   }

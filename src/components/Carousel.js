@@ -1,24 +1,28 @@
 import React, { useState, useEffect } from 'react';
-
+import testimonial from "../images/testimonial.jpg";
 
 const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         {
-            image: 'dd.jpeg',
-            text: "“Impact of Stress: Chronic stress can lead to significant health problems, including cardiovascular disease and weakened immune function.”"
+            image: testimonial,
+            text: "“After years of struggling with anxiety, I finally feel like I have control over my mind. Dr. Mehta’s compassionate approach helped me heal in ways I never thought possible.”",
+            author:"Riya K."
         },
         {
-            image: 'dd.jpeg',
-            text: "“I was scared to talk to anyone because they would judge me, but every question I wanted to ask was answered on your website. My mind’s clear now and I’ve realized it’s not just my health I’m jeopardizing, but also the people I love. I’m a better man thanks to you.”"
+            image: testimonial,
+            text: "“Dr. Aakriti’s premarital counseling and relationship sessions made a world of difference. We’re stronger than ever and communicate better than we ever have before.”",
+            author:"Arjun & Neha S."
         },
         {
-            image: 'dd.jpeg',
-            text: "“This website is an incredible source of knowledge and comfort for me. I'm going through one of the hardest times of my life mentally, and you have made me feel less alone.”"
+            image: testimonial,
+            text: "“Our son was diagnosed with ADHD and struggled in school. The support we received from Aakriti’s team has been life-changing for our family. Our child is thriving, and we couldn’t be more grateful.”",
+            author:"Priya R.",
         },
         {
-            image: 'dd.jpeg',
-            text: "“Just wanted to express my appreciation for developing this great resource. It has been very beneficial to me as I battle alcoholism and depression and gave me a lot of good coping techniques to win my battles and control my urges.”"
+            image: testimonial,
+            text: "“As an executive, I’ve seen firsthand the impact of mental wellness in the workplace. Dr. Mehta’s Employee Assistance Program has led to higher productivity and happier employees. Highly recommend!”",
+            author:"Rajeev P., HR Manager"
         }
     ];
 
@@ -52,12 +56,13 @@ const Carousel = () => {
 
     return (
         <div className="carousel">
-            {/* <h4 className="h4">How HelpingMind.org changes lives</h4> */}
+                <h2>How the Shaping Mind Shape Lives</h2>
             <div className="carousel-wrapper" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {slides.map((slide, index) => (
                     <div className="carousel-slide" key={index}>
-                        <img src={slide.image} alt={`Slide ${index + 1}`} />
+                        <img className="testimonial-img" src={slide.image} alt={`Slide ${index + 1}`} />
                         <p className="p">{slide.text}</p>
+                        <p className="p">⁓{slide.author}</p>
                     </div>
                 ))}
             </div>

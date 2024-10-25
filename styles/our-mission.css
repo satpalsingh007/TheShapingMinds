@@ -1,4 +1,4 @@
-.our-mission{
+.our-mission {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,8 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-.mission-section{
+
+.mission-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,49 +16,49 @@
     width: 60vw;
 }
 
-.mission-section h3{
+.mission-section h3 {
     color: #045346;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
     font-size: 25px;
 }
 
-.mission-section p{
-   background-color: rgb(229, 240, 230);
-   border-radius: 20px;
-   padding: 20px;
-    padding-bottom: 20px ;
-    
+.mission-section p {
+    background-color: rgb(229, 240, 230);
+    border-radius: 20px;
+    padding: 20px;
 }
-.mission-imgs{
+
+.mission-imgs {
     border-radius: 20px;
     width: 15vw;
 }
 
-
-
-.comprehensive-care{
+.comprehensive-care {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #e5f0e6;
     height: 100vh;
-    gap:5vh;
-    color:#045346;
+    gap: 5vh;
+    color: #045346;
 }
-.comprehensive-care h2{
+
+.comprehensive-care h2 {
     color: #045346;
     font-size: 30px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
 }
-.care-components{
+
+.care-components {
     display: flex;
     width: 60vw;
     flex-wrap: wrap;
     gap: 2vw;
 }
-.care-component{
+
+.care-component {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,8 +67,67 @@
     padding: 8px;
     border-radius: 10px;
 }
-.care-component:hover{
+
+.care-component:hover {
     cursor: pointer;
     background-color: rgb(255, 254, 252);
     color: #045346;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .mission-section {
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+    .mission-section-rev{
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 80vw;
+
+    }
+
+    .mission-section h3 {
+        font-size: 22px;
+    }
+
+    .mission-imgs {
+        width: 40vw;
+    }
+
+    .care-components {
+        width: 90vw;
+    }
+
+    .care-component {
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+
+    .comprehensive-care h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .mission-section h3 {
+        font-size: 20px;
+    }
+
+    .mission-section p {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .comprehensive-care h2 {
+        font-size: 20px;
+    }
+
+    .care-component {
+        height: 35px;
+        font-size: 14px;
+    }
 }

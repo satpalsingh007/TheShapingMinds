@@ -1,17 +1,22 @@
 .footer {
     /* background-image: url('your-background-image-url.jpg');  */
     background-color: #012f2c;
-    font-family: "Inter", sans-serif;
+ 
     background-size: cover;
     color: #fffefc;
     /* text-align: center; */
     padding: 40px 0;
 }
-.footer h2{
+/* .footer h2{
     font-family: "Inter", sans-serif;
-}
+} */
+
 .sm{
     margin-left: 19px;
+}
+
+.footer-end{
+    width: 80px;
 }
 .footer h2 {
     margin: 0 0 20px;
@@ -123,6 +128,9 @@ input::placeholder{
     font-size: 15px;
 }
 .hepl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 45px;
     margin-left: 10px;
     font-family: "Inter", sans-serif;

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo-light.png'
+import footerend from '../images/footer-end.gif'
 
 const Footer = () => {
     return (
@@ -54,9 +55,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="hepl">
-                        <a href="#" className="hlp">Mental Health Helpline</a>
-                        <p className="para">Our team is here to help you, or someone you know who is suffering from anxiety/depression</p>
-                        <button className="get" type="button" onClick={() => alert('Button clicked!')}>Get Help</button>
+                        <img className="footer-end" src={footerend}/>
+                       
                     </div>
                 </div>
             </div>
