@@ -10,7 +10,9 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
+    document.getElementById('checkbox').checked = !menuOpen; // Sync checkbox with menu state
 };
+
  
   const toggleDropdown = () => {
     setDropdownOpen((prev) => !prev);
@@ -37,8 +39,8 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <Link to={'/home'} className='header-links'>Home</Link>
-              <Link to={"/about-us"}  className='header-links'>About Us</Link>
+              <Link to={'/home'} className='header-links' onClick={() => window.scrollTo(0, 0)}>Home</Link>
+              <Link to={"/about-us"}  className='header-links' onClick={() => window.scrollTo(0, 0)}>About Us</Link>
               <div className="drop-down">
           <a href='#' onClick={toggleDropdown} className='header-links'> 
             Services ▾
@@ -224,7 +226,11 @@ const Header = () => {
                     <div className="menu-links">
                         <div>Home</div>
                         <div>About Us</div>
-                        <div>BLogs</div>
+                        <div ><Link to={'/individuals-blogs'} onClick={toggleMenu}>Individuals</Link></div>
+                        <div > <Link to={'/couples-blogs'} onClick={toggleMenu}>Couples & Relationships</Link></div>
+                        <div > <Link to={'/children-blogs'} onClick={toggleMenu}>Children & Adolescents</Link></div>
+                        <div ><Link to={'/corporation-blogs'} onClick={toggleMenu}>Corporate & Educational Clients</Link></div>
+
                         <div>Contact Us</div>
                     </div>
                 </div>
@@ -234,10 +240,10 @@ const Header = () => {
              
               <img className="header-logo logo" src={logo}/>
               <div className="header-links">
-                  <div>Individuals</div>
-                  <div>Couples & Relationships</div>
-                  <div>Children & Adolescents</div>
-                  <div>Corporate & Educational Clients</div>
+                  <Link to={'/individuals-blogs'} onClick={() => window.scrollTo(0, 0)}>Individuals</Link>
+                  <Link to={'/couples-blogs'} onClick={() => window.scrollTo(0, 0)}>Couples & Relationships</Link>
+                  <Link to={'/children-blogs'} onClick={() => window.scrollTo(0, 0)}>Children & Adolescents</Link>
+                  <Link to={'/corporation-blogs'} onClick={() => window.scrollTo(0, 0)}>Corporate & Educational Clients</Link>
               </div>
                {/* Menu Button */}
              <input type="checkbox" id="checkbox" className="menu-checkbox" onChange={toggleMenu} />
