@@ -23,6 +23,10 @@ import EmotionalAndDevelopmentalConcerns from "./components/EmotionalAndDevelopm
 import LearningDisabilities from "./components/LearningDisabilities";
 import Autism from "./components/Autism";
 import Adhd from "./components/Adhd";
+import WorkplaceCounselling from "./components/WorkplaceCounselling";
+import MentalWellnessProgram from "./components/MentalWellnessProgram";
+import EmployeeAssistanceProgram from "./components/EmployeeAssistanceProgram";
+import ExecutiveCoaching from "./components/ExecutiveCoaching";
 
 const App = () => {
   return (
@@ -113,6 +117,22 @@ const appRouter = createBrowserRouter([
           {
             path: "/adhd",
             element: <Adhd />,
+          },
+          {
+            path: "/workplace-counselling",
+            element: <WorkplaceCounselling />,
+          },
+          {
+            path: "/mental-wellness",
+            element: <MentalWellnessProgram />,
+          },
+          {
+            path: "/employee-assistance-program",
+            element: <EmployeeAssistanceProgram />,
+          },
+          {
+            path: "/executive-coaching",
+            element: <ExecutiveCoaching />,
           }
          
       ],

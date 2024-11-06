@@ -14,7 +14,7 @@ const ChildrenBlogsPage =()=>{
                         <div>
                             We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
                          </div> 
-                         <Link to={'/emotional-concern'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
+                         <Link to={'/workplace-counselling'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
                         <img className="blog-list-img" src={individuals} />
@@ -22,7 +22,7 @@ const ChildrenBlogsPage =()=>{
                         <div>
                             We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
                          </div> 
-                         <Link to={'/learning-disabilities'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
+                         <Link to={'/mental-wellness'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                          
                     </div>
                     <div className="blog-list-item">
@@ -31,7 +31,7 @@ const ChildrenBlogsPage =()=>{
                         <div>
                             We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
                          </div> 
-                         <Link to={'/autism'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
+                         <Link to={'/employee-assistance-program'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
                         <img className="blog-list-img" src={individuals} />
@@ -39,7 +39,7 @@ const ChildrenBlogsPage =()=>{
                         <div>
                             We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
                          </div> 
-                         <Link to={'/adhd'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
+                         <Link to={'/executive-coaching'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     
                    

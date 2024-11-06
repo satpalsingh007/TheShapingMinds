@@ -1,21 +1,18 @@
 import React from 'react';
-import './blog.css';
-import './responsive.css';
-import helpImage from './help.jpg'; // Adjust the path based on your project structure
-import seekHelpImage from './seek-help.jpg';
-
+import seekHelp from "../images/seek-help.jpg";
+import workplaceCounsellingImage  from "../images/Blogs/Workplace-Counsellings.jpg";
 const WorkplaceCounselling = () => {
     return (
         <main className="mental-health-container">
             <div className="mental-health-intro">
-                <article>
+                <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Workplace Counselling</h1>
                     <h2 className="mental-health-subtitle">You Are Not Alone. Help and Hope Are Within Reach.</h2>
                     <p className="mental-health-description">
                         Workplace counselling refers to the professional support provided to employees facing personal, emotional, or work-related issues. 
                     </p>
                 </article>
-                <img className="mental-health-image" src={helpImage} alt="Help Image" />
+                <img className="mental-health-image" src={workplaceCounsellingImage} alt="Help Image" />
             </div>
 
             <div className="mental-health-content">
@@ -86,20 +83,12 @@ const WorkplaceCounselling = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image" src={seekHelpImage} alt="Seek Help" />
+                    <img className="support-image" src={seekHelp} alt="Seek Help" />
                     <h3 className="support-title">Professional Therapy, Done Online</h3>
                     <p className="support-description">
                         BetterHelp makes starting therapy easy. Take the assessment and get matched with a professional, licensed therapist.
                     </p>
-                    <ul className="blog2_heading">
-                        <li className="blog2_heading_feature">Depression</li>
-                        <li className="blog2_heading_feature">Anxiety</li>
-                        <li className="blog2_heading_feature">Stress</li>
-                        <li className="blog2_heading_feature">PTSD & Trauma</li>
-                    </ul>
-                    <p className="support-description">
-                        Focusing on others is important for them, but can also be good for you.
-                    </p>
+                   
                 </div>
             </div>
         </main>
