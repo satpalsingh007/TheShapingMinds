@@ -1,5 +1,7 @@
+import premaritalCouncelling from "../images/Blogs/Premarital-Counselling-short.jpg";
+import relationshipConcern from "../images/Blogs/Relationships-Concerns-short.jpg";
+import maritalDiscord from "../images/Blogs/Marital-Discords-short.jpg";
 
-import individuals from "../images/individuals-depression.jpg";
 import { Link } from "react-router-dom";
 const CoupleBlogsPage =()=>{
     return (
@@ -9,29 +11,29 @@ const CoupleBlogsPage =()=>{
                 <h2>Couples and Relationships</h2>
                 <div className="blog-list">
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={individuals} />
+                        <img className="blog-list-img" src={premaritalCouncelling} />
                         <h3>Premaritial Counselling</h3>
                         <div>
-                            We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
+                        Premarital counseling is a proactive approach that helps couples prepare for marriage..........
                          </div> 
                          <Link to={'/premarital-counselling'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={individuals} />
+                        <img className="blog-list-img" src={relationshipConcern} />
                         <h3>Relationships Concern</h3>
                         <div>
-                            We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
+                        Relationship concerns encompass a wide range of issues that couples may face, including..........
                          </div> 
                          <Link to={'/relationship-concerns'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                          
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={individuals} />
+                        <img className="blog-list-img" src={maritalDiscord} />
                         <h3>Marital Discords</h3>
                         <div>
-                            We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
+                        Marital discord refers to a state of conflict or disagreement between partners in a marriage..........
                          </div> 
-                         <Link to={'/maritial-discords'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
+                         <Link to={'/marital-discords'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     
                    

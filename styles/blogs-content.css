@@ -1,14 +1,15 @@
 /* General Styles */
 .mental-health-container {
     margin-top: 60px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 40px;
 }
 
 .mental-health-title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: La Gagliane, cursive;
     color: #045346fa;
-    font-size: 42px;
+    font-size: 30px;
+    padding-bottom: 20px;
    
 }
 .mental-health-intro-text{
@@ -20,7 +21,7 @@
 }
 
 .mental-health-subtitle {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     color: #045346bd;
     /* margin: 5px; */
     font-size: 20px;
@@ -28,11 +29,16 @@
 }
 
 .mental-health-description {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* width: 50%; */
-    font-size: 16px;
+    font-size: 20px;
+    /* padding: 0 5vw; */
    
     /* text-align: center; */
+}
+
+.mental-health-intro-text p{
+    padding: 0 20px;
 }
 
 /* Layout Styles */
@@ -41,7 +47,7 @@
     padding-top: 22vh;
     align-items: center;
     gap: 5px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 
 .mental-health-image {
@@ -68,9 +74,9 @@
 }
 
 .section-text {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     /* margin-left: 7%; */
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* Support Section */
@@ -80,12 +86,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 13px;
+    font-size: 18px;
     background: #fbf7f0;
     height: 50%;
     width: 20%;
     border-radius: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     padding: 3% 0;
 }
 
@@ -97,7 +103,7 @@
 }
 
 .support-description {
-    font-size: 13px;
+    font-size: 18px;
     color: #798979;
     width: 80%;
 }
@@ -128,25 +134,25 @@
 /* Media Queries */
 @media (min-width: 900px) and (max-width: 1070px) {
     .mental-health-subtitle {
-        font-size: 27px;
-        margin-left: 8%;
-        margin-right: 4%;
+        /* font-size: 27px; */
+        /* margin-left: 8%;
+        margin-right: 4%; */
     }
 
     .mental-health-title {
-        font-size: 55px;
-        margin-left: 20%;
+        /* font-size: 55px; */
+        /* margin-left: 20%; */
     }
 
     .section-title {
-        font-size: 30px;
-        margin-left: 4%;
+        /* font-size: 30px; */
+        /* margin-left: 4%; */
     }
 
     .section-text {
-        margin-left: 4%;
-        font-size: 21px;
-        margin-right: 5%;
+        /* margin-left: 4%; */
+        /* font-size: 21px; */
+        /* margin-right: 5%; */
     }
 
     .mental-health-support {
@@ -155,16 +161,17 @@
     }
 
     .support-title {
-        font-size: 26px;
-        margin-right: 3%;
+        /* font-size: 26px; */
+        /* margin-right: 3%; */
     }
 
     .support-description {
-        font-size: 18px;
+        /* font-size: 18px; */
+        /* padding: 0 5vw;   */
     }
 
     .service-item {
-        font-size: 19px;
+        /* font-size: 19px; */
     }
 }
 
@@ -173,21 +180,22 @@
         margin-left: 0;
     }
 
+
     .mental-health-subtitle {
-        font-size: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
+        /* font-size: 20px; */
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
     }
 
     .mental-health-title {
-        font-size: 40px;
-        margin-left: 27%;
+        /* font-size: 40px; */
+        /* margin-left: 27%; */
     }
 
     .section-text {
-        font-size: 18px;
-        width: 60%;
-        margin-left: 48px;
+        /* font-size: 18px; */
+        /* width: 60%; */
+        /* margin-left: 48px; */
     }
 
     .mental-health-image {
@@ -197,11 +205,11 @@
     }
 
     .section-text {
-        font-size: 17px;
+        /* font-size: 17px; */
     }
 
     .section-title {
-        font-size: 25px;
+        /* font-size: 25px; */
     }
 
     .mental-health-support {
@@ -209,16 +217,21 @@
     }
 
     .support-title {
-        font-size: 25px;
-        margin-right: 2%;
+        /* font-size: 25px; */
+        /* margin-right: 2%; */
     }
 
     .support-description {
-        font-size: 17px;
+        /* font-size: 17px; */
+        /* padding: 0 5vw; */
     }
 
     .service-item {
-        font-size: 18px;
+        /* font-size: 18px; */
+    }
+    .mental-health-section{
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -234,8 +247,9 @@
     .mental-health-container {
         margin-left: 0;
         margin-top: 0;
-        width: 85%;
-        margin-bottom: 12px;
+        width: 100%;
+        padding: 0 10vw;
+        margin-bottom: 40px;
     }
 
     .mental-health-intro {
@@ -244,38 +258,40 @@
     }
 
     .mental-health-title {
-        font-size: 36px;
-        margin-left: 25%;
+        /* font-size: 36px; */
+        /* margin-left: 25%; */
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .mental-health-subtitle {
-        font-size: 18px;
+        /* font-size: 18px; */
         text-align: center;
         width: 100%;
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
 
     .mental-health-description {
-        font-size: 17px;
-        width: 85%;
-        margin-left: 17%;
+        /* font-size: 17px; */
+        /* width: 85%; */
+        /* margin-left: 17%; */
     }
 
     .mental-health-image {
-        margin-left: 26%;
-        width: 50%;
+        /* margin-left: 26%; */
+        width: 80%;
+        padding: 2vh 0;
     }
 
     .section-text {
-        font-size: 17px;
-        margin-right: 7%;
+        /* font-size: 17px; */
+        /* margin-right: 7%; */
     }
 
     .section-title {
-        font-size: 24px;
-        margin-right: 7%;
+        /* font-size: 24px; */
+        /* text-align: center; */
+        /* margin-right: 7%; */
     }
 }

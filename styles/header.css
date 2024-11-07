@@ -5,6 +5,7 @@
   height: 22vh;  
   border-bottom:  1px solid #efe9d9;
   backdrop-filter:blur(8px);  
+  border-radius: 0 0 30px 30px;
   z-index: 10;
   position: fixed; 
   top: 0;
@@ -56,7 +57,9 @@
 .header-bottom{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 40px;
 }
 .header-links{
   display: flex;
@@ -85,6 +88,9 @@
 
 .header-logo{
   width: 16vw;
+  position: fixed;
+  top: 20px;
+  left:20px
 }
 
 

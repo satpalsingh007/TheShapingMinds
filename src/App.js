@@ -99,7 +99,7 @@ const appRouter = createBrowserRouter([
             element: <Depression/>,
           },
           {
-            path: "/maritial-discords",
+            path: "/marital-discords",
             element: <MaritalDiscords />,
           },
           {

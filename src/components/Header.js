@@ -60,21 +60,21 @@ const Header = () => {
             </div>
             {activeDropdown === 1 && (
               <div className="sub-drop-down-list-item">
-                <a href="#" className="sub-links">
+                <Link to={'/depression'}  className="sub-links" onClick={ toggleDropdown}>
                 Depression
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/anxiety'} className="sub-links" onClick={ toggleDropdown}>
                 Anxiety
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/stress'} className="sub-links" onClick={ toggleDropdown}>
                 Stress
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/trauma'} className="sub-links" onClick={ toggleDropdown}>
                 Trauma
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/personal-growth'} className="sub-links" onClick={ toggleDropdown}>
                 Personal growth
-                </a>
+                </Link>
                
               </div>
             )}
@@ -89,15 +89,15 @@ const Header = () => {
             </div>
             {activeDropdown === 2 && (
               <div className="sub-drop-down-list-item">
-                <a href="#" className="sub-links">
+                <Link  to={'/premarital-counselling'} className="sub-links" onClick={ toggleDropdown}>
                 Premarital Counselling
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/relationship-concerns'} className="sub-links" onClick={ toggleDropdown}>
                 Relationships Concerns
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link to={'/marital-discords'} className="sub-links" onClick={ toggleDropdown}>
                 Marital Discords 
-                </a>
+                </Link>
                 
               </div>
             )}
@@ -112,18 +112,18 @@ const Header = () => {
             </div>
             {activeDropdown === 3 && (
               <div className="sub-drop-down-list-item">
-                <a href="#" className="sub-links">
+                <Link  to={'/emotional-concern'} className="sub-links" onClick={ toggleDropdown}>
                 Emotional & Developmental Concerns
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/learning-disabilities'} className="sub-links" onClick={ toggleDropdown}>
                 Learning Disabilities
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/autism'} className="sub-links" onClick={ toggleDropdown}>
                  Autism
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/adhd'} className="sub-links" onClick={ toggleDropdown}>
                  ADHD
-                </a>
+                </Link>
                 
               </div>
             )}
@@ -138,18 +138,18 @@ const Header = () => {
             </div>
             {activeDropdown === 4 && (
               <div className="sub-drop-down-list-item">
-                <a href="#" className="sub-links">
+                <Link to={'/workplace-counselling'} className="sub-links" onClick={ toggleDropdown}>
                 Workplace Counsellings
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/mental-wellness'} className="sub-links" onClick={ toggleDropdown}>
                 Mental Wellness Programs
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/employee-assistance-program'} className="sub-links" onClick={ toggleDropdown}>
                 EAPs Employee Assistance Program
-                </a>
-                <a href="#" className="sub-links">
+                </Link>
+                <Link  to={'/executive-coaching'} className="sub-links" onClick={ toggleDropdown}>
                 Executive Coaching
-                </a>
+                </Link>
               </div>
             )}
             
@@ -224,12 +224,12 @@ const Header = () => {
             {menuOpen && (
                 <div className="full-screen-menu">
                     <div className="menu-links">
-                        <div>Home</div>
-                        <div>About Us</div>
-                        <div ><Link to={'/individuals-blogs'} onClick={toggleMenu}>Individuals</Link></div>
-                        <div > <Link to={'/couples-blogs'} onClick={toggleMenu}>Couples & Relationships</Link></div>
-                        <div > <Link to={'/children-blogs'} onClick={toggleMenu}>Children & Adolescents</Link></div>
-                        <div ><Link to={'/corporation-blogs'} onClick={toggleMenu}>Corporate & Educational Clients</Link></div>
+                        <div><Link to={'/home'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Home</Link></div>
+                        <div><Link to={'/about-us'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>About Us</Link></div>
+                        <div ><Link to={'/individuals-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Individuals</Link></div>
+                        <div > <Link to={'/couples-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Couples & Relationships</Link></div>
+                        <div > <Link to={'/children-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Children & Adolescents</Link></div>
+                        <div ><Link to={'/corporation-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Corporate & Educational Clients</Link></div>
 
                         <div>Contact Us</div>
                     </div>
