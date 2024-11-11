@@ -1,0 +1,22 @@
+.quote-container {
+  text-align: center;
+  background-color: #e5f0e63f;
+  border-radius: 8px;
+  width: 60vw;
+  padding: 10px;
+}
+
+.quote {
+  color: #033a35;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.author {
+  color: #033a35;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+}
+/*# sourceMappingURL=index.8d193b3a.css.map */

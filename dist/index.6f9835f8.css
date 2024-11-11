@@ -1,0 +1,178 @@
+.mental-health-container {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.mental-health-title {
+  color: #045346fa;
+  padding-bottom: 20px;
+  font-family: La Gagliane, cursive;
+  font-size: 30px;
+}
+
+.mental-health-intro-text {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.mental-health-subtitle {
+  color: #045346bd;
+  width: 80%;
+  font-size: 20px;
+}
+
+.mental-health-description {
+  font-size: 20px;
+}
+
+.mental-health-intro-text p {
+  padding: 0 20px;
+}
+
+.mental-health-intro {
+  align-items: center;
+  gap: 5px;
+  padding-top: 22vh;
+  display: flex;
+}
+
+.mental-health-image {
+  border-radius: 105px;
+  width: 40%;
+  margin-bottom: 5%;
+}
+
+.mental-health-content {
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+
+.mental-health-section {
+  width: 60%;
+}
+
+.section-title {
+  color: #045346bd;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.section-text {
+  font-size: 20px;
+}
+
+.mental-health-support {
+  background: #fbf7f0;
+  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 50%;
+  padding: 1% 0;
+  font-size: 18px;
+  display: flex;
+  position: sticky;
+  top: 24vh;
+}
+
+.support-title {
+  color: #226c24;
+  margin-left: 10%;
+  font-family: Playfair Display, serif;
+  font-size: 20px;
+}
+
+.support-description {
+  color: #798979;
+  width: 80%;
+  font-size: 18px;
+}
+
+.support-image {
+  border-radius: 25px;
+  width: 75%;
+}
+
+.service-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.service-item {
+  border-radius: 13px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+@media (width >= 900px) and (width <= 1070px) {
+  .mental-health-support {
+    width: 26%;
+    margin-top: 8%;
+  }
+}
+
+@media (width >= 600px) and (width <= 900px) {
+  .mental-health-container {
+    margin-left: 0;
+  }
+
+  .mental-health-image {
+    width: 40%;
+    height: 15%;
+    margin-top: 22%;
+  }
+
+  .mental-health-support {
+    width: 30%;
+  }
+
+  .mental-health-section {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (width >= 300px) and (width <= 600px) {
+  .mental-health-support {
+    display: none;
+  }
+
+  .mental-health-section {
+    width: 100%;
+  }
+
+  .mental-health-container {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 0;
+    padding: 0 10vw;
+  }
+
+  .mental-health-intro {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .mental-health-title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mental-health-subtitle {
+    text-align: center;
+    width: 100%;
+  }
+
+  .mental-health-image {
+    width: 80%;
+    padding: 2vh 0;
+  }
+}
+/*# sourceMappingURL=index.6f9835f8.css.map */

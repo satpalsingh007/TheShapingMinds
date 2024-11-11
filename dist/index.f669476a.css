@@ -1,0 +1,130 @@
+.dr-mehta {
+  background-image: url("dr-akriti-bg.9807a319.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+  padding: 40px;
+  display: flex;
+}
+
+.dr-mehta-container {
+  backdrop-filter: blur(2px);
+  color: #fbf7f0;
+  background-color: #022b24cc;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  padding: 20px;
+  display: flex;
+}
+
+.dr-mehta h2 {
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+}
+
+.dr-mehta-content {
+  letter-spacing: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 70vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 20px;
+  display: flex;
+}
+
+.dr-mehta img {
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+}
+
+@media (width <= 1024px) {
+  .dr-mehta {
+    background-image: url("bg.c485c0e8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .dr-mehta-container {
+    width: 80vw;
+  }
+
+  .dr-mehta-content {
+    font-size: 18px;
+  }
+
+  .dr-mehta img {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+@media (width <= 768px) {
+  .dr-mehta {
+    background-image: url("bg.c485c0e8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .dr-mehta-container {
+    width: 90vw;
+  }
+
+  .dr-mehta-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+
+  .dr-mehta img {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (width <= 480px) {
+  .dr-mehta {
+    background-image: url("bg.c485c0e8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .dr-mehta img {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .dr-mehta {
+    padding: 20px;
+  }
+
+  .dr-mehta h2 {
+    font-size: 24px;
+  }
+
+  .dr-mehta-content {
+    gap: 15px;
+  }
+}
+/*# sourceMappingURL=index.f669476a.css.map */

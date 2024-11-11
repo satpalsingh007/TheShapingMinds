@@ -1,0 +1,125 @@
+.contact {
+  letter-spacing: -.01rem;
+  color: #045346;
+  margin-bottom: 3.2rem;
+  font-family: Playfair Display, serif;
+  font-size: 3.1rem;
+  font-weight: 500;
+  line-height: 40%;
+}
+
+.para {
+  font-family: Inter, sans-serif;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: center;
+  color: #232426;
+  border: 0;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+.par {
+  color: #232426;
+}
+
+.contact-container {
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  padding-top: 20vh;
+}
+
+.contact-container h1 {
+  color: #d49f11;
+  text-align: center;
+  font-size: 25px;
+}
+
+.btn {
+  color: #fcd961;
+  background: #045346;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn .icon path {
+  fill: #fcd961;
+}
+
+.btn .icon {
+  margin-top: 8px;
+}
+
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.contact-form {
+  background-color: #045346;
+  border: 2px solid #232426;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+  box-shadow: 3px 3px 5px #2324269d;
+}
+
+.name-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.name-input {
+  color: #444546;
+  background: #e5f0e6;
+  border: none;
+  border-radius: 10px;
+  width: 45%;
+  margin-bottom: 15px;
+  padding: 18px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  transition: border .3s;
+}
+
+.email-input, .location-input, .comment-input {
+  color: #444546;
+  background: #e5f0e6;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 18px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  transition: border .3s;
+}
+
+.name-input:focus, .email-input:focus, .location-input:focus, .comment-input:focus {
+  outline: none;
+}
+
+.submit-button {
+  color: #232426;
+  cursor: pointer;
+  background: #d49f11;
+  border-radius: .6rem;
+  outline: 0;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  height: 2.9rem;
+  margin: 0;
+  padding: 0 1.5rem;
+  font-weight: 550;
+  transition: all .4s cubic-bezier(.19, 1, .22, 1);
+  display: inline-flex;
+  position: relative;
+}
+/*# sourceMappingURL=index.d6f7c31e.css.map */
