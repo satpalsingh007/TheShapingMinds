@@ -8,7 +8,7 @@ const OurMission = () => {
   return (
     <div className="our-mission">
       <h2>Our Mission</h2>
-      <img className="bee" src={bee}></img>
+      {/* <img className="bee" src={bee}></img> */}
       <div className="special-text">We empower you to take control of your mental health and build a fulfilling life.   </div>
       <div className="mission-section ">
         <img className="mission-imgs" src={trustedguidance}/>
