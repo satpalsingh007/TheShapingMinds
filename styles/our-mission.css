@@ -6,6 +6,8 @@
     gap: 5vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    position: relative;
+  
 }
 
 .mission-section {
@@ -72,22 +74,39 @@
     cursor: pointer;
     background-color: rgb(255, 254, 252);
     color: #045346;
+    
 }
 
-.bee{
+.bee-path {
+    position: sticky;
+    top: 20vh;
+    width: 100vw;
+    overflow: hidden; /* To make sure the bee doesn't overflow horizontally */
+  }
+  
+  .bee {
+    position: sticky;
+    top: 20vh;
     width: 100px;
-    position: absolute;
-    /* top: 200px; */
-    left: 0;
-    top: 160vh;
-    animation: moveRight 5s linear infinite;
-}
-@keyframes moveRight {
+    animation: moveBee 25s  infinite ease-in-out; /* Alternate the animation to move right and left */
+  }
+  
+  /* Keyframes for the bee's movement */
+  @keyframes moveBee {
     0% {
-      left: -100px;
+      left: -100px; /* Start off-screen to the left */
+      transform: rotateY(0deg); /* Facing right */
+    }
+    50% {
+      left: calc(100vw - 100px); /* Move to the right edge of the screen */
+      transform: rotateY(0deg); /* Stay facing right until the end of the section */
+    }
+    51% {
+      transform: rotateY(180deg); /* Flip to face left immediately after reaching the right side */
     }
     100% {
-      left: 100%;
+      left: -100px; /* Move back to the left */
+      transform: rotateY(180deg); /* Stay facing left */
     }
   }
 
@@ -127,14 +146,12 @@
         font-size: 24px;
         text-align: center;
     }
-    .bee{
-        width: 100px;
-        position: absolute;
-        /* top: 200px; */
-        left: 0;
-        top: 150vh;
-        animation: moveRight 5s linear infinite;
-    }
+    .bee {
+     
+        animation: moveBee 15s  infinite ease-in-out; /* Alternate the animation to move right and left */
+      }
+   
+    
 }
 
 @media (max-width: 480px) {
@@ -155,13 +172,7 @@
         height: 35px;
         font-size: 14px; 
     }
-    .bee{
-        width: 100px;
-        position: absolute;
-        /* top: 200px; */
-        left: 0;
-        top: 170vh;
-        animation: moveRight 5s linear infinite;
-    }
+    
     
 }
+

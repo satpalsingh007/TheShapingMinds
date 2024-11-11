@@ -5,7 +5,7 @@
   height: 22vh;  
   border-bottom:  1px solid #efe9d9;
   backdrop-filter:blur(8px);  
-  border-radius: 0 0 30px 30px;
+  border-radius: 0 0 10px 10px;
   z-index: 10;
   position: fixed; 
   top: 0;

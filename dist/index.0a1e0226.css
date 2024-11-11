@@ -6,6 +6,7 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
   display: flex;
+  position: relative;
 }
 
 .mission-section {
@@ -74,21 +75,38 @@
   background-color: #fffefc;
 }
 
-.bee {
-  width: 100px;
-  animation: 5s linear infinite moveRight;
-  position: absolute;
-  top: 160vh;
-  left: 0;
+.bee-path {
+  width: 100vw;
+  position: sticky;
+  top: 20vh;
+  overflow: hidden;
 }
 
-@keyframes moveRight {
+.bee {
+  width: 100px;
+  animation: 25s ease-in-out infinite moveBee;
+  position: sticky;
+  top: 20vh;
+}
+
+@keyframes moveBee {
   0% {
     left: -100px;
+    transform: rotateY(0);
+  }
+
+  50% {
+    left: calc(100vw - 100px);
+    transform: rotateY(0);
+  }
+
+  51% {
+    transform: rotateY(180deg);
   }
 
   100% {
-    left: 100%;
+    left: -100px;
+    transform: rotateY(180deg);
   }
 }
 
@@ -129,11 +147,7 @@
   }
 
   .bee {
-    width: 100px;
-    animation: 5s linear infinite moveRight;
-    position: absolute;
-    top: 150vh;
-    left: 0;
+    animation: 15s ease-in-out infinite moveBee;
   }
 }
 
@@ -154,14 +168,6 @@
   .care-component {
     height: 35px;
     font-size: 14px;
-  }
-
-  .bee {
-    width: 100px;
-    animation: 5s linear infinite moveRight;
-    position: absolute;
-    top: 170vh;
-    left: 0;
   }
 }
 /*# sourceMappingURL=index.0a1e0226.css.map */

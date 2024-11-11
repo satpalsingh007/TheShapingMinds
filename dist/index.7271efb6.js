@@ -36319,11 +36319,26 @@ const OurMission = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bee-path",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "bee",
+                    src: (0, _beeGifDefault.default)
+                }, void 0, false, {
+                    fileName: "src/components/OurMission.js",
+                    lineNumber: 11,
+                    columnNumber: 33
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/OurMission.js",
+                lineNumber: 11,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "special-text",
                 children: "We empower you to take control of your mental health and build a fulfilling life.   "
             }, void 0, false, {
                 fileName: "src/components/OurMission.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36334,7 +36349,7 @@ const OurMission = ()=>{
                         src: (0, _trustedGuidanceJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36343,26 +36358,26 @@ const OurMission = ()=>{
                                 children: "Trusted Guidance for a Healthier You  "
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "We provide reliable and expert-driven information on mental wellness to give you confidence to make informed decisions about your well-being."
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/OurMission.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36374,20 +36389,20 @@ const OurMission = ()=>{
                                 children: "Lifelong Skills for Emotional Strength "
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Our experts will help you to develop the skills to manage emotions, strengthen personal and professional relationships, and navigate life's challenges with resilience."
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 23,
+                                lineNumber: 24,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -36395,13 +36410,13 @@ const OurMission = ()=>{
                         src: (0, _lifeLongSkillsJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 25,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/OurMission.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36412,7 +36427,7 @@ const OurMission = ()=>{
                         src: (0, _strategiesForABetterTomorrowJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36421,26 +36436,26 @@ const OurMission = ()=>{
                                 children: "Strategies for a Better Tomorrow  "
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "We\u2019ll teach you practical techniques to improve your mental health, and use them to support not only yourself but also your loved ones."
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/OurMission.js",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36452,20 +36467,20 @@ const OurMission = ()=>{
                                 children: "Reliable Support, Whenever You Need It  "
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Our dedicated team is here to guide, encourage, and support you at every step to provide the care you need."
                             }, void 0, false, {
                                 fileName: "src/components/OurMission.js",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -36473,13 +36488,13 @@ const OurMission = ()=>{
                         src: (0, _reliableSupportWheneverYouNeedItJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/OurMission.js",
-                        lineNumber: 39,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/OurMission.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined)
         ]
