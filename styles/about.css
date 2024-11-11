@@ -1,5 +1,5 @@
 .about {
-    padding-top: 22vh;
+    /* padding-top: 22vh; */
     display: flex;
     flex-direction: column;
     gap: 10vh;
@@ -8,7 +8,7 @@
     margin-right: auto; */
 }
 .about-main{
-    height: 80vh;
+    height: 100vh;
     background-color: #045346;
     color: #fbf7f0;
     display: flex;
@@ -37,12 +37,15 @@
     border-radius: 20px;
     box-shadow:rgba(0, 0, 0, 0.863) 4px 4px 10px;
 }
+.about-main-img-mobile{
+    display: none;
+}
 
 .about-main h1{
     color: #d49f11;
     font-size: 30px;
     font-weight: 400;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .about-section h2{
@@ -79,8 +82,8 @@
     text-align: left;
     /* height: 100vh; */
     width: 100vw;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     padding-bottom: 10vh;
     padding-top: 10vh;
     background-color: #fbf7f0;
@@ -99,4 +102,67 @@
     font-family: "La Gagliane", cursive;
     font-weight: 700;
     letter-spacing: 2px;
+}
+.about-main{
+    padding-top:30vh;
+}
+
+@media (max-width: 1200px){
+    .about{
+        padding:  0;
+    }
+    .about-main{
+        height: 100%;
+        padding-top: 10vh;
+    }
+    .about-main div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+        /* height: 100%; */
+        padding: 15vh 0;
+    }
+    .about-main-img{
+        display: none;
+    }
+    .about-main-img-mobile{
+        display: block;
+        width: 40%;
+        border-radius: 30px;
+
+    }
+    .about-our-team{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content{
+        width: 80vw;
+    }
+    
+}
+
+@media (max-width: 700px){
+    
+    .about-main div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+        /* height: 100%; */
+        padding:  10vh 0; 
+    }
+    .about-main-img-mobile{
+        display: block;
+        width: 80%;
+        border-radius: 30px;
+
+    }
+
+    .about-img{
+        width: 40vw;
+    }
+
 }

@@ -27,6 +27,7 @@ import WorkplaceCounselling from "./components/WorkplaceCounselling";
 import MentalWellnessProgram from "./components/MentalWellnessProgram";
 import EmployeeAssistanceProgram from "./components/EmployeeAssistanceProgram";
 import ExecutiveCoaching from "./components/ExecutiveCoaching";
+import ContactUs from "./components/ContactUs";
 
 const App = () => {
   return (
@@ -133,6 +134,10 @@ const appRouter = createBrowserRouter([
           {
             path: "/executive-coaching",
             element: <ExecutiveCoaching />,
+          },
+          {
+            path:"/contact-us",
+            element:<ContactUs/>
           }
          
       ],

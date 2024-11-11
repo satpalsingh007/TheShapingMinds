@@ -15,7 +15,7 @@ const ChildrenBlogsPage =()=>{
                         <h3>Workplace Counsellings
                         </h3>
                         <div>
-                        Workplace counselling refers to the professional support provided to employees facing personal..........
+                        Workplace counselling refers to the professional support provided to employees facing..........
                          </div> 
                          <Link to={'/workplace-counselling'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
@@ -32,7 +32,7 @@ const ChildrenBlogsPage =()=>{
                         <img className="blog-list-img" src={eap} />
                         <h3>EAPs Employee Assistance Program</h3>
                         <div>
-                            We understand the complexities of life that lead to depression, anxiety, stress, and trauma. Our ..........
+                            We understand the complexities of life that lead to depression, anxiety, stress, and trauma..........
                          </div> 
                          <Link to={'/employee-assistance-program'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
@@ -40,7 +40,7 @@ const ChildrenBlogsPage =()=>{
                         <img className="blog-list-img" src={executiveCoaching} />
                         <h3>Executive Coaching</h3>
                         <div>
-                        Through personalized guidance and structured support, executive coaching helps individuals..........
+                        Through personalized guidance and structured support, executive coaching helps..........
                          </div> 
                          <Link to={'/executive-coaching'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>

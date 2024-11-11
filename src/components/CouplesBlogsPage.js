@@ -31,7 +31,7 @@ const CoupleBlogsPage =()=>{
                         <img className="blog-list-img" src={maritalDiscord} />
                         <h3>Marital Discords</h3>
                         <div>
-                        Marital discord refers to a state of conflict or disagreement between partners in a marriage..........
+                        Marital discord refers to a state of conflict or disagreement between partners in a..........
                          </div> 
                          <Link to={'/marital-discords'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>

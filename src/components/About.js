@@ -6,6 +6,7 @@ const About=()=>{
             <div className=" about-main">
                 <div>
                     <h1>About Us </h1>
+                    <img className="about-main-img-mobile" src={img1}/>
                     <p>At The Shaping Minds, we firmly believe that mental well-being is the foundation of a fulfilling existence. Our center is dedicated to providing compassionate counseling and support to individuals, couples, families, and organizations—because everyone deserves to succeed.Our purpose is simple: to help you understand your mental health, overcome obstacles, and embrace personal progress. We are devoted to providing a safe and friendly atmosphere in which you can feel truly valued and heard.</p>
 
                 </div>

@@ -92,11 +92,11 @@
     width: 20%;
     border-radius: 25px;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    padding: 3% 0;
+    padding: 1% 0;
 }
 
 .support-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 10%;
     color: #226c24;
     font-family: "Playfair Display", serif;

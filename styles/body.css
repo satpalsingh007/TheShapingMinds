@@ -97,6 +97,7 @@
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
+  
   .why-img{
     width: 60vw;
   }
@@ -110,6 +111,9 @@
 }
 
 @media (max-width: 768px) {
+  .body h1{
+    padding-top: 16vh;
+  }
   .why-cards {
       width: 45%; /* Adjust width for smaller screens */
   }
@@ -120,6 +124,9 @@
 }
 
 @media (max-width: 480px) {
+  .body h1{
+    padding-top: 16vh;
+  }
   .why-cards {
       width: 90%; /* Full width for mobile screens */
   }

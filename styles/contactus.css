@@ -1,0 +1,144 @@
+.contact{
+    margin-bottom: 3.2rem;
+    font-size: 3.1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 40%;
+    letter-spacing: -0.01rem;
+    color: rgb(4, 83, 70);
+}
+
+.para{
+    font-family: Inter, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 50px;
+   
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    color: rgb(35, 36, 38);
+}
+.par{
+    
+    color: rgb(35, 36, 38);
+}
+
+.contact-container {
+   
+    max-width: 600px;
+    margin: 50px auto;
+   
+    border-radius: 10px;
+    padding-top: 20vh;
+}
+
+.contact-container h1{
+    color:#d49f11;
+    font-size: 25px;
+    text-align: center;
+    /* font-weight: 700; */
+}
+
+.btn{
+    font-family: Inter, sans-serif;
+    color: rgb(252, 217, 97);
+    background: rgb(4, 83, 70);
+    list-style: none;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.btn .icon path{
+    fill: rgb(252, 217, 97);
+}
+.btn .icon{
+    margin-top: 8px;
+}
+.icon{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 240, 230);
+    background-color: #045346;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #232426;
+    box-shadow: 3px 3px 5px #2324269d ;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input {
+    color: rgb(68, 69, 70);
+    border-radius: 1.2rem;
+    width: 45%;
+    padding: 18px;
+    margin-bottom: 15px;
+    background: rgb(229, 240, 230);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    transition: border 0.3s;
+}
+
+
+.email-input,
+.location-input,
+.comment-input {
+    border-radius: 1.2rem;
+    color: rgb(68, 69, 70);
+    
+    font-family: Inter, sans-serif;
+    padding: 18px;
+    border: none;
+    margin-bottom: 15px;
+    background: rgb(229, 240, 230);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: border 0.3s;
+}
+
+.name-input:focus,
+.email-input:focus,
+.location-input:focus,
+.comment-input:focus {
+  
+    outline:none;
+}
+
+
+
+.submit-button {
+    margin-bottom: 8px;
+    align-self: flex-start;
+    margin: 0px;
+    background: #d49f11;
+    color: #232426 ;
+    font-weight: 550;
+    /* border: 5px  #232426 solid ; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.9rem;
+    padding: 0px 1.5rem;
+    position: relative;
+    /* border: none; */
+    border-radius: 0.6rem;
+    outline: 0px;
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+

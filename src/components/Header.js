@@ -156,7 +156,7 @@ const Header = () => {
             
           </div>
         </div>
-              <a href='#' className= "header-top-contact dark header-links">Contact Us</a>
+              <Link to={'/contact-us'} className= "header-top-contact dark header-links" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
              
               <div className="header-social">
                 <ul className="social-list">
@@ -231,7 +231,7 @@ const Header = () => {
                         <div > <Link to={'/children-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Children & Adolescents</Link></div>
                         <div ><Link to={'/corporation-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Corporate & Educational Clients</Link></div>
 
-                        <div>Contact Us</div>
+                        <div><Link to={'/contact-us'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Contact Us  </Link></div>
                     </div>
                 </div>
             )}

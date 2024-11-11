@@ -14,7 +14,7 @@
         width: 100vw;
         padding-left: 10vw;
         height: 80vh;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 30px 30px;
         display: flex;
         transition: all 3s;
         /* align-items: center; */
@@ -112,9 +112,11 @@
 }
 @media (max-width: 800px){
     .header-logo{
-        width: 40vw;
-        
-        
+        width: 40vw;     
+    }
+
+    .header{
+        border-radius: 0;
     }
     .header{
         height: 15vh;
