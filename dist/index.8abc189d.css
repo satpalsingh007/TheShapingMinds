@@ -113,7 +113,7 @@
 
 @media (width <= 600px) {
   .blog-page {
-    margin: 15vh 5vw;
+    margin: 20vh 5vw;
   }
 
   .blog-list-item {
@@ -132,7 +132,7 @@
 
 @media (width <= 400px) {
   .blog-page {
-    margin: 15vh 5vw;
+    margin: 20vh 5vw;
   }
 
   .blog-list-item {

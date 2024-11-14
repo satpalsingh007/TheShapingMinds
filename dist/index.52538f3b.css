@@ -9,6 +9,15 @@
   overflow: hidden;
 }
 
+.ratings {
+  gap: 5px;
+  display: flex;
+}
+
+.fa-star {
+  color: #fcd961;
+}
+
 .carousel h2 {
   padding-bottom: 20px;
 }
@@ -44,7 +53,7 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  font-size: 20px;
+  font-size: 18px;
   transition: background .3s;
   display: flex;
   position: absolute;
@@ -77,16 +86,11 @@
 
 @media (width <= 768px) {
   .p {
-    margin: 10% 12%;
     font-size: 1.3rem;
   }
 
   .carousel-slide {
     gap: 15px;
-  }
-
-  .carousel-slide img {
-    width: 40%;
   }
 
   .h4 {
@@ -101,18 +105,8 @@
     margin-top: 25px;
   }
 
-  .carousel-slide img {
-    width: 40%;
-    margin: 7% auto;
-  }
-
   .carousel-slide {
-    gap: 15px;
-  }
-
-  .p {
-    margin: 7% 15%;
-    font-size: 2rem;
+    gap: 1px;
   }
 
   .carousel-control {

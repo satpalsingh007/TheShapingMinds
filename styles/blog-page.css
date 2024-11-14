@@ -113,7 +113,7 @@
 
 @media (max-width: 600px) {
     .blog-page {
-        margin: 15vh 5vw; /* Adjust margins for smaller screens */
+        margin: 20vh 5vw; /* Adjust margins for smaller screens */
     }
     .blog-list-item {
         flex: 1 1 100%; /* 1 item per row */
@@ -130,7 +130,7 @@
 
 @media (max-width: 400px) {
     .blog-page {
-        margin: 15vh 5vw; /* Adjust margins for smaller screens */
+        margin: 20vh 5vw; /* Adjust margins for smaller screens */
     }
 
 

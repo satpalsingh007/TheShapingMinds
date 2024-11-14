@@ -44,7 +44,7 @@
         justify-content: space-around;
     }
     .header-logo{
-        width: 50vw;
+        width: 20vw;
         top: 40px;
         
     }
@@ -112,21 +112,21 @@
 }
 @media (max-width: 800px){
     .header-logo{
-        width: 40vw;     
+        width: 20vw;     
     }
 
     .header{
         border-radius: 0;
     }
     .header{
-        height: 15vh;
+        height: 16vh;
     }
 }
 
 
 @media (max-width: 600px){
     .header-logo{
-        width: 50vw;
+        width: 30vw;
         
     }
     .header{

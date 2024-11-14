@@ -980,6 +980,7 @@ img, video {
 
 body {
   color: #232426;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -1016,8 +1017,9 @@ h3 {
 
 .special-text {
   letter-spacing: 1px;
+  text-align: center;
   width: 60vw;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .after\:absolute:after {

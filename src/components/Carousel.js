@@ -6,23 +6,23 @@ const Carousel = () => {
     const slides = [
         {
             image: testimonial,
-            text: "“After years of struggling with anxiety, I finally feel like I have control over my mind. Dr. Mehta’s compassionate approach helped me heal in ways I never thought possible.”",
-            author:"Riya K."
+            text: "“It was an amazing and eye opening experience for me, would definitely recommend Akriti ma'am. She builds a very comfortable and friendly environment for you and helps you in the most effective way possible. I'm glad I made a decision to meet her.”",
+            author:"Nisha"
         },
         {
             image: testimonial,
-            text: "“Dr. Aakriti’s premarital counseling and relationship sessions made a world of difference. We’re stronger than ever and communicate better than we ever have before.”",
-            author:"Arjun & Neha S."
+            text: "“Aakriti ma'am has been educating students from the very beginning and always there to help in shaping towards good skills.. She is so dedicated and devoted to her work. She always keeps intact with politeness and kindness, she has really nice approach to interact with anyone.”",
+            author:"Rohit Kumar"
         },
         {
             image: testimonial,
-            text: "“Our son was diagnosed with ADHD and struggled in school. The support we received from Aakriti’s team has been life-changing for our family. Our child is thriving, and we couldn’t be more grateful.”",
-            author:"Priya R.",
+            text: "“I find Dr. Aakriti very kind , compassionate and helpful during different consultations for various issues in life. Got very clear , objective and rational approach in those tough times. Her kindness & unbiased listening helped in gaining inner equilibrium & peace. I wish her all the best for future endeavours in life.”",
+            author:"Rama Jain",
         },
         {
             image: testimonial,
-            text: "“As an executive, I’ve seen firsthand the impact of mental wellness in the workplace. Dr. Mehta’s Employee Assistance Program has led to higher productivity and happier employees. Highly recommend!”",
-            author:"Rajeev P., HR Manager"
+            text: "“Aakriti is a wonderful person and is blessed with great knowledge. She is like an angel in my life . No words can express how thankful I am for her suggestions .I appreciate her friendly presence and kind assistance in addressing my issues. Thank you so much Aakriti !”",
+            author:"Shweta Nagpal"
         }
     ];
 
@@ -60,9 +60,17 @@ const Carousel = () => {
             <div className="carousel-wrapper" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                 {slides.map((slide, index) => (
                     <div className="carousel-slide" key={index}>
-                        <img className="testimonial-img" src={slide.image} alt={`Slide ${index + 1}`} />
-                        <p className="p">{slide.text}</p>
+                        {/* <img className="testimonial-img" src={slide.image} alt={`Slide ${index + 1}`} /> */}
                         <p className="p">⁓{slide.author}</p>
+                        <div className='ratings'>
+                        <i className="fa fa-star" ></i>
+                        <i className="fa fa-star" ></i>
+                        <i className="fa fa-star" ></i>
+                        <i className="fa fa-star" ></i>
+                        <i className="fa fa-star" ></i>
+                        </div>
+                        <p className="p">{slide.text}</p>
+                        
                     </div>
                 ))}
             </div>

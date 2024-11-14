@@ -8,7 +8,13 @@
     padding: 30px 0;
     background: #3a4f4b;
 }
-
+.ratings{
+    display: flex;
+    gap: 5px;
+}
+.fa-star{
+    color: #fcd961;
+}
 .carousel h2 {
     padding-bottom: 20px;
 }
@@ -44,7 +50,7 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,15 +89,15 @@
 
     .p {
         font-size: 1.3rem;
-        margin: 10% 12%; /* Uniform margin for better spacing */
+          /* Uniform margin for better spacing */
     }
     .carousel-slide{
         gap: 15px;
     }
-    .carousel-slide img {
+    /* .carousel-slide img {
         width: 40%;
       
-    }
+    } */
 
     .h4 {
         text-align: center;
@@ -105,16 +111,16 @@
         margin-top: 25px;
     }
 
-    .carousel-slide img {
-        width: 40%; /* Adjust image width for tablets */
-        margin: 7% auto; /* Center and provide space */
-    }
+    /* .carousel-slide img {
+        width: 40%; 
+        margin: 7% auto; 
+    } */
     .carousel-slide{
-        gap: 15px;
+        gap: 1px;
     }
     .p {
-        font-size: 2rem;
-        margin: 7% 15%; /* Improved margin for better aesthetics */
+        /* font-size: 2rem; */
+       /* Improved margin for better aesthetics */
     }
 
     .carousel-control {

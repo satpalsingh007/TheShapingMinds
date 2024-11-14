@@ -14,6 +14,7 @@
   }
   body{
     color: #232426;
+    overflow-x: hidden;
     
   }
   /* For Webkit browsers (Chrome, Safari) */
@@ -53,8 +54,9 @@
 
   .special-text{
     width: 60vw;
-    font-size: 25px;
+    font-size: 20px;
     /* font-family:"Slabo", cursive; */
     letter-spacing: 1px;
+    text-align: center;
     /* line-height: 50px; */
   }

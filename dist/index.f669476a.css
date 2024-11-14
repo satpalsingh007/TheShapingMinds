@@ -1,9 +1,5 @@
 .dr-mehta {
-  background-image: url("dr-akriti-bg.9807a319.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #fffefc;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -14,117 +10,79 @@
 }
 
 .dr-mehta-container {
-  backdrop-filter: blur(2px);
-  color: #fbf7f0;
-  background-color: #022b24cc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dr-mehta-images {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.drmehtabg {
+  background-image: url("dr-akriti-bg.a20ae5e4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  width: 70vw;
+  height: 40vh;
+}
+
+.drmehta {
+  background-color: #e5f0e6;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 20vh;
+  position: absolute;
+  top: 30vh;
+}
+
+.dr-mehta-about {
+  text-align: left;
+  background-color: #e5f0e6;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70vw;
-  padding: 20px;
+  width: 70%;
+  margin-top: 10vh;
+  padding: 15px;
   display: flex;
 }
 
-.dr-mehta h2 {
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  display: flex;
+.dr-mehta-readmore {
+  background-color: #fcd961;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.dr-mehta-content {
-  letter-spacing: 2px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  width: 70vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  font-size: 20px;
-  display: flex;
-}
-
-.dr-mehta img {
-  border: 2px solid #000;
-  border-radius: 50%;
-  width: 10vw;
-  height: 10vw;
-}
-
-@media (width <= 1024px) {
-  .dr-mehta {
-    background-image: url("bg.c485c0e8.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .dr-mehta-container {
-    width: 80vw;
-  }
-
-  .dr-mehta-content {
-    font-size: 18px;
-  }
-
-  .dr-mehta img {
-    width: 20vw;
-    height: 20vw;
-  }
+.dr-mehta-about p {
+  padding: 10px;
 }
 
 @media (width <= 768px) {
-  .dr-mehta {
-    background-image: url("bg.c485c0e8.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  .drmehtabg {
+    height: 25vh;
   }
 
-  .dr-mehta-container {
-    width: 90vw;
+  .drmehta {
+    top: 15vh;
   }
 
-  .dr-mehta-content {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-  }
-
-  .dr-mehta img {
-    width: 30vw;
-    height: 30vw;
+  .dr-mehta-about {
+    width: 100%;
   }
 }
 
-@media (width <= 480px) {
-  .dr-mehta {
-    background-image: url("bg.c485c0e8.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .dr-mehta img {
-    width: 40vw;
-    height: 40vw;
-  }
-
-  .dr-mehta {
-    padding: 20px;
-  }
-
-  .dr-mehta h2 {
-    font-size: 24px;
-  }
-
-  .dr-mehta-content {
-    gap: 15px;
+@media (width <= 1000px) {
+  .dr-mehta-about {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=index.f669476a.css.map */

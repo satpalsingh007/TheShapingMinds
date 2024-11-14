@@ -3,7 +3,6 @@
   z-index: 10;
   background-color: #fffefce6;
   border-bottom: 1px solid #efe9d9;
-  border-radius: 0 0 10px 10px;
   flex-direction: column;
   width: 100vw;
   height: 22vh;
@@ -42,11 +41,14 @@
 
 .social-list-item a .icon {
   fill: #e9e3d4;
+  color: #e9e3d4;
+  font-size: 30px;
   transition: fill .3s;
 }
 
 .social-list-item a:hover .icon {
   fill: #012f2c;
+  color: #012f2c;
   border-radius: 50%;
 }
 
@@ -79,13 +81,18 @@
 
 .light .social-list-item a .icon {
   fill: #000;
+  color: #012f2c;
   transition: fill .3s;
+}
+
+.light .social-list-item a .icon:hover {
+  color: #012f2cd3;
 }
 
 .header-logo {
   width: 16vw;
   position: fixed;
-  top: 20px;
+  top: 22px;
   left: 20px;
 }
 

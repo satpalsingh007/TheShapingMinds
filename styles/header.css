@@ -5,7 +5,7 @@
   height: 22vh;  
   border-bottom:  1px solid #efe9d9;
   backdrop-filter:blur(8px);  
-  border-radius: 0 0 10px 10px;
+  /* border-radius: 0 0 10px 10px; */
   z-index: 10;
   position: fixed; 
   top: 0;
@@ -42,11 +42,14 @@
 
 }
 .social-list-item a .icon{
-  fill:#e9e3d4;
-  transition: fill 0.3s;
+  fill: #e9e3d4;
+   transition: fill 0.3s;
+  font-size: 30px; 
+  color: #e9e3d4;
 }
 .social-list-item a:hover .icon {
   fill: #012f2c; 
+  color: #012f2c; 
   border-radius: 50%;
 }
 /* .social-link:hover{
@@ -83,13 +86,17 @@
 
 .light .social-list-item a .icon{
   fill:black;
+  color: #012f2c;
   transition: fill 0.3s;
+}
+.light .social-list-item a .icon:hover{
+  color:#012f2cd3;
 }
 
 .header-logo{
   width: 16vw;
   position: fixed;
-  top: 20px;
+  top: 22px;
   left:20px
 }
 
