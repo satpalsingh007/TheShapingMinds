@@ -28300,8 +28300,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _nightLampsPng = require("../images/night-lamps.png");
-var _nightLampsPngDefault = parcelHelpers.interopDefault(_nightLampsPng);
+var _aboutUsJpg = require("../images/about-us.jpg");
+var _aboutUsJpgDefault = parcelHelpers.interopDefault(_aboutUsJpg);
 var _ourTeamJpg = require("../images/our-team.jpg");
 var _ourTeamJpgDefault = parcelHelpers.interopDefault(_ourTeamJpg);
 const About = ()=>{
@@ -28322,7 +28322,7 @@ const About = ()=>{
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 className: "about-main-img-mobile",
-                                src: (0, _nightLampsPngDefault.default)
+                                src: (0, _aboutUsJpgDefault.default)
                             }, void 0, false, {
                                 fileName: "src/components/About.js",
                                 lineNumber: 9,
@@ -28343,7 +28343,7 @@ const About = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         className: "about-main-img",
-                        src: (0, _nightLampsPngDefault.default)
+                        src: (0, _aboutUsJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/About.js",
                         lineNumber: 13,
@@ -28529,10 +28529,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../images/night-lamps.png":"irRFU","../images/our-team.jpg":"iTfLg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irRFU":[function(require,module,exports) {
-module.exports = require("a2348a24f58c0ae2").getBundleURL("aXMci") + "night-lamps.8e899cac.png" + "?" + Date.now();
-
-},{"a2348a24f58c0ae2":"lgJ39"}],"iTfLg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../images/our-team.jpg":"iTfLg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/about-us.jpg":"42xCz"}],"iTfLg":[function(require,module,exports) {
 module.exports = require("22b70b4be5de5498").getBundleURL("aXMci") + "our-team.9f3be61e.jpg" + "?" + Date.now();
 
 },{"22b70b4be5de5498":"lgJ39"}],"gkKU3":[function(require,module,exports) {
@@ -28703,7 +28700,10 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"9xmpe":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"42xCz":[function(require,module,exports) {
+module.exports = require("6b595d42310e58d0").getBundleURL("aXMci") + "about-us.47089261.jpg" + "?" + Date.now();
+
+},{"6b595d42310e58d0":"lgJ39"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.27.0
  *
@@ -37183,7 +37183,7 @@ const DrMehta = ()=>{
                                         lineNumber: 15,
                                         columnNumber: 25
                                     }, undefined),
-                                    "  has a keen interest in the study of Mind & Behaviour. She devoted her studies in the field of psychology  and pursued Doctorate from Nagpur University in the same field. "
+                                    " has a keen interest in the study of Mind and behavior. She devoted her studies to psychology and pursued a Doctorate from Nagpur University in the same field."
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/DrMehta.js",
@@ -37191,29 +37191,20 @@ const DrMehta = ()=>{
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Post her Masters, she did her internship in Clinical Psychology form ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                        children: "VIMHANS"
-                                    }, void 0, false, {
-                                        fileName: "src/components/DrMehta.js",
-                                        lineNumber: 16,
-                                        columnNumber: 93
-                                    }, undefined),
-                                    ", Delhi. She has provided her ernest services over a decade as Psychologist at various bases of Indian Air Force. She dealt with the cases of treatment of Mental health, depression, anxiety, stress, trauma and other personality disorders providing scope for effective management of the mental health issues of her clients. She has been providing yeoman services to the underprivileged section and has been associated with volunteering counselling services over half a decade to Mother Tereasa Home, Delhi."
-                                ]
-                            }, void 0, true, {
+                                children: "Post her Masters, she did her internship in Clinical Psychology at VIMHANS, Delhi. She has provided her Ernest services for over a decade as a Psychologist at various bases of the Indian Air Force. She dealt with the cases of treatment of Mental health, depression, anxiety, stress, trauma, and other personality disorders providing scope for effective management of the mental health issues of her clients. She has been providing yeoman services to the underprivileged section and has been associated with volunteering counseling services for over half a decade at Mother Teresa Home, Delhi."
+                            }, void 0, false, {
                                 fileName: "src/components/DrMehta.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 className: "dr-mehta-readmore",
                                 to: "/about-us",
+                                onClick: ()=>window.scrollTo(0, 0),
                                 children: "Read More..."
                             }, void 0, false, {
                                 fileName: "src/components/DrMehta.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 20
                             }, undefined)
                         ]
@@ -37245,7 +37236,7 @@ $RefreshReg$(_c, "DrMehta");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../images/dr-akriti-mehta.png":"cQg04","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"cQg04":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../images/dr-akriti-mehta.png":"cQg04","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cQg04":[function(require,module,exports) {
 module.exports = require("d86e43d66c16990f").getBundleURL("aXMci") + "dr-akriti-mehta.8437252d.png" + "?" + Date.now();
 
 },{"d86e43d66c16990f":"lgJ39"}],"jt4va":[function(require,module,exports) {
@@ -37807,13 +37798,13 @@ const Footer = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         className: "footer-right-content",
                                         children: [
-                                            "Add1: Delhi, XYZ , Headquaters, India ",
+                                            "110/1/A, Raksha Enclave",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/Footer.js",
                                                 lineNumber: 40,
-                                                columnNumber: 99
+                                                columnNumber: 84
                                             }, undefined),
-                                            "Add1: Delhi, XYZ , Headquaters, In"
+                                            " Clement Town,Dehradun-248002"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Footer.js",

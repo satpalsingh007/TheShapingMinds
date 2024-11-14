@@ -1,4 +1,4 @@
-import img1 from "../images/night-lamps.png"
+import img1 from "../images/about-us.jpg"
 import ourteam from "../images/our-team.jpg"
 const About=()=>{
     return(

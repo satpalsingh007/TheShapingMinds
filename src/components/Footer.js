@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className="footer-right">
                     <div className="footer-address">
                         <h3 className="footer-right-heading">Our Address</h3>
-                        <p className="footer-right-content">Add1: Delhi, XYZ , Headquaters, India <br/>Add1: Delhi, XYZ , Headquaters, In</p>
+                        <p className="footer-right-content">110/1/A, Raksha Enclave<br/> Clement Town,Dehradun-248002</p>
                         
                         <hr/>
                     </div>

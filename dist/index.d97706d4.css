@@ -56,6 +56,12 @@
   display: flex;
 }
 
+.footer-address {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
 .footer-right-heading {
   color: #fcd961;
   text-align: center;
@@ -64,13 +70,14 @@
 
 .footer-right-content {
   color: #232426;
+  text-wrap: wrap;
   background-color: #e5f0e6;
   border-radius: 20px;
   width: 100%;
   height: 20vh;
   margin-bottom: 20px;
-  padding: 15px;
-  font-size: 18px;
+  padding: 20px;
+  font-size: 22px;
 }
 
 .footer-end {
