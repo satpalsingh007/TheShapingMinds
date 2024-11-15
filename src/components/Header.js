@@ -56,7 +56,9 @@ const Header = () => {
             >
               <a href="#">Individuals
               </a>
-              <div>{"→"}</div>
+              <div><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z" fill="#033A35"></path>
+            </svg></div>
             </div>
             {activeDropdown === 1 && (
               <div className="sub-drop-down-list-item">
@@ -85,7 +87,9 @@ const Header = () => {
               onClick={() => handleDropdownClick(2)}
             >
               <a href="#">Couple & Relationships</a>
-              <div>{"→"}</div>
+              <div><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z" fill="#033A35"></path>
+            </svg></div>
             </div>
             {activeDropdown === 2 && (
               <div className="sub-drop-down-list-item">
@@ -108,7 +112,9 @@ const Header = () => {
               onClick={() => handleDropdownClick(3)}
             >
               <a href="#"> ⁠⁠Children & Adolescents</a>
-              <div>{"→"}</div>
+              <div><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z" fill="#033A35"></path>
+            </svg></div>
             </div>
             {activeDropdown === 3 && (
               <div className="sub-drop-down-list-item">
@@ -134,7 +140,9 @@ const Header = () => {
               onClick={() => handleDropdownClick(4)}
             >
               <a href="#"> ⁠⁠Corporate and Educational Clients</a>
-              <div>{"→"}</div>
+              <div><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z" fill="#033A35"></path>
+            </svg></div>
             </div>
             {activeDropdown === 4 && (
               <div className="sub-drop-down-list-item">
