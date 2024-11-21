@@ -15,6 +15,16 @@ const Footer = () => {
                         <div className="footer-links">
                             <Link to={"/about-us"} href="#meet-team" className="footer-link" onClick={() => window.scrollTo(0, 0)}>About Us</Link>
                             <a href="#our-story" className="footer-link">Our Story</a>
+                            <div
+    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    className="footer-link"
+    role="button"  // added for accessibility
+    tabIndex="0"  // added for keyboard navigation
+    aria-label="Back to top"  // for screen readers
+>
+    Back to top
+</div>
+
                           
                         </div>
                     </div>
@@ -30,6 +40,8 @@ const Footer = () => {
                         <h3  className="footer-left-heading">Get in Touch</h3>
                         <div className="footer-links">
                             <Link to={"contact-us"} className="footer-link" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
+                            <div className='footer-link'><i className="fa fa-phone" ></i> +91 7987290286</div>
+                            <a className='footer-link' href='mailto:shapingminds@gmail.com'><i className="fa fa-envelope" ></i> shapingminds@gmail.com</a>
                         </div>
                         
                     </div>

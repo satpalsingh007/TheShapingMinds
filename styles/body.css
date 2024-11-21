@@ -94,7 +94,10 @@
   background-color: #fbf7f0;
   border-radius: 10px;
   margin-bottom: 10px;
+  box-shadow:rgba(0, 0, 0, 0.137) 4px 4px 10px;
 }
+
+
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
