@@ -7,37 +7,51 @@ const About=()=>{
                 <div>
                     <h1>About Us </h1>
                     <img className="about-main-img-mobile" src={img1}/>
-                    <p>At The Shaping Minds, we firmly believe that mental well-being is the foundation of a fulfilling existence. Our center is dedicated to providing compassionate counseling and support to individuals, couples, families, and organizations—because everyone deserves to succeed.Our purpose is simple: to help you understand your mental health, overcome obstacles, and embrace personal progress. We are devoted to providing a safe and friendly atmosphere in which you can feel truly valued and heard.</p>
+                    <p>Welcome to The Shaping Mind, where your mental well-being is our top priority. We understand that mental health is as important as physical health, and we are here to support you on your journey toward a happier, healthier life. Whether you're dealing with stress, anxiety, trauma, or need guidance for personal growth, The Shaping Mind provides trusted, compassionate care for individuals of all ages.</p>
 
                 </div>
                 <img className="about-main-img" src={img1}/>
             </div>
+            <div className="about-dr-aakriti">
             <div className="about-section">
-                    <h2>Meet Our Team </h2>
+                <h2>Our Founder –<br/> Dr. Aakriti Mehta </h2>
                 <div className="about-our-team">
-
                     <img className="about-img" src={ourteam}/>
-                    <p className="about-content">The HelpGuide team is a passionate group of people dedicated to providing you with empowering, evidence-based mental health information, resources, and tools.</p>
+                    <p className="about-content">At the helm of The Shaping Mind is Dr. Aakriti Mehta, a passionate psychologist with over a decade of experience. Dr. Mehta’s journey in the field of mental health began with a deep interest in the study of mind and behavior, which led her to pursue a Doctorate in Psychology from Nagpur University. With a Masters and specialized internship in Clinical Psychology from VIMHANS, Delhi, she has dedicated her career to helping individuals navigate the complexities of mental health.</p>
                 </div>
+                <p className="about-content-para2">Her extensive experience includes providing psychological services at various bases of the Indian Air Force, where she treated clients facing a range of mental health challenges including depression, anxiety, stress, trauma, and personality disorders. Dr. Mehta has also volunteered at Mother Teresa Home, Delhi, providing counseling services to the underprivileged for over half a decade.</p>
+                <p className="about-content-para3">Dr. Mehta is particularly passionate about adolescent mental health, and her research focuses on life skills training, emotional intelligence, and self-concept development for teens. Her belief that adolescents deserve better tools for managing stress and emotional health has shaped the core of The Shaping Mind’s approach.</p>
             </div>
+
+            </div>
+            
             <div className="about-our-commitment">
-                <h2>Our Commitment to<br/><span>Diversity, Inclusion, Equity & Belonging</span>
-                </h2>
+                <h2>Our Mission</h2>
                 <div>
-                    <p>At HelpGuide.org, we are committed to building a diverse, inclusive, and equitable organization and society—one that reflects our many stakeholders and where all of our employees, volunteers, and partners feel a sense of belonging, value, and respect—regardless of race, gender/gender identity, ethnicity, national origin, age, sexual orientation, education, disability, veteran status, or other dimension of diversity.</p>
-                    <p>We are committed to providing informed, authentic leadership for cultural equity and modeling diversity and inclusion in all our work. To that end, we are committed to:</p>
-                    <ul>
-                        <li>see diversity, inclusion, and equity as connected to our mission and critical to ensure the well-being of our staff and the many people around the world who we work with and serve;</li>
-                        <li>identify and dismantle inequities within our policies, systems, programs, and services, and continually update and report the organization’s progress;</li>
-                        <li>explore potential underlying, unquestioned assumptions that interfere with our ability to advance inclusiveness;</li>
-                        <li>advocate for and support board-level thinking about how systemic inequities impact our organization’s work and how to address them in a way that is consistent with our mission and values;</li>
-                        <li>practice and encourage transparent communication in all of our interactions; and</li>
-                        <li>lead with respect and tolerance.</li>
-                    </ul>
-                    <p>We expect all of our leaders, employees and partners to embrace these imperatives, and to uphold them in our everyday practice and decision making.</p>
-                    <p>By celebrating and centering diversity, inclusion, equity, and belonging in everything we do, we expand our access to the best talent, ideas, perspectives, and resources available to meet our mission in the most beneficial and impactful way possible.</p>
+                    <p>At The Shaping Mind, we are committed to providing accessible, effective psychological services across the country. Whether you're a child, adolescent, or adult, our goal is to offer support tailored to your unique mental health needs. We believe in creating a safe, confidential space for individuals to explore their thoughts, emotions, and behaviors with the help of expert guidance.</p>
+                </div><br/>
+                <h2>Our Approach</h2>
+                <div>
+                    <p>We offer a range of services to promote mental wellness, including therapy, counseling, life skills development, and emotional intelligence coaching. Dr. Mehta’s holistic approach integrates a variety of psychological techniques to ensure that you not only overcome current challenges but also build a strong foundation for long-term emotional well-being.</p>
+                    <p>Our services are available online, making it easy for individuals nationwide to access professional mental health support from the comfort of their homes.</p>
+                </div><br/>
+                <h2>Trusted & Experienced</h2>
+                <div>
+                    <p>Dr. Mehta is a proud member of the National Health Counseling Association (NHCA) in Singapore and the Counselor Council of India. She is also an Assistant Professor of Psychology at the Institute of Technology and Management, Dehradun, where she heads the Personal Development Program (PDP).</p>
+                    <p>With years of experience, deep empathy, and a genuine passion for mental health, Dr. Mehta has earned the trust and respect of countless individuals. At The Shaping Mind, we strive to continue her legacy of providing compassionate care and guidance to everyone in need.</p>
                 </div>
-            </div>            
+            </div>  
+
+            <div className="join-us">
+                <div className="join-us-content">
+                <h2>Join Us on the Journey to Better Mental Health</h2>
+                <p>At <strong>The Shaping Mind</strong>, we believe that everyone deserves the opportunity to live a fulfilling life, free from the limitations of mental health struggles. We are here to help you every step of the way.</p>
+                <p>To learn more about our services, connect with us through our <a href="https://www.facebook.com/TheShapingMind"><b>Facebook page</b></a>  or <a href="https://www.linkedin.com/company/aakrititheshapingmind/"><b>LinkedIn profile</b></a> .</p>
+                <p>Take the first step toward mental wellness today. The Shaping Mind is here to support you.</p>
+                </div>
+               
+            </div> 
+                     
 
         </div>
     )

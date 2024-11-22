@@ -11,10 +11,9 @@
 .para{
     font-family: Inter, sans-serif;
     margin: 0px;
-    padding: 0px;
+    padding: 0 20px;
     border: 0px;
     margin-bottom: 50px;
-   
     font: inherit;
     vertical-align: baseline;
     text-align: center;
@@ -26,13 +25,17 @@
 }
 
 .contact-container {
-   
-    max-width: 600px;
-    margin: 50px auto;
-   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20vh 10vw;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
-    padding-top: 20vh;
-}
+    padding-top: 25vh;
+ }
+
+
 
 .contact-container h1{
     color:#d49f11;
@@ -72,18 +75,22 @@
     padding: 20px;
     border-radius: 20px;
     border: 2px solid #232426;
-    box-shadow: 3px 3px 5px #2324269d ;
+    box-shadow: 3px 3px 5px #2324269d;
+    width: 70%;
+    align-items: center; /* Center all form elements horizontally */
 }
 
 .name-container {
+    width: 100%;
     display: flex;
+    gap: 20px;
     justify-content: space-between;
 }
 
 .name-input {
     color: rgb(68, 69, 70);
     border-radius: 1.2rem;
-    width: 45%;
+    width: 100%;
     padding: 18px;
     margin-bottom: 15px;
     background: rgb(229, 240, 230);
@@ -100,7 +107,7 @@
 .comment-input {
     border-radius: 1.2rem;
     color: rgb(68, 69, 70);
-    
+    width: 100%;
     font-family: Inter, sans-serif;
     padding: 18px;
     border: none;
@@ -123,22 +130,49 @@
 
 .submit-button {
     margin-bottom: 8px;
-    align-self: flex-start;
+    align-self: center; /* Centers the button horizontally */
     margin: 0px;
-    background: #d49f11;
-    color: #232426 ;
-    font-weight: 550;
-    /* border: 5px  #232426 solid ; */
+    background: #fcd961;
+    color: #232426;
+    font-weight: 500;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     height: 2.9rem;
     padding: 0px 1.5rem;
     position: relative;
-    /* border: none; */
     border-radius: 0.6rem;
     outline: 0px;
     cursor: pointer;
     transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100px;
 }
 
+.submit-button:hover {
+    background-color: #f7d158;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1200px){
+    .name-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+    .name-input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+   .contact-container{
+    padding-top: 35vh;
+   }
+}
+
+@media (max-width: 900px){
+    .contact-form{
+     width: 100%;
+    }
+ }

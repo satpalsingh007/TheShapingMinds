@@ -36,11 +36,12 @@
   height: 20vh;
 }
 
-.body img {
+.body-img {
   border-radius: 190px;
   width: 60vw;
   padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .why-choose-us {

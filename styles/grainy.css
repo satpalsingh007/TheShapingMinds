@@ -1,0 +1,172 @@
+.body{
+    position: relative;
+}
+.body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.5; /* Adjust opacity to control how subtle the effect is */
+    /* pointer-events: none;  */
+    z-index: 1;
+  }
+
+.our-mission{
+    position: relative;
+}
+.our-mission::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.1; /* Adjust opacity to control how subtle the effect is */
+    /* pointer-events: none;  */
+    z-index: 1;
+  }
+.why-choose-us{
+    position: relative;
+}
+.why-choose-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.1; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 1;
+  }
+
+  .comprehensive-care{
+    position: relative;
+
+  }
+  .comprehensive-care::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.2; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 1;
+  }
+  .footer{
+    position: relative;
+  }
+
+  .footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.5; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 1;
+
+  }
+
+  .blog-page{
+    position: relative;
+  }
+  .blog-page::before{
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.8; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 1;
+
+  }
+  .blog-list-item{
+    z-index: 9;
+  }
+
+  .about{
+    position: relative;
+  }
+  .about::before{
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.5; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 0;
+
+  }
+
+  .contact-container{
+    position: relative;
+  }
+
+  .contact-container::before{
+    width: 100vw;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/handmade-paper.png'); /* Your grainy texture URL */
+    /* background-size: cover;  */
+    background-repeat: repeat; /* Ensure the texture repeats if it's smaller than the page */
+    opacity: 0.8; /* Adjust opacity to control how subtle the effect is */
+    pointer-events: none; /* Allow content underneath to be interacted with */
+    z-index: 0;
+
+  }
+
+  
+  .mental-health-support::before{
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); 
+    
+    background-repeat: repeat; 
+    opacity: 0.11; 
+    pointer-events: none; 
+    z-index: 0;
+    border-radius: 20px;
+  }

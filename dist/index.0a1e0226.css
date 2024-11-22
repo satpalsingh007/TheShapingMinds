@@ -73,6 +73,8 @@
 
 .care-components {
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 2vw;
   width: 60vw;
   display: flex;

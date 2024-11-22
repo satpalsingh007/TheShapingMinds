@@ -28413,7 +28413,7 @@ const About = ()=>{
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "At The Shaping Minds, we firmly believe that mental well-being is the foundation of a fulfilling existence. Our center is dedicated to providing compassionate counseling and support to individuals, couples, families, and organizations\u2014because everyone deserves to succeed.Our purpose is simple: to help you understand your mental health, overcome obstacles, and embrace personal progress. We are devoted to providing a safe and friendly atmosphere in which you can feel truly valued and heard."
+                                children: "Welcome to The Shaping Mind, where your mental well-being is our top priority. We understand that mental health is as important as physical health, and we are here to support you on your journey toward a happier, healthier life. Whether you're dealing with stress, anxiety, trauma, or need guidance for personal growth, The Shaping Mind provides trusted, compassionate care for individuals of all ages."
                             }, void 0, false, {
                                 fileName: "src/components/About.js",
                                 lineNumber: 10,
@@ -28440,42 +28440,73 @@ const About = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "about-section",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Meet Our Team "
-                    }, void 0, false, {
-                        fileName: "src/components/About.js",
-                        lineNumber: 16,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-our-team",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "about-img",
-                                src: (0, _ourTeamJpgDefault.default)
-                            }, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 19,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "about-content",
-                                children: "The HelpGuide team is a passionate group of people dedicated to providing you with empowering, evidence-based mental health information, resources, and tools."
-                            }, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 20,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/About.js",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                className: "about-dr-aakriti",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "about-section",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: [
+                                "Our Founder \u2013",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 17,
+                                    columnNumber: 34
+                                }, undefined),
+                                " Dr. Aakriti Mehta "
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 17,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "about-our-team",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "about-img",
+                                    src: (0, _ourTeamJpgDefault.default)
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 19,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "about-content",
+                                    children: "At the helm of The Shaping Mind is Dr. Aakriti Mehta, a passionate psychologist with over a decade of experience. Dr. Mehta\u2019s journey in the field of mental health began with a deep interest in the study of mind and behavior, which led her to pursue a Doctorate in Psychology from Nagpur University. With a Masters and specialized internship in Clinical Psychology from VIMHANS, Delhi, she has dedicated her career to helping individuals navigate the complexities of mental health."
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 20,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 18,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "about-content-para2",
+                            children: "Her extensive experience includes providing psychological services at various bases of the Indian Air Force, where she treated clients facing a range of mental health challenges including depression, anxiety, stress, trauma, and personality disorders. Dr. Mehta has also volunteered at Mother Teresa Home, Delhi, providing counseling services to the underprivileged for over half a decade."
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 22,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "about-content-para3",
+                            children: "Dr. Mehta is particularly passionate about adolescent mental health, and her research focuses on life skills training, emotional intelligence, and self-concept development for teens. Her belief that adolescents deserve better tools for managing stress and emotional health has shaped the core of The Shaping Mind\u2019s approach."
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 23,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/About.js",
+                    lineNumber: 16,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/components/About.js",
                 lineNumber: 15,
                 columnNumber: 13
@@ -28484,116 +28515,183 @@ const About = ()=>{
                 className: "about-our-commitment",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: [
-                            "Our Commitment to",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 24,
-                                columnNumber: 38
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "Diversity, Inclusion, Equity & Belonging"
-                            }, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 24,
-                                columnNumber: 43
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: "Our Mission"
+                    }, void 0, false, {
                         fileName: "src/components/About.js",
-                        lineNumber: 24,
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "At The Shaping Mind, we are committed to providing accessible, effective psychological services across the country. Whether you're a child, adolescent, or adult, our goal is to offer support tailored to your unique mental health needs. We believe in creating a safe, confidential space for individuals to explore their thoughts, emotions, and behaviors with the help of expert guidance."
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 31,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 30,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 32,
+                        columnNumber: 23
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Our Approach"
+                    }, void 0, false, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 33,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "At HelpGuide.org, we are committed to building a diverse, inclusive, and equitable organization and society\u2014one that reflects our many stakeholders and where all of our employees, volunteers, and partners feel a sense of belonging, value, and respect\u2014regardless of race, gender/gender identity, ethnicity, national origin, age, sexual orientation, education, disability, veteran status, or other dimension of diversity."
+                                children: "We offer a range of services to promote mental wellness, including therapy, counseling, life skills development, and emotional intelligence coaching. Dr. Mehta\u2019s holistic approach integrates a variety of psychological techniques to ensure that you not only overcome current challenges but also build a strong foundation for long-term emotional well-being."
                             }, void 0, false, {
                                 fileName: "src/components/About.js",
-                                lineNumber: 27,
+                                lineNumber: 35,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "We are committed to providing informed, authentic leadership for cultural equity and modeling diversity and inclusion in all our work. To that end, we are committed to:"
+                                children: "Our services are available online, making it easy for individuals nationwide to access professional mental health support from the comfort of their homes."
                             }, void 0, false, {
                                 fileName: "src/components/About.js",
-                                lineNumber: 28,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "see diversity, inclusion, and equity as connected to our mission and critical to ensure the well-being of our staff and the many people around the world who we work with and serve;"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 30,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "identify and dismantle inequities within our policies, systems, programs, and services, and continually update and report the organization\u2019s progress;"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 31,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "explore potential underlying, unquestioned assumptions that interfere with our ability to advance inclusiveness;"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 32,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "advocate for and support board-level thinking about how systemic inequities impact our organization\u2019s work and how to address them in a way that is consistent with our mission and values;"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 33,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "practice and encourage transparent communication in all of our interactions; and"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 34,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "lead with respect and tolerance."
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 35,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 29,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "We expect all of our leaders, employees and partners to embrace these imperatives, and to uphold them in our everyday practice and decision making."
-                            }, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 37,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "By celebrating and centering diversity, inclusion, equity, and belonging in everything we do, we expand our access to the best talent, ideas, perspectives, and resources available to meet our mission in the most beneficial and impactful way possible."
-                            }, void 0, false, {
-                                fileName: "src/components/About.js",
-                                lineNumber: 38,
+                                lineNumber: 36,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/About.js",
-                        lineNumber: 26,
+                        lineNumber: 34,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 37,
+                        columnNumber: 23
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Trusted & Experienced"
+                    }, void 0, false, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 38,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Dr. Mehta is a proud member of the National Health Counseling Association (NHCA) in Singapore and the Counselor Council of India. She is also an Assistant Professor of Psychology at the Institute of Technology and Management, Dehradun, where she heads the Personal Development Program (PDP)."
+                            }, void 0, false, {
+                                fileName: "src/components/About.js",
+                                lineNumber: 40,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "With years of experience, deep empathy, and a genuine passion for mental health, Dr. Mehta has earned the trust and respect of countless individuals. At The Shaping Mind, we strive to continue her legacy of providing compassionate care and guidance to everyone in need."
+                            }, void 0, false, {
+                                fileName: "src/components/About.js",
+                                lineNumber: 41,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 39,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/About.js",
-                lineNumber: 23,
+                lineNumber: 28,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "join-us",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "join-us-content",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: "Join Us on the Journey to Better Mental Health"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 47,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "At ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                    children: "The Shaping Mind"
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 48,
+                                    columnNumber: 23
+                                }, undefined),
+                                ", we believe that everyone deserves the opportunity to live a fulfilling life, free from the limitations of mental health struggles. We are here to help you every step of the way."
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 48,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "To learn more about our services, connect with us through our ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "https://www.facebook.com/TheShapingMind",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "Facebook page"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 49,
+                                        columnNumber: 132
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 49,
+                                    columnNumber: 82
+                                }, undefined),
+                                "  or ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "https://www.linkedin.com/company/aakrititheshapingmind/",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "LinkedIn profile"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 49,
+                                        columnNumber: 227
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 49,
+                                    columnNumber: 161
+                                }, undefined),
+                                " ."
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 49,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Take the first step toward mental wellness today. The Shaping Mind is here to support you."
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 50,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/About.js",
+                    lineNumber: 46,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/About.js",
+                lineNumber: 45,
                 columnNumber: 13
             }, undefined)
         ]
@@ -28613,7 +28711,13 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/about-us.jpg":"42xCz","../images/our-team.jpg":"iTfLg"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../images/about-us.jpg":"42xCz","../images/our-team.jpg":"iTfLg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"42xCz":[function(require,module,exports) {
+module.exports = require("6b595d42310e58d0").getBundleURL("aXMci") + "about-us.47089261.jpg" + "?" + Date.now();
+
+},{"6b595d42310e58d0":"lgJ39"}],"iTfLg":[function(require,module,exports) {
+module.exports = require("22b70b4be5de5498").getBundleURL("aXMci") + "our-team.9f3be61e.jpg" + "?" + Date.now();
+
+},{"22b70b4be5de5498":"lgJ39"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28781,13 +28885,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"42xCz":[function(require,module,exports) {
-module.exports = require("6b595d42310e58d0").getBundleURL("aXMci") + "about-us.47089261.jpg" + "?" + Date.now();
-
-},{"6b595d42310e58d0":"lgJ39"}],"iTfLg":[function(require,module,exports) {
-module.exports = require("22b70b4be5de5498").getBundleURL("aXMci") + "our-team.9f3be61e.jpg" + "?" + Date.now();
-
-},{"22b70b4be5de5498":"lgJ39"}],"9xmpe":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.27.0
  *
@@ -36006,8 +36104,16 @@ const Body = ()=>{
                         lineNumber: 13,
                         columnNumber: 13
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _helpguide1JpgDefault.default)
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "body-img-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "body-img",
+                            src: (0, _helpguide1JpgDefault.default)
+                        }, void 0, false, {
+                            fileName: "src/components/Body.js",
+                            lineNumber: 15,
+                            columnNumber: 13
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
                         lineNumber: 14,
@@ -36021,32 +36127,32 @@ const Body = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourMissionDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 16,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _comprehensiveCareDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 17,
+                lineNumber: 20,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drMehtaDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 18,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _carouselDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 19,
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tailoredSupportDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 20,
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dynamicQuotesDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 9
             }, undefined)
         ]
@@ -36604,7 +36710,7 @@ const styles = {
         textAlign: "center",
         padding: "20px",
         backgroundColor: "#e5f0e6",
-        border: "1px solid #033a35",
+        // border: '1px solid #033a35',
         height: "30vh",
         display: "flex",
         "flex-direction": "column",
@@ -36904,18 +37010,18 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 11,
+                                    lineNumber: 10,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 10,
+                                lineNumber: 9,
                                 columnNumber: 60
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36936,18 +37042,18 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 14,
+                                    lineNumber: 13,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 13,
+                                lineNumber: 12,
                                 columnNumber: 56
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 13,
+                        lineNumber: 12,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -36968,25 +37074,25 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 17,
+                                    lineNumber: 16,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 16,
+                                lineNumber: 15,
                                 columnNumber: 63
                             }, undefined),
                             " "
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 16,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "care-component",
                         children: [
-                            "Sleep Disorders ",
+                            "Personal Growth ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                 class: "icon",
                                 width: "24",
@@ -37001,18 +37107,215 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 20,
+                                    lineNumber: 19,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 19,
+                                lineNumber: 18,
                                 columnNumber: 65
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 19,
+                        lineNumber: 18,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Premaritial Counselling",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 22,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 21,
+                                columnNumber: 72
+                            }, undefined),
+                            " "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 21,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Relationships Concern ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 25,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 24,
+                                columnNumber: 71
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 24,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Marital Discords",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 28,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 27,
+                                columnNumber: 65
+                            }, undefined),
+                            "  "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 27,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Emotional & Developmental Concerns ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 31,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 30,
+                                columnNumber: 84
+                            }, undefined),
+                            "  "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 30,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Learning Disabilities ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 34,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 33,
+                                columnNumber: 71
+                            }, undefined),
+                            "  "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 33,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Autism ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 37,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 36,
+                                columnNumber: 56
+                            }, undefined),
+                            "  "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 36,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -37033,25 +37336,25 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 23,
+                                    lineNumber: 40,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 22,
+                                lineNumber: 39,
                                 columnNumber: 54
                             }, undefined),
-                            " "
+                            "  "
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 22,
+                        lineNumber: 39,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "care-component",
                         children: [
-                            "Bipolar Disorder ",
+                            "Workplace Counsellings",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                 class: "icon",
                                 width: "24",
@@ -37066,57 +37369,25 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 26,
+                                    lineNumber: 43,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 25,
-                                columnNumber: 66
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 25,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "care-component",
-                        children: [
-                            "Suicide & Self-Harm ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                class: "icon",
-                                width: "24",
-                                height: "24",
-                                viewBox: "0 0 24 24",
-                                fill: "none",
-                                xmlns: "http://www.w3.org/2000/svg",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    "fill-rule": "evenodd",
-                                    "clip-rule": "evenodd",
-                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
-                                    fill: "#033A35"
-                                }, void 0, false, {
-                                    fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 29,
-                                    columnNumber: 17
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 28,
-                                columnNumber: 69
+                                lineNumber: 42,
+                                columnNumber: 71
                             }, undefined),
                             "  "
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 28,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "care-component",
                         children: [
-                            "Emotional Intelligence ",
+                            "Mental Wellness Programs ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                 class: "icon",
                                 width: "24",
@@ -37131,25 +37402,25 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 32,
+                                    lineNumber: 46,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 31,
-                                columnNumber: 72
+                                lineNumber: 45,
+                                columnNumber: 74
                             }, undefined),
                             "  "
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 31,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "care-component",
                         children: [
-                            "Addiction ",
+                            "EAPs Employee Assistance Program ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                 class: "icon",
                                 width: "24",
@@ -37164,19 +37435,52 @@ const ComprehensiveCare = ()=>{
                                     fill: "#033A35"
                                 }, void 0, false, {
                                     fileName: "src/components/ComprehensiveCare.js",
-                                    lineNumber: 35,
+                                    lineNumber: 49,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/ComprehensiveCare.js",
-                                lineNumber: 34,
-                                columnNumber: 59
+                                lineNumber: 48,
+                                columnNumber: 82
                             }, undefined),
                             "  "
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ComprehensiveCare.js",
-                        lineNumber: 34,
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "care-component",
+                        children: [
+                            "Executive Coaching ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                class: "icon",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    "fill-rule": "evenodd",
+                                    "clip-rule": "evenodd",
+                                    d: "M7.75 4C7.75 7.13537 9.95673 9.83761 13.0288 10.4642L16.9559 11.2651C17.3046 11.3363 17.5553 11.6427 17.556 11.9985C17.5567 12.3544 17.3072 12.6618 16.9588 12.7343L13.2209 13.512C10.1471 14.1516 7.94394 16.8604 7.94394 20H6.44394C6.44394 16.1497 9.14578 12.8278 12.9153 12.0435L13.089 12.0073L12.7291 11.9339C8.95847 11.1649 6.25 7.84824 6.25 4H7.75Z",
+                                    fill: "#033A35"
+                                }, void 0, false, {
+                                    fileName: "src/components/ComprehensiveCare.js",
+                                    lineNumber: 52,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/ComprehensiveCare.js",
+                                lineNumber: 51,
+                                columnNumber: 68
+                            }, undefined),
+                            "  "
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ComprehensiveCare.js",
+                        lineNumber: 51,
                         columnNumber: 17
                     }, undefined)
                 ]

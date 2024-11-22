@@ -20,13 +20,13 @@
 
 }
 .about-section{
-    height: 80vh;
+    height: 100%;
     /* width: 100vw; */
     display: flex;
     align-items: center;
     flex-direction: column;
     /* justify-content: space-around; */
-    gap: 1vh;
+    /* gap: 1vh; */
     padding-left: 10vw;
     padding-right: 10vw;
    
@@ -53,12 +53,16 @@
     font-weight: 500;
     color: #045346;
 }
-
+.about-dr-aakriti{
+    display: flex;
+    flex-direction: column;
+}
 .about-our-team{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 1vw;
+    padding-bottom: 0;
 }
 
 .about-img{
@@ -68,12 +72,27 @@
 
 .about-content{
     background-color: #e5f0e6;
-    width: 40vw;
+    width: 44vw;
     height: auto;
-    border-radius: 20px;
-    padding: 20px;
-}
+    border-radius: 20px 20px 0 0;
+    padding: 20px ;
+    padding-top: 30px;
 
+}
+.about-content-para2{
+    background-color: #e5f0e6;
+    width: 65vw;
+    border-radius:20px 0 0 0;
+    padding: 20px;
+    padding-top: 10px;
+}
+.about-content-para3{
+    background-color: #e5f0e6;
+    width: 65vw;
+    border-radius:0 0 20px 20px;
+    padding: 20px;
+    padding-top: 0;
+}
 .about-our-commitment{
     display: flex;
     flex-direction: column;
@@ -105,6 +124,49 @@
 }
 .about-main{
     padding-top:30vh;
+}
+
+.join-us{
+    height: 100%;
+    background-image: url("../src/images/join-us-bg.jpg");
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join-us-content{
+    display: flex;
+    padding: 10vh 10vw;
+    flex-direction: column;
+    /* background-color: #045346; */
+    gap: 2vh;
+    background-color: #ffffff77;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: relative;
+}
+.join-us-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Replace with your noise texture URL */
+    opacity: 0.5; /* Adjust opacity to control how strong the effect is */
+    pointer-events: none; /* Prevent the texture from blocking interactions */
+}
+
+.join-us h2{
+    text-align: center;
+    color: #012f2c;
+    font-weight: 550;
+}
+
+.join-us p{
+    color: #232426;
+    font-size: 22px;
+    
 }
 
 @media (max-width: 1200px){
@@ -139,6 +201,20 @@
     }
     .about-content{
         width: 80vw;
+        border-radius: 20px ;
+        margin-bottom: 2vh;
+        padding: 20px;
+    }
+    .about-content-para2{
+        width: 80vw;
+        border-radius: 20px ;
+        margin-bottom: 2vh;
+        padding: 20px;
+    }
+    .about-content-para3{
+        width: 80vw;
+        border-radius: 20px ;
+        padding: 20px;
     }
     
 }
@@ -162,7 +238,8 @@
     }
 
     .about-img{
-        width: 40vw;
+        width: 70vw;
     }
 
 }
+

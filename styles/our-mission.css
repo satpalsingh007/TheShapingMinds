@@ -77,6 +77,8 @@
 .care-components {
     display: flex;
     width: 60vw;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2vw;
 }

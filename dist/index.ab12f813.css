@@ -1,6 +1,6 @@
 .header {
   backdrop-filter: blur(8px);
-  z-index: 10;
+  z-index: 99;
   background-color: #fffefce6;
   border-bottom: 1px solid #efe9d9;
   flex-direction: column;
@@ -31,6 +31,10 @@
   width: 100px;
   height: 40px;
   display: flex;
+}
+
+.header-top-contact:hover {
+  background-color: #f7d158;
 }
 
 .social-list {
@@ -92,7 +96,7 @@
 .header-logo {
   width: 16vw;
   position: fixed;
-  top: 22px;
+  top: 25px;
   left: 20px;
 }
 
@@ -162,5 +166,9 @@
 
 .visible {
   display: block;
+}
+
+.body h1 {
+  padding-top: 28vh;
 }
 /*# sourceMappingURL=index.ab12f813.css.map */

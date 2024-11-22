@@ -6,12 +6,13 @@
   border-bottom:  1px solid #efe9d9;
   backdrop-filter:blur(8px);  
   /* border-radius: 0 0 10px 10px; */
-  z-index: 10;
+  z-index: 99;
   position: fixed; 
   top: 0;
   left: 0;
   width: 100vw;
   transition: background-color 0.3s, color 0.3s;  
+  
 }
 
 .header-top{
@@ -32,7 +33,9 @@
   justify-content: center;
   background-color: #fcd961;
   border-radius: 8px ;
-  
+}
+.header-top-contact:hover{
+  background-color: #f7d158 ;
 }
 
 .social-list{
@@ -68,7 +71,9 @@
   display: flex;
   gap: 40px;
   padding-top: 20px;
+  
 }
+
 
 .header.dark {
   background-color: rgb(255, 254, 252); /* Dark background */
@@ -96,7 +101,7 @@
 .header-logo{
   width: 16vw;
   position: fixed;
-  top: 22px;
+  top: 25px;
   left:20px
 }
 
@@ -175,4 +180,7 @@ display: none;
 }
 .visible {
 display: block;
+}
+.body h1{
+  padding-top: 28vh;
 }

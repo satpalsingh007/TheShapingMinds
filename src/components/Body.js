@@ -11,7 +11,10 @@ const Body = ()=>{
             <h1>Shaping Minds, Transforming Lives :  <br/>
             Your Journey to Mental Health & Wellness Starts Here</h1><br/>
             <div>Shaping your mind and thoughts to unlock a healthier and happier future.</div>
-            <img src={img}/>            
+            <div className="body-img-container">
+            <img className="body-img" src={img}/> 
+            </div>
+                      
         </div>
         <OurMission/>
         <ComprehensiveCare/>
