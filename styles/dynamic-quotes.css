@@ -1,0 +1,30 @@
+    #quote-container{
+        background-image: url("../src/images/bg-test.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+    }
+
+.quote-container-content{
+    display: flex;
+    padding: 10vh 10vw;
+    flex-direction: column;
+    /* background-color: #045346; */
+    gap: 2vh;
+    background-color: #ffffff77;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: relative;
+}
+.quote-container-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png'); /* Replace with your noise texture URL */
+    opacity: 0.5; /* Adjust opacity to control how strong the effect is */
+    pointer-events: none; /* Prevent the texture from blocking interactions */
+    border-radius: 20px;
+}

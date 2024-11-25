@@ -36725,28 +36725,35 @@ const DynamicQuotes = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "quote-container",
         style: styles.container,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("blockquote", {
-                style: styles.quote,
-                children: currentQuote.text
-            }, void 0, false, {
-                fileName: "src/components/DynamicQuotes.js",
-                lineNumber: 38,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("cite", {
-                style: styles.author,
-                children: [
-                    "- ",
-                    currentQuote.author
-                ]
-            }, void 0, true, {
-                fileName: "src/components/DynamicQuotes.js",
-                lineNumber: 39,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "quote-container-content",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("blockquote", {
+                    style: styles.quote,
+                    children: currentQuote.text
+                }, void 0, false, {
+                    fileName: "src/components/DynamicQuotes.js",
+                    lineNumber: 39,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("cite", {
+                    style: styles.author,
+                    children: [
+                        "- ",
+                        currentQuote.author
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DynamicQuotes.js",
+                    lineNumber: 40,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/DynamicQuotes.js",
+            lineNumber: 38,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/DynamicQuotes.js",
         lineNumber: 37,
         columnNumber: 9
@@ -36758,9 +36765,9 @@ const styles = {
     container: {
         textAlign: "center",
         padding: "20px",
-        backgroundColor: "#e5f0e6",
+        // backgroundColor: '#e5f0e6',
         // border: '1px solid #033a35',
-        height: "30vh",
+        height: "70vh",
         display: "flex",
         "flex-direction": "column",
         "justify-content": "center"

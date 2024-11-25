@@ -35,8 +35,12 @@ const DynamicQuotes = () => {
 
     return (
         <div id="quote-container" style={styles.container}>
+            <div className='quote-container-content'>
             <blockquote style={styles.quote}>{currentQuote.text}</blockquote>
             <cite style={styles.author}>- {currentQuote.author}</cite>
+
+            </div>
+            
         </div>
     );
 };
@@ -45,10 +49,10 @@ const styles = {
     container: {
         textAlign: 'center',
         padding: '20px',
-        backgroundColor: '#e5f0e6',
+        // backgroundColor: '#e5f0e6',
         // border: '1px solid #033a35',
         
-        height: '30vh',
+        height: '70vh',
         display: 'flex',
         'flex-direction': 'column',
         'justify-content': 'center',
