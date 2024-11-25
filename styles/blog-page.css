@@ -102,6 +102,11 @@
        
     }
 }
+@media (max-width: 900px){
+    .blog-page{
+        padding-top: 25vh;
+    }
+}
 
 @media (max-width: 900px) {
     .blog-list-item {
@@ -113,7 +118,8 @@
 
 @media (max-width: 600px) {
     .blog-page {
-        margin: 20vh 5vw; /* Adjust margins for smaller screens */
+        padding: 25vh 5vw; /* Adjust margins for smaller screens */
+        margin-bottom: 0;
     }
     .blog-list-item {
         flex: 1 1 100%; /* 1 item per row */
@@ -130,7 +136,7 @@
 
 @media (max-width: 400px) {
     .blog-page {
-        margin: 20vh 5vw; /* Adjust margins for smaller screens */
+      padding: 23vh 5vw; /* Adjust margins for smaller screens */
     }
 
 

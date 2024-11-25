@@ -39,11 +39,13 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <Link to={'/home'} className='header-links' onClick={() => window.scrollTo(0, 0)}>Home</Link>
-              <Link to={"/about-us"}  className='header-links' onClick={() => window.scrollTo(0, 0)}>About Us</Link>
+              <Link to={'/home'} className='header-links' onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Home</Link>
+              <Link to={"/about-us"}  className='header-links'onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>About Us</Link>
               <div className="drop-down">
-          <a href='#' onClick={toggleDropdown} className='header-links'> 
-            Services ▾
+          <a href='#' onClick={toggleDropdown} className='header-links services'> 
+            Services  <span className={`arrow ${dropdownOpen ? 'rotate' : ''}`}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+  <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+</svg></span>
           </a>
           <div
             className={`drop-down-list ${dropdownOpen ? "visible" : "hidden"}`}
@@ -164,7 +166,7 @@ const Header = () => {
             
           </div>
         </div>
-              <Link to={'/contact-us'} className= "header-top-contact dark header-links" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
+              <Link to={'/contact-us'} className= "header-top-contact dark header-links" onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Contact Us</Link>
              
               <div className="header-social">
                 <ul className="social-list">
@@ -205,10 +207,10 @@ const Header = () => {
              
               <img className="header-logo logo" src={logo}/>
               <div className="header-links">
-                  <Link to={'/individuals-blogs'} onClick={() => window.scrollTo(0, 0)}>Individuals</Link>
-                  <Link to={'/couples-blogs'} onClick={() => window.scrollTo(0, 0)}>Couples & Relationships</Link>
-                  <Link to={'/children-blogs'} onClick={() => window.scrollTo(0, 0)}>Children & Adolescents</Link>
-                  <Link to={'/corporation-blogs'} onClick={() => window.scrollTo(0, 0)}>Corporate & Educational Clients</Link>
+                  <Link to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Individuals</Link>
+                  <Link to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Couples & Relationships</Link>
+                  <Link to={'/children-blogs'}onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Children & Adolescents</Link>
+                  <Link to={'/corporation-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Corporate & Educational Clients</Link>
               </div>
                {/* Menu Button */}
              <input type="checkbox" id="checkbox" className="menu-checkbox" onChange={toggleMenu} />

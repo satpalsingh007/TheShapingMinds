@@ -69,9 +69,14 @@
 }
 .header-links{
   display: flex;
-  gap: 40px;
+  gap: 30px;
   padding-top: 20px;
   
+}
+
+.services{
+  gap: 1px;
+  align-items: center;
 }
 
 
@@ -184,3 +189,39 @@ display: block;
 .body h1{
   padding-top: 28vh;
 }
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* Arrow rotation when dropdown is open */
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg); /* Arrow points upwards when dropdown is open */
+}
+.drop-down-list {
+  padding-top: 20px;
+  height: 60vh;
+  width: 100vw;
+  background-color: rgb(229, 240, 230);
+  position: absolute;
+  top: 22vh; /* Starts just below the header */
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-20px); /* Start from behind */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+  pointer-events: none; /* Prevent interaction when hidden */
+}
+
+/* When dropdown is open */
+.drop-down-list.visible {
+  opacity: 1;
+  transform: translateY(0); /* Slide down */
+  pointer-events: auto; /* Allow interaction when visible */
+}
+
+

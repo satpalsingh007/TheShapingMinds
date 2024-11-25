@@ -68,6 +68,7 @@
 .about-img{
     border-radius: 20px;
     width: 20vw;
+    z-index: 9;
 }
 
 .about-content{

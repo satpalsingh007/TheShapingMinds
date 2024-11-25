@@ -27553,7 +27553,10 @@ const Header = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                         to: "/home",
                         className: "header-links",
-                        onClick: ()=>window.scrollTo(0, 0),
+                        onClick: ()=>{
+                            window.scrollTo(0, 0);
+                            handleLinkClick();
+                        },
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
@@ -27563,7 +27566,10 @@ const Header = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                         to: "/about-us",
                         className: "header-links",
-                        onClick: ()=>window.scrollTo(0, 0),
+                        onClick: ()=>{
+                            window.scrollTo(0, 0);
+                            handleLinkClick();
+                        },
                         children: "About Us"
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
@@ -27576,9 +27582,37 @@ const Header = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                 href: "#",
                                 onClick: toggleDropdown,
-                                className: "header-links",
-                                children: "Services \u25BE"
-                            }, void 0, false, {
+                                className: "header-links services",
+                                children: [
+                                    "Services  ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: `arrow ${dropdownOpen ? "rotate" : ""}`,
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "16",
+                                            height: "16",
+                                            fill: "currentColor",
+                                            class: "bi bi-caret-down",
+                                            viewBox: "0 0 16 16",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                d: "M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 47,
+                                                columnNumber: 3
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Header.js",
+                                            lineNumber: 46,
+                                            columnNumber: 81
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 46,
+                                        columnNumber: 23
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 45,
                                 columnNumber: 11
@@ -27595,7 +27629,7 @@ const Header = ()=>{
                                                 children: "Individuals"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 57,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27613,23 +27647,23 @@ const Header = ()=>{
                                                         fill: "#033A35"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Header.js",
-                                                        lineNumber: 60,
+                                                        lineNumber: 62,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Header.js",
-                                                    lineNumber: 59,
+                                                    lineNumber: 61,
                                                     columnNumber: 20
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 59,
+                                                lineNumber: 61,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 51,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, undefined),
                                     activeDropdown === 1 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27642,7 +27676,7 @@ const Header = ()=>{
                                                 children: "Depression"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 65,
+                                                lineNumber: 67,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27652,7 +27686,7 @@ const Header = ()=>{
                                                 children: "Anxiety"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 68,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27662,7 +27696,7 @@ const Header = ()=>{
                                                 children: "Stress"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 71,
+                                                lineNumber: 73,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27672,7 +27706,7 @@ const Header = ()=>{
                                                 children: "Trauma"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 74,
+                                                lineNumber: 76,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27682,13 +27716,13 @@ const Header = ()=>{
                                                 children: "Personal growth"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 77,
+                                                lineNumber: 79,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 64,
+                                        lineNumber: 66,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27700,7 +27734,7 @@ const Header = ()=>{
                                                 children: "Couple & Relationships"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 89,
+                                                lineNumber: 91,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27718,23 +27752,23 @@ const Header = ()=>{
                                                         fill: "#033A35"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Header.js",
-                                                        lineNumber: 91,
+                                                        lineNumber: 93,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Header.js",
-                                                    lineNumber: 90,
+                                                    lineNumber: 92,
                                                     columnNumber: 20
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 90,
+                                                lineNumber: 92,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 83,
+                                        lineNumber: 85,
                                         columnNumber: 13
                                     }, undefined),
                                     activeDropdown === 2 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27747,7 +27781,7 @@ const Header = ()=>{
                                                 children: "Premarital Counselling"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 96,
+                                                lineNumber: 98,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27757,7 +27791,7 @@ const Header = ()=>{
                                                 children: "Relationships Concerns"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 99,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27767,13 +27801,13 @@ const Header = ()=>{
                                                 children: "Marital Discords"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 102,
+                                                lineNumber: 104,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 95,
+                                        lineNumber: 97,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27785,7 +27819,7 @@ const Header = ()=>{
                                                 children: " \u2060\u2060Children & Adolescents"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 114,
+                                                lineNumber: 116,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27803,23 +27837,23 @@ const Header = ()=>{
                                                         fill: "#033A35"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Header.js",
-                                                        lineNumber: 116,
+                                                        lineNumber: 118,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Header.js",
-                                                    lineNumber: 115,
+                                                    lineNumber: 117,
                                                     columnNumber: 20
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 115,
+                                                lineNumber: 117,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 108,
+                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, undefined),
                                     activeDropdown === 3 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27832,7 +27866,7 @@ const Header = ()=>{
                                                 children: "Emotional & Developmental Concerns"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 121,
+                                                lineNumber: 123,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27842,7 +27876,7 @@ const Header = ()=>{
                                                 children: "Learning Disabilities"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 124,
+                                                lineNumber: 126,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27852,7 +27886,7 @@ const Header = ()=>{
                                                 children: "Autism"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 127,
+                                                lineNumber: 129,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27862,13 +27896,13 @@ const Header = ()=>{
                                                 children: "ADHD"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 130,
+                                                lineNumber: 132,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 120,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27880,7 +27914,7 @@ const Header = ()=>{
                                                 children: " \u2060\u2060Corporate and Educational Clients"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 142,
+                                                lineNumber: 144,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27898,23 +27932,23 @@ const Header = ()=>{
                                                         fill: "#033A35"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Header.js",
-                                                        lineNumber: 144,
+                                                        lineNumber: 146,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Header.js",
-                                                    lineNumber: 143,
+                                                    lineNumber: 145,
                                                     columnNumber: 20
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 143,
+                                                lineNumber: 145,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 136,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, undefined),
                                     activeDropdown === 4 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27927,7 +27961,7 @@ const Header = ()=>{
                                                 children: "Workplace Counsellings"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 149,
+                                                lineNumber: 151,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27937,7 +27971,7 @@ const Header = ()=>{
                                                 children: "Mental Wellness Programs"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 152,
+                                                lineNumber: 154,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27947,7 +27981,7 @@ const Header = ()=>{
                                                 children: "EAPs Employee Assistance Program"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 155,
+                                                lineNumber: 157,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27957,19 +27991,19 @@ const Header = ()=>{
                                                 children: "Executive Coaching"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 158,
+                                                lineNumber: 160,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 148,
+                                        lineNumber: 150,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 48,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -27981,11 +28015,14 @@ const Header = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                         to: "/contact-us",
                         className: "header-top-contact dark header-links",
-                        onClick: ()=>window.scrollTo(0, 0),
+                        onClick: ()=>{
+                            window.scrollTo(0, 0);
+                            handleLinkClick();
+                        },
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 167,
+                        lineNumber: 169,
                         columnNumber: 15
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28006,18 +28043,18 @@ const Header = ()=>{
                                                 className: "fa fa-facebook-square icon"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 177,
+                                                lineNumber: 179,
                                                 columnNumber: 43
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 175,
+                                        lineNumber: 177,
                                         columnNumber: 11
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 174,
+                                    lineNumber: 176,
                                     columnNumber: 9
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28033,29 +28070,29 @@ const Header = ()=>{
                                                 className: "fa fa-linkedin-square icon"
                                             }, void 0, false, {
                                                 fileName: "src/components/Header.js",
-                                                lineNumber: 182,
+                                                lineNumber: 184,
                                                 columnNumber: 43
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 180,
+                                        lineNumber: 182,
                                         columnNumber: 11
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 179,
+                                    lineNumber: 181,
                                     columnNumber: 9
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 170,
+                            lineNumber: 172,
                             columnNumber: 17
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 169,
+                        lineNumber: 171,
                         columnNumber: 15
                     }, undefined)
                 ]
@@ -28079,12 +28116,12 @@ const Header = ()=>{
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 192,
+                                lineNumber: 194,
                                 columnNumber: 30
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 192,
+                            lineNumber: 194,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28097,12 +28134,12 @@ const Header = ()=>{
                                 children: "About Us"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 193,
+                                lineNumber: 195,
                                 columnNumber: 30
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 193,
+                            lineNumber: 195,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28115,12 +28152,12 @@ const Header = ()=>{
                                 children: "Individuals"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 194,
+                                lineNumber: 196,
                                 columnNumber: 31
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 194,
+                            lineNumber: 196,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28135,13 +28172,13 @@ const Header = ()=>{
                                     children: "Couples & Relationships"
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 195,
+                                    lineNumber: 197,
                                     columnNumber: 32
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 195,
+                            lineNumber: 197,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28156,13 +28193,13 @@ const Header = ()=>{
                                     children: "Children & Adolescents"
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 196,
+                                    lineNumber: 198,
                                     columnNumber: 32
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 196,
+                            lineNumber: 198,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28175,12 +28212,12 @@ const Header = ()=>{
                                 children: "Corporate & Educational Clients"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 197,
+                                lineNumber: 199,
                                 columnNumber: 31
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 197,
+                            lineNumber: 199,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28193,23 +28230,23 @@ const Header = ()=>{
                                 children: "Contact Us  "
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 199,
+                                lineNumber: 201,
                                 columnNumber: 30
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 199,
+                            lineNumber: 201,
                             columnNumber: 25
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Header.js",
-                    lineNumber: 191,
+                    lineNumber: 193,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Header.js",
-                lineNumber: 190,
+                lineNumber: 192,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28220,7 +28257,7 @@ const Header = ()=>{
                         src: (0, _logoPngDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 206,
+                        lineNumber: 208,
                         columnNumber: 15
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28228,44 +28265,56 @@ const Header = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "/individuals-blogs",
-                                onClick: ()=>window.scrollTo(0, 0),
+                                onClick: ()=>{
+                                    window.scrollTo(0, 0);
+                                    handleLinkClick();
+                                },
                                 children: "Individuals"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 208,
-                                columnNumber: 19
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/couples-blogs",
-                                onClick: ()=>window.scrollTo(0, 0),
-                                children: "Couples & Relationships"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 209,
-                                columnNumber: 19
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/children-blogs",
-                                onClick: ()=>window.scrollTo(0, 0),
-                                children: "Children & Adolescents"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 210,
                                 columnNumber: 19
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/corporation-blogs",
-                                onClick: ()=>window.scrollTo(0, 0),
-                                children: "Corporate & Educational Clients"
+                                to: "/couples-blogs",
+                                onClick: ()=>{
+                                    window.scrollTo(0, 0);
+                                    handleLinkClick();
+                                },
+                                children: "Couples & Relationships"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 211,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/children-blogs",
+                                onClick: ()=>{
+                                    window.scrollTo(0, 0);
+                                    handleLinkClick();
+                                },
+                                children: "Children & Adolescents"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 212,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/corporation-blogs",
+                                onClick: ()=>{
+                                    window.scrollTo(0, 0);
+                                    handleLinkClick();
+                                },
+                                children: "Corporate & Educational Clients"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 213,
                                 columnNumber: 19
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 207,
+                        lineNumber: 209,
                         columnNumber: 15
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -28275,7 +28324,7 @@ const Header = ()=>{
                         onChange: toggleMenu
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 214,
+                        lineNumber: 216,
                         columnNumber: 14
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -28287,7 +28336,7 @@ const Header = ()=>{
                                 id: "bar1"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 216,
+                                lineNumber: 218,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28295,7 +28344,7 @@ const Header = ()=>{
                                 id: "bar2"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 217,
+                                lineNumber: 219,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28303,19 +28352,19 @@ const Header = ()=>{
                                 id: "bar3"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 218,
+                                lineNumber: 220,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 215,
+                        lineNumber: 217,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Header.js",
-                lineNumber: 203,
+                lineNumber: 205,
                 columnNumber: 11
             }, undefined)
         ]
@@ -28711,13 +28760,10 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../images/about-us.jpg":"42xCz","../images/our-team.jpg":"iTfLg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"42xCz":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../images/about-us.jpg":"42xCz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/our-team.jpg":"iTfLg"}],"42xCz":[function(require,module,exports) {
 module.exports = require("6b595d42310e58d0").getBundleURL("aXMci") + "about-us.47089261.jpg" + "?" + Date.now();
 
-},{"6b595d42310e58d0":"lgJ39"}],"iTfLg":[function(require,module,exports) {
-module.exports = require("22b70b4be5de5498").getBundleURL("aXMci") + "our-team.9f3be61e.jpg" + "?" + Date.now();
-
-},{"22b70b4be5de5498":"lgJ39"}],"gkKU3":[function(require,module,exports) {
+},{"6b595d42310e58d0":"lgJ39"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28885,7 +28931,10 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"9xmpe":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"iTfLg":[function(require,module,exports) {
+module.exports = require("22b70b4be5de5498").getBundleURL("aXMci") + "our-team.9f3be61e.jpg" + "?" + Date.now();
+
+},{"22b70b4be5de5498":"lgJ39"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.27.0
  *
@@ -37518,8 +37567,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
-var _drAkritiMehtaPng = require("../images/dr-akriti-mehta.png");
-var _drAkritiMehtaPngDefault = parcelHelpers.interopDefault(_drAkritiMehtaPng);
+var _drAkritiMehtaJpeg = require("../images/dr-akriti-mehta.jpeg");
+var _drAkritiMehtaJpegDefault = parcelHelpers.interopDefault(_drAkritiMehtaJpeg);
 const DrMehta = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "dr-mehta",
@@ -37545,7 +37594,7 @@ const DrMehta = ()=>{
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _drAkritiMehtaPngDefault.default),
+                                src: (0, _drAkritiMehtaJpegDefault.default),
                                 className: "drmehta"
                             }, void 0, false, {
                                 fileName: "src/components/DrMehta.js",
@@ -37617,10 +37666,10 @@ $RefreshReg$(_c, "DrMehta");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../images/dr-akriti-mehta.png":"cQg04","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cQg04":[function(require,module,exports) {
-module.exports = require("d86e43d66c16990f").getBundleURL("aXMci") + "dr-akriti-mehta.8437252d.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/dr-akriti-mehta.jpeg":"fYzo5"}],"fYzo5":[function(require,module,exports) {
+module.exports = require("7e1625c364f92767").getBundleURL("aXMci") + "dr-akriti-mehta.1da54b06.jpeg" + "?" + Date.now();
 
-},{"d86e43d66c16990f":"lgJ39"}],"jt4va":[function(require,module,exports) {
+},{"7e1625c364f92767":"lgJ39"}],"jt4va":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd92 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

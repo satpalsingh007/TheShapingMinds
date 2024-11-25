@@ -1,6 +1,6 @@
 // import drmehtabg from "../images/dr-akriti-bg.png";
 import { Link } from "react-router-dom";
-import drmehta from "../images/dr-akriti-mehta.png";
+import drmehta from "../images/dr-akriti-mehta.jpeg";
 const DrMehta =()=>{
     return (
         <div className="dr-mehta">

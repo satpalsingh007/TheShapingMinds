@@ -62,6 +62,7 @@
 }
 
 .about-img {
+  z-index: 9;
   border-radius: 20px;
   width: 20vw;
 }
