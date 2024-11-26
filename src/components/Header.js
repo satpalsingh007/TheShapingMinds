@@ -39,8 +39,8 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <Link to={'/home'} className='header-links' onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Home</Link>
-              <Link to={"/about-us"}  className='header-links'onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>About Us</Link>
+              <Link to={'/'} className='header-links' onClick={() => { window.scrollTo(0, 0);}}>Home</Link>
+              <Link to={"/about-us"}  className='header-links'onClick={() => { window.scrollTo(0, 0); }}>About Us</Link>
               <div className="drop-down">
           <a href='#' onClick={toggleDropdown} className='header-links services'> 
             Services  <span className={`arrow ${dropdownOpen ? 'rotate' : ''}`}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
@@ -166,7 +166,7 @@ const Header = () => {
             
           </div>
         </div>
-              <Link to={'/contact-us'} className= "header-top-contact dark header-links" onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Contact Us</Link>
+              <Link to={'/contact-us'} className= "header-top-contact dark header-links" onClick={() => { window.scrollTo(0, 0); }}>Contact Us</Link>
              
               <div className="header-social">
                 <ul className="social-list">
@@ -191,7 +191,7 @@ const Header = () => {
             {menuOpen && (
                 <div className="full-screen-menu">
                     <div className="menu-links">
-                        <div><Link to={'/home'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Home</Link></div>
+                        <div><Link to={'/'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Home</Link></div>
                         <div><Link to={'/about-us'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>About Us</Link></div>
                         <div ><Link to={'/individuals-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Individuals</Link></div>
                         <div > <Link to={'/couples-blogs'} onClick={() => { toggleMenu(); window.scrollTo(0, 0); }}>Couples & Relationships</Link></div>

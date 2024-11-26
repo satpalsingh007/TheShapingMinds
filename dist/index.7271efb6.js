@@ -2976,7 +2976,6 @@ var _corporationsBlogsPage = require("./components/CorporationsBlogsPage");
 var _corporationsBlogsPageDefault = parcelHelpers.interopDefault(_corporationsBlogsPage);
 var _couplesBlogsPage = require("./components/CouplesBlogsPage");
 var _couplesBlogsPageDefault = parcelHelpers.interopDefault(_couplesBlogsPage);
-var _react = require("react");
 var _anxiety = require("./components/Anxiety");
 var _anxietyDefault = parcelHelpers.interopDefault(_anxiety);
 var _premaritalCounselling = require("./components/PremaritalCounselling");
@@ -3016,23 +3015,23 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 35,
+                lineNumber: 34,
                 columnNumber: 11
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 36,
+                lineNumber: 35,
                 columnNumber: 11
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 37,
+                lineNumber: 36,
                 columnNumber: 11
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 34,
+        lineNumber: 33,
         columnNumber: 7
     }, undefined);
 };
@@ -3048,19 +3047,9 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         children: [
             {
                 path: "/",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
-                    to: "/home"
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 48,
-                    columnNumber: 20
-                }, undefined) // Redirect to /home
-            },
-            {
-                path: "/home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 52,
+                    lineNumber: 48,
                     columnNumber: 24
                 }, undefined)
             },
@@ -3068,7 +3057,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 56,
+                    lineNumber: 52,
                     columnNumber: 24
                 }, undefined)
             },
@@ -3076,168 +3065,168 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/individuals-blogs",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _individualsBlogsPageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 60,
-                    columnNumber: 22
+                    lineNumber: 56,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/couples-blogs",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _couplesBlogsPageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 64,
-                    columnNumber: 22
+                    lineNumber: 60,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/children-blogs",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _childrenBlogsPageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 68,
-                    columnNumber: 22
+                    lineNumber: 64,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/corporation-blogs",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _corporationsBlogsPageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 72,
-                    columnNumber: 22
+                    lineNumber: 68,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/anxiety",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _anxietyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 76,
-                    columnNumber: 22
+                    lineNumber: 72,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/premarital-counselling",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _premaritalCounsellingDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 80,
-                    columnNumber: 22
+                    lineNumber: 76,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/stress",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _stressDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 84,
-                    columnNumber: 22
+                    lineNumber: 80,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/trauma",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _traumaDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 88,
-                    columnNumber: 22
+                    lineNumber: 84,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/personal-growth",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _personalGrowthDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 92,
-                    columnNumber: 22
+                    lineNumber: 88,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/relationship-concerns",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _relationshipConcernsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 96,
-                    columnNumber: 22
+                    lineNumber: 92,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/depression",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _depressionDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 100,
-                    columnNumber: 22
+                    lineNumber: 96,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/marital-discords",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _maritalDiscordsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 104,
-                    columnNumber: 22
+                    lineNumber: 100,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/emotional-concern",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _emotionalAndDevelopmentalConcernsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 108,
-                    columnNumber: 22
+                    lineNumber: 104,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/learning-disabilities",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _learningDisabilitiesDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 112,
-                    columnNumber: 22
+                    lineNumber: 108,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/autism",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _autismDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 116,
-                    columnNumber: 22
+                    lineNumber: 112,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/adhd",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _adhdDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 120,
-                    columnNumber: 22
+                    lineNumber: 116,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/workplace-counselling",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workplaceCounsellingDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 124,
-                    columnNumber: 22
+                    lineNumber: 120,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/mental-wellness",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mentalWellnessProgramDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 128,
-                    columnNumber: 22
+                    lineNumber: 124,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/employee-assistance-program",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _employeeAssistanceProgramDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 132,
-                    columnNumber: 22
+                    lineNumber: 128,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/executive-coaching",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _executiveCoachingDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 136,
-                    columnNumber: 22
+                    lineNumber: 132,
+                    columnNumber: 24
                 }, undefined)
             },
             {
                 path: "/contact-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 140,
-                    columnNumber: 21
+                    lineNumber: 136,
+                    columnNumber: 24
                 }, undefined)
             }
         ]
@@ -3248,7 +3237,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 148,
+    lineNumber: 143,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3259,7 +3248,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/MentalHealthBody":"jt4va","./components/DynamicQuotes":"4OnFc","react-router-dom":"9xmpe","./components/About":"9R1Eu","./components/Footer":"8pPOA","./components/IndividualsBlogsPage":"18akZ","./components/ChildrenBlogsPage":"5xe8y","./components/CorporationsBlogsPage":"6jVwH","./components/CouplesBlogsPage":"3O9tg","react":"21dqq","./components/Anxiety":"luYCF","./components/PremaritalCounselling":"lIPoP","./components/Stress":"5JHmH","./components/Trauma":"ama7f","./components/PersonalGrowth":"6zumq","./components/RelationshipConcerns":"1Co2p","./components/Depression":"4oGMv","./components/MaritalDiscords":"2lGw2","./components/EmotionalAndDevelopmentalConcerns":"6mcSQ","./components/LearningDisabilities":"aG7a2","./components/Autism":"3ujQc","./components/Adhd":"jcWWo","./components/WorkplaceCounselling":"a1hl3","./components/MentalWellnessProgram":"aGYsU","./components/EmployeeAssistanceProgram":"9tO57","./components/ExecutiveCoaching":"1FTbB","./components/ContactUs":"dZ839","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/MentalHealthBody":"jt4va","./components/DynamicQuotes":"4OnFc","react-router-dom":"9xmpe","./components/About":"9R1Eu","./components/Footer":"8pPOA","./components/IndividualsBlogsPage":"18akZ","./components/ChildrenBlogsPage":"5xe8y","./components/CorporationsBlogsPage":"6jVwH","./components/CouplesBlogsPage":"3O9tg","./components/Anxiety":"luYCF","./components/PremaritalCounselling":"lIPoP","./components/Stress":"5JHmH","./components/Trauma":"ama7f","./components/PersonalGrowth":"6zumq","./components/RelationshipConcerns":"1Co2p","./components/Depression":"4oGMv","./components/MaritalDiscords":"2lGw2","./components/EmotionalAndDevelopmentalConcerns":"6mcSQ","./components/LearningDisabilities":"aG7a2","./components/Autism":"3ujQc","./components/Adhd":"jcWWo","./components/WorkplaceCounselling":"a1hl3","./components/MentalWellnessProgram":"aGYsU","./components/EmployeeAssistanceProgram":"9tO57","./components/ExecutiveCoaching":"1FTbB","./components/ContactUs":"dZ839","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27551,11 +27540,10 @@ const Header = ()=>{
                 className: "header-top",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/home",
+                        to: "/",
                         className: "header-links",
                         onClick: ()=>{
                             window.scrollTo(0, 0);
-                            handleLinkClick();
                         },
                         children: "Home"
                     }, void 0, false, {
@@ -27568,7 +27556,6 @@ const Header = ()=>{
                         className: "header-links",
                         onClick: ()=>{
                             window.scrollTo(0, 0);
-                            handleLinkClick();
                         },
                         children: "About Us"
                     }, void 0, false, {
@@ -28017,7 +28004,6 @@ const Header = ()=>{
                         className: "header-top-contact dark header-links",
                         onClick: ()=>{
                             window.scrollTo(0, 0);
-                            handleLinkClick();
                         },
                         children: "Contact Us"
                     }, void 0, false, {
@@ -28108,7 +28094,7 @@ const Header = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/home",
+                                to: "/",
                                 onClick: ()=>{
                                     toggleMenu();
                                     window.scrollTo(0, 0);
