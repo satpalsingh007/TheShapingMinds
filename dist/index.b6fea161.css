@@ -53,7 +53,7 @@
     height: 150px;
   }
 
-  .header-links {
+  .header-links, .header-bottom-links {
     display: none;
   }
 

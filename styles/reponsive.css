@@ -61,6 +61,9 @@
     .header-links {
         display: none; /* Hides header links */
     }
+    .header-bottom-links{
+        display: none;
+    }
 
     .full-screen-menu{
         position: absolute;

@@ -206,11 +206,11 @@ const Header = () => {
             
              
               <img className="header-logo logo" src={logo}/>
-              <div className="header-links">
-                  <Link to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Individuals</Link>
-                  <Link to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Couples & Relationships</Link>
-                  <Link to={'/children-blogs'}onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Children & Adolescents</Link>
-                  <Link to={'/corporation-blogs'} onClick={() => { window.scrollTo(0, 0); handleLinkClick(); }}>Corporate & Educational Clients</Link>
+              <div className="header-bottom-links">
+                  <Link to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); }}>Individuals</Link>
+                  <Link to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Couples & Relationships</Link>
+                  <Link to={'/children-blogs'}onClick={() => { window.scrollTo(0, 0);  }}>Children & Adolescents</Link>
+                  <Link to={'/corporation-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Corporate & Educational Clients</Link>
               </div>
                {/* Menu Button */}
              <input type="checkbox" id="checkbox" className="menu-checkbox" onChange={toggleMenu} />

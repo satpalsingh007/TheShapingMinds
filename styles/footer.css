@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 10vh;
     color: #fffefc;
-
+    border-top:  1px solid #efe9d9;
     padding: 5vh;
 }
 .footer-logo{

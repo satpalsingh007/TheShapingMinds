@@ -28261,13 +28261,12 @@ const Header = ()=>{
                         columnNumber: 15
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "header-links",
+                        className: "header-bottom-links",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "/individuals-blogs",
                                 onClick: ()=>{
                                     window.scrollTo(0, 0);
-                                    handleLinkClick();
                                 },
                                 children: "Individuals"
                             }, void 0, false, {
@@ -28279,7 +28278,6 @@ const Header = ()=>{
                                 to: "/couples-blogs",
                                 onClick: ()=>{
                                     window.scrollTo(0, 0);
-                                    handleLinkClick();
                                 },
                                 children: "Couples & Relationships"
                             }, void 0, false, {
@@ -28291,7 +28289,6 @@ const Header = ()=>{
                                 to: "/children-blogs",
                                 onClick: ()=>{
                                     window.scrollTo(0, 0);
-                                    handleLinkClick();
                                 },
                                 children: "Children & Adolescents"
                             }, void 0, false, {
@@ -28303,7 +28300,6 @@ const Header = ()=>{
                                 to: "/corporation-blogs",
                                 onClick: ()=>{
                                     window.scrollTo(0, 0);
-                                    handleLinkClick();
                                 },
                                 children: "Corporate & Educational Clients"
                             }, void 0, false, {

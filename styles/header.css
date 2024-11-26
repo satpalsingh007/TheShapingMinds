@@ -23,7 +23,20 @@
   padding-top: 5px;
   height: 10vh;
   align-items: center;
-  
+}
+
+.header-links{
+  font-size:  20px;
+}
+.header-links:hover{
+ 
+  /* padding: 2px; */
+  /* background-color: rgb(255, 254, 252); */
+  border-radius: 20px;
+  /* color: #045346; */
+  /* font-weight: 600; */
+  /* font-size: 19px; */
+
 }
 .header-top-contact{
   width: 100px;
@@ -36,6 +49,9 @@
 }
 .header-top-contact:hover{
   background-color: #f7d158 ;
+  border-radius: 8px ;
+  font-weight: 400;
+  
 }
 
 .social-list{
@@ -67,12 +83,13 @@
   padding-top: 20px;
   padding-right: 40px;
 }
-.header-links{
+.header-bottom-links{
   display: flex;
   gap: 30px;
-  padding-top: 20px;
-  
+  /* padding-top: 20px; */
 }
+
+
 
 .services{
   gap: 1px;

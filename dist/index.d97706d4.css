@@ -1,6 +1,7 @@
 .footer {
   color: #fffefc;
   background-color: #033a35;
+  border-top: 1px solid #efe9d9;
   flex-direction: column;
   gap: 10vh;
   padding: 5vh;
