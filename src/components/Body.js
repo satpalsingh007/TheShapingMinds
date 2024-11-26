@@ -8,7 +8,7 @@ import DrMehta from "./DrMehta";
 const Body = ()=>{
     return (<>
         <div className="body">
-            <h1>Shaping Minds, Transforming Lives :  <br/>
+            <h1>Shaping Mind, Transforming Lives :  <br/>
             Your Journey to Mental Health & Wellness Starts Here</h1><br/>
             <div>Shaping your mind and thoughts to unlock a healthier and happier future.</div>
             <div className="body-img-container">

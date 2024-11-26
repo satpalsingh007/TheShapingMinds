@@ -27,6 +27,7 @@
 }
 
 .about-main-img {
+  z-index: 9;
   border-radius: 20px;
   width: 45vw;
   box-shadow: 4px 4px 10px #000000dc;

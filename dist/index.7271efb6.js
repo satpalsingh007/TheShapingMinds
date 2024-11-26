@@ -36110,11 +36110,11 @@ const Body = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: [
-                            "Shaping Minds, Transforming Lives :  ",
+                            "Shaping Mind, Transforming Lives :  ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/components/Body.js",
                                 lineNumber: 11,
-                                columnNumber: 54
+                                columnNumber: 53
                             }, undefined),
                             "Your Journey to Mental Health & Wellness Starts Here"
                         ]
@@ -38221,16 +38221,16 @@ const Footer = ()=>{
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "footer-link",
-                                                href: "mailto:shapingminds@gmail.com",
+                                                href: "mailto:shapingmind@gmail.com",
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
                                                         className: "fa fa-envelope"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Footer.js",
                                                         lineNumber: 44,
-                                                        columnNumber: 93
+                                                        columnNumber: 92
                                                     }, undefined),
-                                                    " shapingminds@gmail.com"
+                                                    " theshapingmind@gmail.com"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Footer.js",

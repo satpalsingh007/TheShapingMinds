@@ -41,7 +41,7 @@ const Footer = () => {
                         <div className="footer-links">
                             <Link to={"contact-us"} className="footer-link" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
                             <div className='footer-link'><i className="fa fa-phone" ></i> +91 7987290286</div>
-                            <a className='footer-link' href='mailto:shapingminds@gmail.com'><i className="fa fa-envelope" ></i> shapingminds@gmail.com</a>
+                            <a className='footer-link' href='mailto:shapingmind@gmail.com'><i className="fa fa-envelope" ></i> theshapingmind@gmail.com</a>
                         </div>
                         
                     </div>
