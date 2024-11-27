@@ -30,7 +30,9 @@ const ContactUs = () => {
 
         try {
             // Send the form data to the backend API using Axios
-            const response = await axios.post('http://localhost:5000/send-email', formData);
+            // const response = await axios.post('http://localhost:5000/send-email', formData);
+            
+            const response = await axios.post('https://theshapingmindbackend.onrender.com/send-email', formData);
 
             if (response.status === 200) {
                 setResponseMessage('Thank you for your message! We will get back to you soon.');
