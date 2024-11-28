@@ -27,17 +27,30 @@
 
 .header-links{
   font-size:  20px;
+ 
+
 }
-.header-links:hover{
+.header-underline:hover{
  
   /* padding: 2px; */
   /* background-color: rgb(255, 254, 252); */
-  border-radius: 20px;
+  border-bottom: 2px solid #045346;
+  /* border-radius: 20px ; */
   /* color: #045346; */
   /* font-weight: 600; */
   /* font-size: 19px; */
 
 }
+
+.header-bottom-underline:hover{
+  border-bottom: 2px solid #045346;
+  position: relative;
+  top: -1px;
+  text-shadow:1px 1px 5px #0000002f;
+  /* border-radius: 3px; */
+}
+
+
 .header-top-contact{
   width: 100px;
   height: 40px;
@@ -51,7 +64,7 @@
   background-color: #f7d158 ;
   border-radius: 8px ;
   font-weight: 400;
-  
+  border: none;
 }
 
 .social-list{

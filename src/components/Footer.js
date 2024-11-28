@@ -14,7 +14,8 @@ const Footer = () => {
                         <h3 className="footer-left-heading">Quick Links </h3>
                         <div className="footer-links">
                             <Link to={"/about-us"} href="#meet-team" className="footer-link" onClick={() => window.scrollTo(0, 0)}>About Us</Link>
-                            <a href="#our-story" className="footer-link">Our Story</a>
+                            <Link to={"contact-us"} className="footer-link" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
+                           
                             <div
     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
     className="footer-link"
@@ -39,9 +40,10 @@ const Footer = () => {
                     <div className="footer-left-section">
                         <h3  className="footer-left-heading">Get in Touch</h3>
                         <div className="footer-links">
-                            <Link to={"contact-us"} className="footer-link" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link>
+                            
                             <div className='footer-link'><i className="fa fa-phone" ></i> +91 7987290286</div>
-                            <a className='footer-link' href='mailto:shapingmind@gmail.com'><i className="fa fa-envelope" ></i> theshapingmind@gmail.com</a>
+                            <a className='footer-link' href='mailto:theshapingmind@gmail.com'><i className="fa fa-envelope" ></i> theshapingmind@gmail.com</a>
+                            <a className='footer-link' href=' https://wa.me/7987290286'><i className="fa fa-whatsapp" ></i> WhatsApp</a>
                         </div>
                         
                     </div>

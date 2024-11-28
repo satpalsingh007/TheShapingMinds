@@ -39,8 +39,8 @@ const Header = () => {
       <div className={`header ${isLightMode ? 'light' : 'dark'}`}>
           <div className="header-top">
               
-              <Link to={'/'} className='header-links' onClick={() => { window.scrollTo(0, 0);}}>Home</Link>
-              <Link to={"/about-us"}  className='header-links'onClick={() => { window.scrollTo(0, 0); }}>About Us</Link>
+              <Link to={'/'} className='header-links header-underline' onClick={() => { window.scrollTo(0, 0);}}>Home</Link>
+              <Link to={"/about-us"}  className='header-links header-underline'onClick={() => { window.scrollTo(0, 0); }}>About Us</Link>
               <div className="drop-down">
           <a href='#' onClick={toggleDropdown} className='header-links services'> 
             Services  <span className={`arrow ${dropdownOpen ? 'rotate' : ''}`}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
@@ -207,10 +207,10 @@ const Header = () => {
              
               <img className="header-logo logo" src={logo}/>
               <div className="header-bottom-links">
-                  <Link to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); }}>Individuals</Link>
-                  <Link to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Couples & Relationships</Link>
-                  <Link to={'/children-blogs'}onClick={() => { window.scrollTo(0, 0);  }}>Children & Adolescents</Link>
-                  <Link to={'/corporation-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Corporate & Educational Clients</Link>
+                  <Link className='header-bottom-underline' to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); }}>Individuals</Link>
+                  <Link  className='header-bottom-underline' to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Couples & Relationships</Link>
+                  <Link  className='header-bottom-underline' to={'/children-blogs'}onClick={() => { window.scrollTo(0, 0);  }}>Children & Adolescents</Link>
+                  <Link  className='header-bottom-underline' to={'/corporation-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Corporate & Educational Clients</Link>
               </div>
                {/* Menu Button */}
              <input type="checkbox" id="checkbox" className="menu-checkbox" onChange={toggleMenu} />
