@@ -65,21 +65,23 @@
 .about-img {
   z-index: 9;
   border-radius: 20px;
-  width: 20vw;
+  width: 18vw;
 }
 
 .about-content {
   background-color: #e5f0e6;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
   width: 44vw;
-  height: auto;
-  padding: 30px 20px 20px;
+  height: 100%;
+  padding: 20px;
+  line-height: 30px;
 }
 
 .about-content-para2 {
   background-color: #e5f0e6;
-  border-radius: 20px 0 0;
+  border-radius: 20px 20px 0 0;
   width: 65vw;
+  margin-top: 20px;
   padding: 10px 20px 20px;
 }
 
