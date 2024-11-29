@@ -1,10 +1,16 @@
 import React from 'react';
 import anxietyImage from "../images/Blogs/anxiety.jpg";
 import seekHelp from "../images/seek-help.jpg";
+import { Helmet } from 'react-helmet';
 
 const Anxiety = () => {
   return (
     <main className="mental-health-container">
+       <Helmet>
+          <title>Anxiety Counseling | Effective Therapy at The Shaping Mind</title>
+          <meta name="description" content="Struggling with anxiety? The shaping mind offers expert counseling to manage stress, worry, and fear. Achieve calm and balance with our certified experts & counselors." />
+          <meta name="keywords" content=" anxiety therapy, anxiety management, calm mind solutions" />        
+        </Helmet>
       <div className="mental-health-intro">
         <article className="mental-health-intro-text">
           <h1 className="mental-health-title">Anxiety</h1>

@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import premaritalImage from "../images/Blogs/Premarital-Counselling.jpg";
+import { Helmet } from 'react-helmet';
 
 const PremaritalCounselling = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title> Premarital Counseling | Build Strong Foundations</title>
+                <meta name="description" content="We are top in the industry to prepare you for a happy marriage with premarital counseling. Learn effective communication and conflict resolution skills from experts." />
+                <meta name="keywords" content=" premarital counseling, marriage preparation, relationship guidance" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Premarital Counseling</h1>

@@ -3,11 +3,17 @@ import anxiety from "../images/Blogs/Anxiety-short.jpg";
 import stress from "../images/Blogs/Stress-short.jpg";
 import trauma from "../images/Blogs/Trauma-short.jpg";
 import personalGrowth from "../images/Blogs/Personal-growth-short.jpg";
+import { Helmet } from "react-helmet";
 
 import { Link } from "react-router-dom";
 const IndividualsBlogsPage =()=>{
     return (
         <div className="blog-page">
+            <Helmet>
+          <title>Blogs for Personal Growth | The Shaping Mind</title>
+          <meta name="description" content="Get insightful knowledge for personal growth, depression, anxiety, stress and trauma. Read blogs from industries’ top-tier mental health experts to shape a better you." />
+          <meta name="keywords" content=" personal growth blogs, mindfulness tips, self-improvement articles, personal development, self-care strategies, personal transformation blogs, The Shaping Mind" />        
+        </Helmet>
             <h1>Our Blogs </h1>
             <div className="blog-page-section">
                 <h2>Individuals</h2>

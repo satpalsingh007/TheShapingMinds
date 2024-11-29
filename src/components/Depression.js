@@ -1,11 +1,16 @@
 import React from 'react';
 import depressionImage from "../images/Blogs/depression.jpg";
 import seekHelp from "../images/seek-help.jpg";
-
+import { Helmet } from 'react-helmet';
 
 const Depression = () => {
   return (
     <main className="mental-health-container">
+      <Helmet>
+                <title> Depression Counseling | Overcome Depression with The Shaping Mind</title>
+                <meta name="description" content="We are helping individuals by providing them the expert support to manage and overcome depression. Providing counseling tailored to help you reclaim joy and peace." />
+                <meta name="keywords" content="depression counseling, overcome depression, mental health support" />        
+            </Helmet>
       <div className="mental-health-intro">
         <article className="mental-health-intro-text">
           <h1 className="mental-health-title">Depression</h1>

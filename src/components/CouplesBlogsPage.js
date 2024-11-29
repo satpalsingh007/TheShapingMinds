@@ -1,11 +1,17 @@
 import premaritalCouncelling from "../images/Blogs/Premarital-Counselling-short.jpg";
 import relationshipConcern from "../images/Blogs/Relationships-Concerns-short.jpg";
 import maritalDiscord from "../images/Blogs/Marital-Discords-short.jpg";
+import { Helmet } from "react-helmet";
 
 import { Link } from "react-router-dom";
 const CoupleBlogsPage =()=>{
     return (
         <div className="blog-page">
+            <Helmet>
+          <title> Couple and Relationships Blogs | The Shaping Mind</title>
+          <meta name="description" content=" Explore blogs on strengthening relationships, managing conflicts, and building deeper connections. Need expert advice for couples, The Shaping Mind is here for you." />
+          <meta name="keywords" content="relationship advice blogs, couple counseling articles, relationship wellness" />        
+        </Helmet>
             <h1>Our Blogs </h1>
             <div className="blog-page-section">
                 <h2>Couples and Relationships</h2>

@@ -204,8 +204,8 @@ const Header = () => {
             )}
           <div className="header-bottom">
             
-             
-              <img className="header-logo logo" src={logo}/>
+             <Link to={'/'} onClick={() => { window.scrollTo(0, 0); }}><img className="header-logo logo" src={logo}/></Link>
+              
               <div className="header-bottom-links">
                   <Link className='header-bottom-underline' to={'/individuals-blogs'} onClick={() => { window.scrollTo(0, 0); }}>Individuals</Link>
                   <Link  className='header-bottom-underline' to={'/couples-blogs'} onClick={() => { window.scrollTo(0, 0);  }}>Couples & Relationships</Link>

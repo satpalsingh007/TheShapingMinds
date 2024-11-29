@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import executiveCoaachingImage  from "../images/Blogs/Executive-Coaching.jpg";
+import { Helmet } from 'react-helmet';
 
 const ExecutiveCoaching = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+          <title> Executive Coaching | Unlock Leadership Potential</title>
+          <meta name="description" content=" Providing top-tier experts to achieve professional growth with executive coaching. The Shaping Mind helps leaders develop skills, resilience, and success strategies." />
+          <meta name="keywords" content="executive coaching, leadership development, professional growth" />        
+        </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Executive Coaching</h1>

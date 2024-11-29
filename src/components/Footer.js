@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className="footer">
+              <Link to={'/'} onClick={() => { window.scrollTo(0, 0); }}> <img className="footer-logo" src={logo} alt="logo" /></Link>
          
-                <img className="footer-logo" src={logo} alt="logo" />
+               
       
             <div className="footer-content">
                 <div className="footer-left">
@@ -40,8 +41,7 @@ const Footer = () => {
                     <div className="footer-left-section">
                         <h3  className="footer-left-heading">Get in Touch</h3>
                         <div className="footer-links">
-                            
-                            <div className='footer-link'><i className="fa fa-phone" ></i> +91 7987290286</div>
+                            <a className='footer-link' href='tel:7987290286'><i className="fa fa-phone" ></i> +91 7987290286</a>
                             <a className='footer-link' href='mailto:theshapingmind@gmail.com'><i className="fa fa-envelope" ></i> theshapingmind@gmail.com</a>
                             <a className='footer-link' href=' https://wa.me/7987290286'><i className="fa fa-whatsapp" ></i> WhatsApp</a>
                         </div>

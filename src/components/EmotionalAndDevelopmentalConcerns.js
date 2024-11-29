@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import emotionalDevelopmentConcernsImage from "../images/Blogs/Emotional-Developmental-Concerns.jpg";
+import { Helmet } from 'react-helmet';
 
 const EmotionalAndDevelopmentalConcerns = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>Emotional Development Counseling | Support at The Shaping Mind</title>
+                <meta name="description" content="We provide emotional and development concerns with our certified expert’s therapy. Also contact us for compassionate support for children, teens, and even adults." />
+                <meta name="keywords" content=" emotional development counseling, mental health support, developmental concerns" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Emotional and Developmental Concerns</h1>

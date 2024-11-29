@@ -1,11 +1,17 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import autismImage  from "../images/Blogs/Autism.jpg";
+import { Helmet } from 'react-helmet';
 
 
 const AutismSpectrumDisorder = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+          <title>Autism Support | Therapy at The Shaping Mind</title>
+          <meta name="description" content="Get access to the top-tier autism counselor for compassionate support for individuals with autism. We provide expert therapy to enhance growth and communication." />
+          <meta name="keywords" content="autism therapy, autism support, developmental counseling" />        
+        </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Autism Spectrum Disorder (ASD)</h1>

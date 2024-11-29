@@ -1,8 +1,14 @@
 import img1 from "../images/about-us.jpg"
 import ourteam from "../images/our-team.jpg"
+import { Helmet } from "react-helmet"
 const About=()=>{
     return(
         <div className="about">
+            <Helmet>
+                <title>  About Us | The Shaping Mind - Redefining Mental Wellness</title>
+                <meta name="description" content=" Learn about The Shaping Mind, your trusted partner in mental health. Explore our mission, values, and expert team dedicated to enhancing your mental wellness." />
+                <meta name="keywords" content="about The Shaping Mind, mental health experts, wellness philosophy, emotional health" />        
+            </Helmet>
             <div className=" about-main">
                 <div>
                     <h1>About Us </h1>

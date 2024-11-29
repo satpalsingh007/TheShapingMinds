@@ -1,0 +1,28 @@
+#quote-container {
+  background-image: url("bg-test.b7815616.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote-container-content {
+  backdrop-filter: blur(10px);
+  background-color: #fff7;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 10vh 10vw;
+  display: flex;
+  position: relative;
+}
+
+.quote-container-content:before {
+  content: "";
+  opacity: .5;
+  pointer-events: none;
+  background: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  border-radius: 20px;
+  position: absolute;
+  inset: 0;
+}
+/*# sourceMappingURL=index.d4479d02.css.map */

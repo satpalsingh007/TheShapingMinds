@@ -1,9 +1,15 @@
 import React from 'react';
 import traumaImage from "../images/Blogs/trauma.jpg";
 import seekHelp from "../images/seek-help.jpg";
+import { Helmet } from 'react-helmet';
 const Trauma = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+          <title> Trauma Counseling | Heal and Recover with The Shaping Mind </title>
+          <meta name="description" content=" We’ve been helping clients to recover from emotional trauma by connecting them with the certified experts. Let The Shaping Mind guide you toward healing & resilience." />
+          <meta name="keywords" content=" trauma counseling, healing therapy, emotional resilience" />        
+        </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">PTSD & Trauma</h1>

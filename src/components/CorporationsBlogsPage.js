@@ -3,9 +3,15 @@ import mentalWellness from "../images/Blogs/Mental-Wellness-Programs-short.jpg";
 import eap from "../images/Blogs/EAPs-Employee-Assistance-Program-short.jpg";
 import executiveCoaching from "../images/Blogs/Executive-Coaching-short.jpg";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 const ChildrenBlogsPage =()=>{
     return (
         <div className="blog-page">
+        <Helmet>
+          <title>Corporate and Educational Blogs | Mental Wellness at Work and School</title>
+          <meta name="description" content="Read our blogs to know about corporate wellness, educational programs, and workplace mental health. Enhance productivity and emotional well-being with expert insights." />
+          <meta name="keywords" content="corporate wellness blogs, workplace mental health, educational counseling blogs" />        
+        </Helmet>
             <h1>Our Blogs </h1>
             <div className="blog-page-section">
                 <h2>Corporate and Educational Clients</h2>

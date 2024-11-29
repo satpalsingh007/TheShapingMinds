@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import relationshipConcernsImage from "../images/Blogs/Relationships-Concerns.jpg";
+import { Helmet } from 'react-helmet';
 
 const RelationshipConcerns = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>Relationship Counseling | Overcome Challenges Together</title>
+                <meta name="description" content="We’re renowned name to strengthen your bond and resolve relationship concerns with expert counseling. The Shaping Mind is here to guide you toward relationship harmony." />
+                <meta name="keywords" content=" relationship counseling, overcome relationship issues, build connections" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Relationship Concerns</h1>

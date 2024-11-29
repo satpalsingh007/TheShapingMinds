@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import adhdImage  from "../images/Blogs/ADHD.jpg";
+import { Helmet } from 'react-helmet';
 
 const ADHD = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>ADHD Counseling | Improve Focus and Balance</title>
+                <meta name="description" content="A renowned name for over a decade to manage ADHD effectively with expert counseling. The Shaping Mind offers personalized strategies to enhance focus & productivity." />
+                <meta name="keywords" content="ADHD support, focus improvement, ADHD counseling" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">What is ADHD?</h1>

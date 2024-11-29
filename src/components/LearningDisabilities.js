@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import learningDisabilitiesImage from "../images/Blogs/Learning-Disabilities.jpg";
+import { Helmet } from 'react-helmet';
 
 const EmotionalAndDevelopmentalConcerns = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>Learning Disabilities Counseling | Support for Growth</title>
+                <meta name="description" content="Contact us to empower your children with learning disabilities with our top-tier counseling and support. The Shaping Mind provides tailored solutions for success." />
+                <meta name="keywords" content="learning disabilities support, counseling for learning challenges, child development" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Learning Disabilities</h1>

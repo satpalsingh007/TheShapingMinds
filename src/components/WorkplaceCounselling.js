@@ -1,9 +1,15 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import workplaceCounsellingImage  from "../images/Blogs/Workplace-Counsellings.jpg";
+import { Helmet } from 'react-helmet';
 const WorkplaceCounselling = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+          <title>Workplace Counseling | Enhance Productivity and Wellness</title>
+          <meta name="description" content="We have helped several organizations to boost workplace morale and mental wellness with expert counseling. We offers tailored programs for corporate success." />
+          <meta name="keywords" content="workplace counseling, corporate wellness, employee mental health" />        
+        </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Workplace Counselling</h1>

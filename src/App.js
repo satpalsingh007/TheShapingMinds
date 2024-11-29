@@ -27,10 +27,16 @@ import MentalWellnessProgram from "./components/MentalWellnessProgram";
 import EmployeeAssistanceProgram from "./components/EmployeeAssistanceProgram";
 import ExecutiveCoaching from "./components/ExecutiveCoaching";
 import ContactUs from "./components/ContactUs";
+import { Helmet } from 'react-helmet';
 
 const App = () => {
   return (
       <div>
+            <Helmet>
+                <title>The Shaping Mind | Expert Mental Health and Wellness Services </title>
+                <meta name="description" content="Transform your mental well-being with The Shaping Mind. We provide expert counseling and wellness programs for depression, anxiety, relationships, trauma, and more." />
+                <meta name="keywords" content=" mental health services, mental wellness programs, health counseling, emotional counselling" />        
+            </Helmet>
           <Header />
           <Outlet />      
           <Footer/>

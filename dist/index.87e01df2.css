@@ -1,0 +1,229 @@
+.about {
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+  display: flex;
+}
+
+.about-main {
+  color: #fbf7f0;
+  background-color: #045346;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+  height: 100vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+}
+
+.about-section {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+}
+
+.about-main-img {
+  z-index: 9;
+  border-radius: 20px;
+  width: 45vw;
+  box-shadow: 4px 4px 10px #000000dc;
+}
+
+.about-main-img-mobile {
+  display: none;
+}
+
+.about-main h1 {
+  color: #d49f11;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.about-section h2 {
+  color: #045346;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about-dr-aakriti {
+  flex-direction: column;
+  display: flex;
+}
+
+.about-our-team {
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.about-img {
+  z-index: 9;
+  border-radius: 20px;
+  width: 20vw;
+}
+
+.about-content {
+  background-color: #e5f0e6;
+  border-radius: 20px 20px 0 0;
+  width: 44vw;
+  height: auto;
+  padding: 30px 20px 20px;
+}
+
+.about-content-para2 {
+  background-color: #e5f0e6;
+  border-radius: 20px 0 0;
+  width: 65vw;
+  padding: 10px 20px 20px;
+}
+
+.about-content-para3 {
+  background-color: #e5f0e6;
+  border-radius: 0 0 20px 20px;
+  width: 65vw;
+  padding: 0 20px 20px;
+}
+
+.about-our-commitment {
+  text-align: left;
+  background-color: #fbf7f0;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 10vh 12vw;
+  display: flex;
+}
+
+.about-our-commitment h2 {
+  color: #045346;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.about-our-commitment h2 span {
+  letter-spacing: 2px;
+  font-family: La Gagliane, cursive;
+  font-weight: 700;
+}
+
+.about-main {
+  padding-top: 30vh;
+}
+
+.join-us {
+  background-image: url("join-us-bg.13e8b071.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10vh 10vw;
+  display: flex;
+}
+
+.join-us-content {
+  backdrop-filter: blur(10px);
+  background-color: #fff7;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 10vh 10vw;
+  display: flex;
+  position: relative;
+}
+
+.join-us-content:before {
+  content: "";
+  opacity: .5;
+  pointer-events: none;
+  background: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  position: absolute;
+  inset: 0;
+}
+
+.join-us h2 {
+  text-align: center;
+  color: #012f2c;
+  font-weight: 550;
+}
+
+.join-us p {
+  color: #232426;
+  font-size: 22px;
+}
+
+@media (width <= 1200px) {
+  .about {
+    padding: 0;
+  }
+
+  .about-main {
+    height: 100%;
+    padding-top: 10vh;
+  }
+
+  .about-main div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 15vh 0;
+    display: flex;
+  }
+
+  .about-main-img {
+    display: none;
+  }
+
+  .about-main-img-mobile {
+    border-radius: 30px;
+    width: 40%;
+    display: block;
+  }
+
+  .about-our-team {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .about-content, .about-content-para2 {
+    border-radius: 20px;
+    width: 80vw;
+    margin-bottom: 2vh;
+    padding: 20px;
+  }
+
+  .about-content-para3 {
+    border-radius: 20px;
+    width: 80vw;
+    padding: 20px;
+  }
+}
+
+@media (width <= 700px) {
+  .about-main div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 10vh 0;
+    display: flex;
+  }
+
+  .about-main-img-mobile {
+    border-radius: 30px;
+    width: 80%;
+    display: block;
+  }
+
+  .about-img {
+    width: 70vw;
+  }
+}
+/*# sourceMappingURL=index.87e01df2.css.map */

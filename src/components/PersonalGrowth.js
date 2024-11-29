@@ -1,10 +1,16 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import personalgrowthImage from "../images/Blogs/Personal-Growth.jpg";
+import { Helmet } from 'react-helmet';
 
 const PersonalGrowth = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>Personal Growth Counseling | Unlock Your Potential</title>
+                <meta name="description" content="Let us connect you with experts to achieve self-improvement and personal growth with top-tier guidance. The Shaping Mind empowers you to become your best of yourself." />
+                <meta name="keywords" content=" personal growth, self-improvement, unlock potential" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Personal Growth</h1>

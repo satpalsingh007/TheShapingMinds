@@ -1,12 +1,15 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import maritalDiscordsImage from "../images/Blogs/Marital-Discords.jpg";
-
-
-
+import { Helmet } from 'react-helmet';
 const MaritalDiscords = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title> Marital Discord Counseling | Rekindle Your Relationship</title>
+                <meta name="description" content="Resolve marital conflicts with our certified expert guidance. The Shaping Mind provides personalized counseling to help couples rebuild their trust and love for happy life." />
+                <meta name="keywords" content="marital discord solutions, couple therapy, rebuild relationships" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Marital Discords</h1>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Helmet } from 'react-helmet'; 
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -46,6 +47,11 @@ const ContactUs = () => {
 
     return (
         <div className="contact-container">
+            <Helmet>
+                <title>Contact Us | Reach Out to The Shaping Mind</title>
+                <meta name="description" content=" Need help with mental health? Contact The Shaping Mind for expert counseling and support. We’re here to help you achieve emotional well-being and mental wellness." />
+                <meta name="keywords" content="contact The Shaping Mind, mental health support, counseling contact" />        
+            </Helmet>
             <h1>Contact Us</h1>
             <p className="para">
                 Your well-being is our priority, and we encourage you to reach out. Our compassionate team is ready to assist you and ensure that you feel heard and supported. Please fill out the contact form below, and we will get back to you as soon as possible.

@@ -1,9 +1,15 @@
 import React from 'react';
 import seekHelp from "../images/seek-help.jpg";
 import employeeAssistanceImage  from "../images/Blogs/EAPs-Employee-Assistance-Program.jpg";
+import { Helmet } from 'react-helmet';
 const EAPEmployeeAssistanceProgram = () => {
     return (
         <main className="mental-health-container">
+            <Helmet>
+                <title>Employee Assistance Program | Support for Workplace Wellness</title>
+                <meta name="description" content="We help businesses to improve workplace productivity and employee wellness with our EAP services. Get expert counseling and support for a thriving workforce." />
+                <meta name="keywords" content="employee assistance program, workplace wellness, corporate counseling" />        
+            </Helmet>
             <div className="mental-health-intro">
                 <article className="mental-health-intro-text">
                     <h1 className="mental-health-title">Employee Assistance Programs (EAPs)</h1>
