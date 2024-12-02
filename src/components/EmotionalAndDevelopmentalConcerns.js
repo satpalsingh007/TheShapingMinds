@@ -19,7 +19,7 @@ const EmotionalAndDevelopmentalConcerns = () => {
                         Emotional and developmental concerns refer to difficulties or delays in emotional regulation, social interaction, and cognitive development.
                     </p>
                 </article>
-                <img className="mental-health-image" src={emotionalDevelopmentConcernsImage} alt="Help Image" />
+                <img className="mental-health-image" src={emotionalDevelopmentConcernsImage} alt="emotional-and-development" />
             </div>
 
             <div className="mental-health-content">
@@ -74,7 +74,7 @@ const EmotionalAndDevelopmentalConcerns = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image" src={seekHelp} alt="Seek Help" />
+                    <img className="support-image" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                     

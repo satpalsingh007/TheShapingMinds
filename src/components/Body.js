@@ -12,7 +12,7 @@ const Body = ()=>{
             Your Journey to Mental Health & Wellness Starts Here</h1><br/>
             <div>Shaping your mind and thoughts to unlock a healthier and happier future.</div>
             <div className="body-img-container">
-            <img className="body-img" src={img}/> 
+            <img className="body-img" alt="the-shaping-mind-home" src={img}/> 
             </div>
                       
         </div>

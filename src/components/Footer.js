@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className="footer">
-              <Link to={'/'} onClick={() => { window.scrollTo(0, 0); }}> <img className="footer-logo" src={logo} alt="logo" /></Link>
+              <Link to={'/'} className='footer-logo-container' onClick={() => { window.scrollTo(0, 0); }}> <img className="footer-logo" src={logo} alt="logo" /></Link>
          
                
       

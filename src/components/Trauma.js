@@ -18,7 +18,7 @@ const Trauma = () => {
                         When you’ve gone through something traumatic, it can seem like you’ll never feel safe again. But whether the trauma happened yesterday or years ago, you can find a way to heal, let go of painful memories, and move on.
                     </p>
                 </article>
-                <img className="mental-health-image help" src={traumaImage} alt="Help illustration" />
+                <img className="mental-health-image help" src={traumaImage} alt="trauma" />
             </div>
 
             <div className="mental-health-content">
@@ -60,7 +60,7 @@ const Trauma = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image img-seek" src={seekHelp} alt="Seek help illustration" />
+                    <img className="support-image img-seek" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                     

@@ -19,7 +19,7 @@ const PersonalGrowth = () => {
                         Personal growth refers to the ongoing process of self-improvement in various aspects of life, including emotional, intellectual, and spiritual development. It involves enhancing self-awareness, setting personal goals, and realizing one’s potential.
                     </p>
                 </article>
-                <img className="mental-health-image help" src={personalgrowthImage} alt="Help illustration" />
+                <img className="mental-health-image help" src={personalgrowthImage} alt="personal-growth" />
             </div>
 
             <div className="mental-health-content">
@@ -66,7 +66,7 @@ const PersonalGrowth = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image img-seek" src={seekHelp} alt="Seek help illustration" />
+                    <img className="support-image img-seek" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                    

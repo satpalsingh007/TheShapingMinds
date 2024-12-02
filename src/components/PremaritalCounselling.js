@@ -19,7 +19,7 @@ const PremaritalCounselling = () => {
                         Premarital counseling is a proactive approach that helps couples prepare for marriage. It focuses on enhancing communication, addressing potential conflicts, and setting mutual goals.
                     </p>
                 </article>
-                <img className="mental-health-image" src={premaritalImage} alt="Help Image" />
+                <img className="mental-health-image" src={premaritalImage} alt="premarital-counselling" />
             </div>
 
             <div className="mental-health-content">
@@ -78,7 +78,7 @@ const PremaritalCounselling = () => {
                 </div>
 
                 <div className="mental-health-support">
-                <img className="support-image" src={seekHelp} alt="Seek help illustration" />
+                <img className="support-image" src={seekHelp} alt="seek-help" />
                 <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                 <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                    

@@ -18,7 +18,7 @@ const EAPEmployeeAssistanceProgram = () => {
                         Employee Assistance Programs (EAPs) are employer-sponsored services designed to support employees in managing personal problems that may affect their work performance, health, and overall well-being.
                     </p>
                 </article>
-                <img className="mental-health-image" src={employeeAssistanceImage} alt="Help Image" />
+                <img className="mental-health-image" src={employeeAssistanceImage} alt="employee-assistance-program" />
             </div>
 
             <div className="mental-health-content">
@@ -105,7 +105,7 @@ const EAPEmployeeAssistanceProgram = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image" src={seekHelp} alt="Seek Help" />
+                    <img className="support-image" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                    

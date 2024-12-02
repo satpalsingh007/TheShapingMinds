@@ -19,7 +19,7 @@ const ExecutiveCoaching = () => {
                         Through personalized guidance and structured support, executive coaching helps individuals develop self-awareness, improve decision-making, and build stronger relationships with their teams.
                     </p>
                 </article>
-                <img className="mental-health-image" src={executiveCoaachingImage} alt="Help Image" />
+                <img className="mental-health-image" src={executiveCoaachingImage} alt="executive-coaching" />
             </div>
 
             <div className="mental-health-content">
@@ -80,7 +80,7 @@ const ExecutiveCoaching = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image" src={seekHelp} alt="Seek Help" />
+                    <img className="support-image" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                     

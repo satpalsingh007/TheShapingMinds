@@ -19,7 +19,7 @@ const ChildrenBlogsPage =()=>{
                 <h2>Children and Adolescents</h2>
                 <div className="blog-list">
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={emotionalAndDevelopmentConcerns} />
+                        <img className="blog-list-img" alt="emotional-and-development-concerns" src={emotionalAndDevelopmentConcerns} />
                         <h3>Emotional & Developmental Concerns</h3>
                         <div>
                         Emotional and developmental concerns refer to difficulties or delays in emotional regulation..........
@@ -27,7 +27,7 @@ const ChildrenBlogsPage =()=>{
                          <Link to={'/emotional-concern'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={learningDisability} />
+                        <img className="blog-list-img" alt="learning-disability" src={learningDisability} />
                         <h3>Learning Disabilities</h3>
                         <div>
                         Learning disabilities are neurological conditions that affect the way individuals ..........
@@ -36,7 +36,7 @@ const ChildrenBlogsPage =()=>{
                          
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={autism} />
+                        <img className="blog-list-img" alt="autism" src={autism} />
                         <h3>Autism</h3>
                         <div>
                         Autism Spectrum Disorder (ASD) is a developmental disorder that affects how a person perceives and ..........
@@ -44,7 +44,7 @@ const ChildrenBlogsPage =()=>{
                          <Link to={'/autism'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={adhd} />
+                        <img className="blog-list-img" alt="adhd" src={adhd} />
                         <h3>ADHD</h3>
                         <div>
                         ADHD (Attention-Deficit/Hyperactivity Disorder) is a neurological condition that affects a person’s..........

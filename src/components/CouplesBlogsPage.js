@@ -17,7 +17,7 @@ const CoupleBlogsPage =()=>{
                 <h2>Couples and Relationships</h2>
                 <div className="blog-list">
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={premaritalCouncelling} />
+                        <img className="blog-list-img" alt="premaritial-counselling" src={premaritalCouncelling} />
                         <h3>Premaritial Counselling</h3>
                         <div>
                         Premarital counseling is a proactive approach that helps couples prepare for marriage..........
@@ -25,7 +25,7 @@ const CoupleBlogsPage =()=>{
                          <Link to={'/premarital-counselling'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={relationshipConcern} />
+                        <img className="blog-list-img" alt="relationship-concern" src={relationshipConcern} />
                         <h3>Relationships Concern</h3>
                         <div>
                         Relationship concerns encompass a wide range of issues that couples may face, including..........
@@ -34,7 +34,7 @@ const CoupleBlogsPage =()=>{
                          
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={maritalDiscord} />
+                        <img className="blog-list-img" alt="marital-discord" src={maritalDiscord} />
                         <h3>Marital Discords</h3>
                         <div>
                         Marital discord refers to a state of conflict or disagreement between partners in a..........

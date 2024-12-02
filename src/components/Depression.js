@@ -19,7 +19,7 @@ const Depression = () => {
             Healing from depression is crucial not only for personal well-being but also for improving relationships and overall quality of life.
           </p>
         </article>
-        <img className="mental-health-image" src={depressionImage} alt="Depression help" />
+        <img className="mental-health-image" src={depressionImage} alt="depression" />
       </div>
 
       <div className="mental-health-content">
@@ -102,7 +102,7 @@ const Depression = () => {
         </section>
 
         <section className="mental-health-support">
-          <img className="support-image" src={seekHelp} alt="Professional therapy support" />
+          <img className="support-image" src={seekHelp} alt="seek-help" />
           <h3 className="support-title">Help and Hope for Better Mental Health</h3>
           <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
           

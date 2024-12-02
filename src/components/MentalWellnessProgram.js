@@ -19,7 +19,7 @@ const MentalWellnessPrograms = () => {
                         Mental wellness programs are initiatives designed to support and improve individuals' mental health and well-being.
                     </p>
                 </article>
-                <img className="mental-health-image" src={mentalWellnessImage} alt="Help Image" />
+                <img className="mental-health-image" src={mentalWellnessImage} alt="mental-wellness" />
             </div>
 
             <div className="mental-health-content">
@@ -88,7 +88,7 @@ const MentalWellnessPrograms = () => {
                 </div>
 
                 <div className="mental-health-support">
-                    <img className="support-image" src={seekHelp} alt="Seek Help" />
+                    <img className="support-image" src={seekHelp} alt="seek-help" />
                     <h3 className="support-title">Help and Hope for Better Mental Health</h3>
                     <p className="support-description">TheShapingMind simplifies the journey to better mental health by providing top-tier, experienced, and licensed therapists. Take an assessment to get connected with the right professional to support you every step of the way.</p>
                     

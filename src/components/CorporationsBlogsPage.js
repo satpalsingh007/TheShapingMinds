@@ -17,7 +17,7 @@ const ChildrenBlogsPage =()=>{
                 <h2>Corporate and Educational Clients</h2>
                 <div className="blog-list">
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={workplaceCouncellings} />
+                        <img className="blog-list-img" alt="workplace-counsellings" src={workplaceCouncellings} />
                         <h3>Workplace Counsellings
                         </h3>
                         <div>
@@ -26,7 +26,7 @@ const ChildrenBlogsPage =()=>{
                          <Link to={'/workplace-counselling'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={mentalWellness} />
+                        <img className="blog-list-img" alt="mental-wellness" src={mentalWellness} />
                         <h3>Mental Wellness Programs</h3>
                         <div>
                         Mental wellness programs are initiatives designed to support and improve individuals' mental.........
@@ -35,7 +35,7 @@ const ChildrenBlogsPage =()=>{
                          
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={eap} />
+                        <img className="blog-list-img" alt="employee-assistance-program" src={eap} />
                         <h3>EAPs Employee Assistance Program</h3>
                         <div>
                             We understand the complexities of life that lead to depression, anxiety, stress, and trauma..........
@@ -43,7 +43,7 @@ const ChildrenBlogsPage =()=>{
                          <Link to={'/employee-assistance-program'} className="blog-read-more-button" onClick={() => window.scrollTo(0, 0)}>read-more</Link>
                     </div>
                     <div className="blog-list-item">
-                        <img className="blog-list-img" src={executiveCoaching} />
+                        <img className="blog-list-img" alt="executive-coaching" src={executiveCoaching} />
                         <h3>Executive Coaching</h3>
                         <div>
                         Through personalized guidance and structured support, executive coaching helps..........

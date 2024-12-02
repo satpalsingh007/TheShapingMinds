@@ -9,7 +9,7 @@ const DrMehta =()=>{
                    <div className="dr-mehta-images">
                     <div className="drmehtabg"></div>
                     {/* <img src={drmehtabg} className="drmehtabg" /> */}
-                    <img src={drmehta} className="drmehta" />
+                    <img src={drmehta} alt="dr-aakriti-mehta" className="drmehta" />
                    </div>
                    <div className="dr-mehta-about">
                     <p> <strong>Dr. Aakriti Mehta</strong> has a keen interest in the study of Mind and behavior. 
