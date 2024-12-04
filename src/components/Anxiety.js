@@ -8,7 +8,7 @@ const Anxiety = () => {
     <main className="mental-health-container">
        <Helmet>
           <title>Anxiety Counseling | Effective Therapy at The Shaping Mind</title>
-          <meta name="description" content="Struggling with anxiety? The shaping mind offers expert counseling to manage stress, worry, and fear. Achieve calm and balance with our certified experts & counselors." />
+          <meta name="description" content="Struggling with anxiety? The shaping mind offers expert counseling to manage stress, worry and fear. Achieve calm and balance with our certified experts." />
           <meta name="keywords" content=" anxiety therapy, anxiety management, calm mind solutions" />        
         </Helmet>
       <div className="mental-health-intro">

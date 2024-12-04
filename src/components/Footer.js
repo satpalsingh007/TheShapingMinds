@@ -56,7 +56,7 @@ const Footer = () => {
                         <hr/>
                     </div>
                     
-                        <img className="footer-end" src={footerend}/>
+                        <img alt='the-end-with-flowers' className="footer-end" src={footerend}/>
                        
                  
                 </div>

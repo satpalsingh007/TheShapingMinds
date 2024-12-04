@@ -11,7 +11,7 @@ const ChildrenBlogsPage =()=>{
         <div className="blog-page">
             <Helmet>
           <title>Children and Adolescents Blogs | Expert Parenting Tips</title>
-          <meta name="description" content="Discover parenting and mental health tips for children and teens. Get insights on emotional development, learning challenges, and mental well-being of your children." />
+          <meta name="description" content="Discover parenting tips for children and teens. Get insights on emotional development, learning challenges and mental well-being of your children." />
           <meta name="keywords" content=" parenting blogs, adolescent mental health tips, child development articles" />        
         </Helmet>
             <h1>Our Blogs </h1>

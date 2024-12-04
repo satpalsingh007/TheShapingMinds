@@ -8,7 +8,7 @@ const ExecutiveCoaching = () => {
         <main className="mental-health-container">
             <Helmet>
           <title> Executive Coaching | Unlock Leadership Potential</title>
-          <meta name="description" content=" Providing top-tier experts to achieve professional growth with executive coaching. The Shaping Mind helps leaders develop skills, resilience, and success strategies." />
+          <meta name="description" content="Providing top-tier experts to achieve professional growth with executive coaching. The Shaping Mind helps leaders develop resilience and success strategies." />
           <meta name="keywords" content="executive coaching, leadership development, professional growth" />        
         </Helmet>
             <div className="mental-health-intro">

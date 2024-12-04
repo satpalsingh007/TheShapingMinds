@@ -2,7 +2,7 @@ import trustedguidance from "../images/trusted-guidance.jpg";
 import lifelongskills from "../images/life-long-skills.jpg";
 import bettertomorrow from "../images/strategies-for-a-better-tomorrow.jpg";
 import reliablesupport from "../images/reliable-support-whenever-you-need-it.jpg";
-import bee from "../images/bee.gif";
+// import bee from "../images/bee.gif";
 // import trustedguidance from "../images/trusted-guidance.jpg";
 const OurMission = () => {
   return (

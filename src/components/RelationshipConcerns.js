@@ -8,7 +8,7 @@ const RelationshipConcerns = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title>Relationship Counseling | Overcome Challenges Together</title>
-                <meta name="description" content="We’re renowned name to strengthen your bond and resolve relationship concerns with expert counseling. The Shaping Mind is here to guide you toward relationship harmony." />
+                <meta name="description" content="We’re renowned name to strengthen your bond and resolve relationship concerns with expert counseling. We are here to guide you toward relationship harmony." />
                 <meta name="keywords" content=" relationship counseling, overcome relationship issues, build connections" />        
             </Helmet>
             <div className="mental-health-intro">

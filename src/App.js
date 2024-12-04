@@ -34,7 +34,7 @@ const App = () => {
       <div>
             <Helmet>
                 <title>The Shaping Mind | Expert Mental Health and Wellness Services </title>
-                <meta name="description" content="Transform your mental well-being with The Shaping Mind. We provide expert counseling and wellness programs for depression, anxiety, relationships, trauma, and more." />
+                <meta name="description" content="Transform your mental well-being with The Shaping Mind. We provide expert counseling and wellness programs for depression, anxiety, relationships & more." />
                 <meta name="keywords" content=" mental health services, mental wellness programs, health counseling, emotional counselling" />        
             </Helmet>
           <Header />

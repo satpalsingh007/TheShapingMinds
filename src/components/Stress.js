@@ -9,7 +9,7 @@ const StressBlog = () => {
         <main className="mental-health-container">
             <Helmet>
           <title>Stress Management | Expert Counseling at The Shaping Mind</title>
-          <meta name="description" content="We are a renowned name to ease stress with personalized counseling and proven techniques. The Shaping Mind helps you achieve mental peace and balance with experts." />
+          <meta name="description" content="We are a renowned name to ease stress with personalized counseling and proven techniques. We helps you achieve mental peace & balance with experts." />
           <meta name="keywords" content=" stress management, counseling for stress, reduce stress" />        
         </Helmet>
             <div className="mental-health-intro">

@@ -8,7 +8,7 @@ const EmotionalAndDevelopmentalConcerns = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title>Learning Disabilities Counseling | Support for Growth</title>
-                <meta name="description" content="Contact us to empower your children with learning disabilities with our top-tier counseling and support. The Shaping Mind provides tailored solutions for success." />
+                <meta name="description" content="Contact us to empower your children with learning disabilities with our top-tier counseling & support. The Shaping Mind provides tailored solutions for success." />
                 <meta name="keywords" content="learning disabilities support, counseling for learning challenges, child development" />        
             </Helmet>
             <div className="mental-health-intro">

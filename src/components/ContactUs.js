@@ -49,7 +49,7 @@ const ContactUs = () => {
         <div className="contact-container">
             <Helmet>
                 <title>Contact Us | Reach Out to The Shaping Mind</title>
-                <meta name="description" content=" Need help with mental health? Contact The Shaping Mind for expert counseling and support. We’re here to help you achieve emotional well-being and mental wellness." />
+                <meta name="description" content="Need help with mental health? Contact The Shaping Mind for expert counseling and support. We’re here to help you achieve emotional well-being & mental wellness." />
                 <meta name="keywords" content="contact The Shaping Mind, mental health support, counseling contact" />        
             </Helmet>
             <h1>Contact Us</h1>

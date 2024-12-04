@@ -8,7 +8,7 @@ const PersonalGrowth = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title>Personal Growth Counseling | Unlock Your Potential</title>
-                <meta name="description" content="Let us connect you with experts to achieve self-improvement and personal growth with top-tier guidance. The Shaping Mind empowers you to become your best of yourself." />
+                <meta name="description" content="We connect you with experts to achieve self-improvement and personal growth with top-tier guidance. The Shaping Mind empowers you to become your best self." />
                 <meta name="keywords" content=" personal growth, self-improvement, unlock potential" />        
             </Helmet>
             <div className="mental-health-intro">

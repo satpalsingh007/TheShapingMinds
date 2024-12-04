@@ -8,7 +8,7 @@ const PremaritalCounselling = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title> Premarital Counseling | Build Strong Foundations</title>
-                <meta name="description" content="We are top in the industry to prepare you for a happy marriage with premarital counseling. Learn effective communication and conflict resolution skills from experts." />
+                <meta name="description" content="We are top in the industry to prepare you for a happy marriage with premarital counseling. Learn effective communication & conflict resolution skills." />
                 <meta name="keywords" content=" premarital counseling, marriage preparation, relationship guidance" />        
             </Helmet>
             <div className="mental-health-intro">

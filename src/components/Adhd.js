@@ -8,7 +8,7 @@ const ADHD = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title>ADHD Counseling | Improve Focus and Balance</title>
-                <meta name="description" content="A renowned name for over a decade to manage ADHD effectively with expert counseling. The Shaping Mind offers personalized strategies to enhance focus & productivity." />
+                <meta name="description" content="A renowned name for over a decade to manage ADHD effectively. The Shaping Mind offers personalized strategies to enhance focus & productivity." />
                 <meta name="keywords" content="ADHD support, focus improvement, ADHD counseling" />        
             </Helmet>
             <div className="mental-health-intro">

@@ -11,7 +11,7 @@ const IndividualsBlogsPage =()=>{
         <div className="blog-page">
             <Helmet>
           <title>Blogs for Personal Growth | The Shaping Mind</title>
-          <meta name="description" content="Get insightful knowledge for personal growth, depression, anxiety, stress and trauma. Read blogs from industries’ top-tier mental health experts to shape a better you." />
+          <meta name="description" content="Get insightful knowledge for personal growth, depression, anxiety, stress and trauma. Read blogs from industries top-tier mental health experts." />
           <meta name="keywords" content=" personal growth blogs, mindfulness tips, self-improvement articles, personal development, self-care strategies, personal transformation blogs, The Shaping Mind" />        
         </Helmet>
             <h1>Our Blogs </h1>

@@ -8,7 +8,7 @@ const MentalWellnessPrograms = () => {
         <main className="mental-health-container">
             <Helmet>
                 <title> Mental Wellness Programs | Enhance Your Well-Being</title>
-                <meta name="description" content="Helping individuals with the personalized mental wellness programs at The Shaping Mind. Contact us and empower yourself with proven techniques for emotional balance." />
+                <meta name="description" content="Helping individuals with the personalized mental wellness programs at The Shaping Mind. Contact us and empower yourself with proven techniques." />
                 <meta name="keywords" content="mental wellness programs, emotional health support, personal well-being" />        
             </Helmet>
             <div className="mental-health-intro">
